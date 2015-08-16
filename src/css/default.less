@@ -1,0 +1,75 @@
+aside {
+
+  section {
+
+    ul {
+
+      padding-left: 18px;
+      margin-bottom: 0;
+
+      li {
+
+        margin-bottom: 5px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        span.disqus-author {
+
+          color: @secondary-text;
+          font-size: ( 16px / @font-size-base ) * 1em;
+        }
+
+        a {
+          font-size: ( 16px / @font-size-base ) * 1em;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  #recent-comments-section {
+    display: none;
+  }
+}
+
+#page-content {
+    #content {
+      margin: 0 auto;
+      max-width: 610px;
+      padding: 0 15px;
+    }
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: @screen-xs-max) {
+  body {
+   font-size: 16px;
+  }
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media ( min-width: @screen-md-min ) {
+
+  #page-wrap {
+    padding-left: @header-size;
+    width: 100%;
+  }
+
+  #page-content {
+      margin: 0 auto;
+      max-width: 940px;
+
+      #content {
+        float: left;
+      }
+
+      aside {
+        float: left;
+        max-width: 300px;
+        padding-left: 25px;
+      }
+  }
+}

@@ -1,0 +1,51 @@
+# your informations
+author:
+  name: Nishant Srivastava
+  description: Software Engineer
+  picture: /assets/images/avatar.jpg
+  github: nisrulz
+
+# site description
+description: 43 72 75 73 68 69 6e 67 20 43 2e 4f 2e 44 2e 45
+
+# site url
+url: crushingcode.co
+
+# site title
+title: Crushing C.O.D.E
+
+# site version
+version: 1.0.0
+
+# number of posts per page
+paginate: 8
+
+# your github username
+github_username: nisrulz
+
+# set true to include or false to exclude share option
+share:
+  twitter: true
+  facebook: true
+  google_plus: true
+  linkedin: true
+  hackernews: true
+  disqus: true
+
+# set comments 
+comments: true
+
+# if share.facebook is true, provide your facebook app id
+facebook_app_id: 730635297031262
+
+# if share.disqus is true, provide your disqus shortname, the api key and the number of comments to display
+disqus_shortname: crushingcode
+disqus_api_key: BKHwuNoyd2ly9PyJq50ZtfXG9ZBGxUMKUNBoirhgAS592zmB5I34mb1C5O6dxOwG
+disqus_recent_comments_to_display: 3
+
+# google analytics ID
+google_analytics_id: UA-53824796-3
+
+markdown: kramdown
+highlighter: pygments
+exclude: [ 'README.md', 'src/', 'node_modules', 'bower_components', 'package.json', 'bower.json', 'Gruntfile.js' ]

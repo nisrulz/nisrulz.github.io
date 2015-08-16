@@ -1,0 +1,1411 @@
+/*
+ * animate.less v1.0.1 | animateforless.com
+ *
+ * -----------------------------------------------------------------------------
+ *
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2014 Carlos M. Bonilla
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of
+ * this software and associated documentation files (the "Software"), to deal in
+ * the Software without restriction, including without limitation the rights to
+ * use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+ * the Software, and to permit persons to whom the Software is furnished to do so,
+ * subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+ * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+ * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+ * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+
+/*
+********************************************************************************
+**                                                                            **
+**                      LESS ANIMATION FRAMEWORK                              **
+**                                                                            **
+********************************************************************************
+*/
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// FUNCTIONS
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#afl {
+
+    // ----------------------------------------
+    // INITIALIZERS
+    // ----------------------------------------
+    
+    .animated() {
+        -webkit-animation-duration: 1s;
+           -moz-animation-duration: 1s;
+            -ms-animation-duration: 1s;
+             -o-animation-duration: 1s;
+                animation-duration: 1s;
+        
+        -webkit-animation-fill-mode: both;
+           -moz-animation-fill-mode: both;
+            -ms-animation-fill-mode: both;
+             -o-animation-fill-mode: both;
+                animation-fill-mode: both;
+        }
+    
+    .animation(@name) {
+        -webkit-animation-name: @name;
+           -moz-animation-name: @name;
+            -ms-animation-name: @name;
+             -o-animation-name: @name;
+                animation-name: @name;
+        }
+    
+    // ----------------------------------------
+    // DURATION
+    // ----------------------------------------
+    
+    .duration(@what; @time: 250ms) when (@what = a) {
+        -webkit-animation-duration: @time;
+           -moz-animation-duration: @time;
+            -ms-animation-duration: @time;
+             -o-animation-duration: @time;
+                animation-duration: @time;
+        }
+    
+    .duration(@what; @time: 250ms) when (@what = t) {
+        -webkit-transition-duration: @time;
+           -moz-transition-duration: @time;
+            -ms-transition-duration: @time;
+             -o-transition-duration: @time;
+                transition-duration: @time;
+        }
+    
+    // ----------------------------------------
+    // DELAY
+    // ----------------------------------------
+    
+    .delay(@what; @time: 500ms) when (@what = a) {
+        -webkit-animation-delay: @time;
+           -moz-animation-delay: @time;
+            -ms-animation-delay: @time;
+             -o-animation-delay: @time;
+                animation-delay: @time;
+        }
+    
+    .delay(@what; @time: 500ms) when (@what = t) {
+        -webkit-transition-delay: @time;
+           -moz-transition-delay: @time;
+            -ms-transition-delay: @time;
+             -o-transition-delay: @time;
+                transition-delay: @time;
+        }
+    
+    // ----------------------------------------
+    // TIMING & ITERATIONS
+    // ----------------------------------------
+    
+    .timing(@what; @function: ease) when (@what = a) {
+        -webkit-animation-timing-function: @function;
+           -moz-animation-timing-function: @function;
+            -ms-animation-timing-function: @function;
+             -o-animation-timing-function: @function;
+                animation-timing-function: @function;
+        }
+    
+    .timing(@what; @function: ease) when (@what = t) {
+        -webkit-transition-timing-function: @function;
+           -moz-transition-timing-function: @function;
+            -ms-transition-timing-function: @function;
+             -o-transition-timing-function: @function;
+                transition-timing-function: @function;
+        }
+    
+    .iterate(@iterations: 1) {
+        -webkit-animation-iteration-count: @iterations;
+           -moz-animation-iteration-count: @iterations;
+            -ms-animation-iteration-count: @iterations;
+             -o-animation-iteration-count: @iterations;
+                animation-iteration-count: @iterations;
+        }
+    
+    // ----------------------------------------
+    // TRANSFORM & TRANSFORM ORIGIN
+    // ----------------------------------------
+    
+    .transform(@value: none) {
+        -webkit-transform: @value;
+           -moz-transform: @value;
+            -ms-transform: @value;
+             -o-transform: @value;
+                transform: @value;
+        }
+    
+    .transform-origin(@position: top left) {
+        -webkit-transform-origin: @position;
+           -moz-transform-origin: @position;
+            -ms-transform-origin: @position;
+             -o-transform-origin: @position;
+                transform-origin: @position;
+        }
+    
+    // ----------------------------------------
+    // TRANSITION
+    // ----------------------------------------
+    
+    .transition(@what: all; @time: 250ms; @transition: ease-in-out) {
+        -webkit-transition: @what @time @transition;
+           -moz-transition: @what @time @transition;
+            -ms-transition: @what @time @transition;
+             -o-transition: @what @time @transition;
+                transition: @what @time @transition;
+        }
+    
+    // ----------------------------------------
+    // BACKFACE VISIBILITY
+    // ----------------------------------------
+    
+    .backface-visibility(@value: hidden) {
+        -webkit-backface-visibility: @value;
+           -moz-backface-visibility: @value;
+            -ms-backface-visibility: @value;
+             -o-backface-visibility: @value;
+                backface-visibility: @value;
+        }
+    
+    // ----------------------------------------
+    // EVERYTHING ELSE
+    // ----------------------------------------
+    
+    .vendor(@property; @value) {
+        -webkit-@{property}: @value;
+           -moz-@{property}: @value;
+            -ms-@{property}: @value;
+             -o-@{property}: @value;
+                @{property}: @value;
+        }
+    }
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION FUNCTIONS (VENDOR-SPECIFIC FLAVORS)
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#animation-timing-function(@function: ease-in)                  {@{vendor}animation-timing-function: @function;}
+#duration(@what; @time: 250ms) when (@what = a)                 {@{vendor}animation-duration: @time;}
+#duration(@what; @time: 250ms) when (@what = t)                 {@{vendor}transition-duration: @time;}
+#delay(@what; @time: 500ms) when (@what = a)                    {@{vendor}animation-delay: @time;}
+#delay(@what; @time: 500ms) when (@what = t)                    {@{vendor}transition-delay: @time;}
+#timing(@what; @function: ease) when (@what = a)                {@{vendor}animation-timing-function: @function;}
+#timing(@what; @function: ease) when (@what = t)                {@{vendor}transition-timing-function: @function;}
+#iterate(@iterations: 1)                                        {@{vendor}animation-iteration-count: @iterations;}
+#transform(@value: none)                                        {@{vendor}transform: @value;}
+#transform-origin(@position: top left)                          {@{vendor}transform-origin: @position;}
+#transition(@what: all; @time: 250ms; @transition: ease-in-out) {@{vendor}transition: @what @time @transition;}
+#backface-visibility(@value: hidden)                            {@{vendor}backface-visibility: @value;}
+#vendor(@property; @value)                                      {@{vendor}@{property}: @value;}
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// KEYFRAME GENERATOR
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(@name; @frames) {
+    @-webkit-keyframes @name { @vendor: -webkit-; @frames(); }
+       @-moz-keyframes @name { @vendor: -moz-;    @frames(); }
+         @-o-keyframes @name { @vendor: -o-;      @frames(); } 
+            @keyframes @name { @vendor: ~'';      @frames(); }
+    }
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION FUNCTIONS
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+// ----------------------------------------
+// ATTENTION SEEKERS
+// ----------------------------------------
+
+.bounce()     { #afl.animation(bounce); #afl.transform-origin(center bottom); }
+.flash()      { #afl.animation(flash);                                         }
+.pulse()      { #afl.animation(pulse);                                         }
+.rubberBand() { #afl.animation(rubberBand);                                    }
+.shake()      { #afl.animation(shake);                                         }
+.swing()      { #afl.animation(swing); #afl.transform-origin(top center);     }
+.tada()       { #afl.animation(tada);                                          }
+.wobble()     { #afl.animation(wobble);                                        }
+
+// ----------------------------------------
+// BOUNCING ENTRANCES
+// ----------------------------------------
+
+.bounceIn()      { #afl.animation(bounceIn); #afl.duration(a;0.75s); }
+.bounceInDown()  { #afl.animation(bounceInDown);                 }
+.bounceInLeft()  { #afl.animation(bounceInLeft);                 }
+.bounceInRight() { #afl.animation(bounceInRight);                }
+.bounceInUp()    { #afl.animation(bounceInUp);                   }
+
+// ----------------------------------------
+// BOUNCING EXITS
+// ----------------------------------------
+
+.bounceOut()      { #afl.animation(bounceOut); #afl.duration(a;0.75s); }
+.bounceOutDown()  { #afl.animation(bounceOutDown);                 }
+.bounceOutLeft()  { #afl.animation(bounceOutLeft);                 }
+.bounceOutRight() { #afl.animation(bounceOutRight);                }
+.bounceOutUp()    { #afl.animation(bounceOutUp);                   }
+
+// ----------------------------------------
+// FADING ENTRANCES
+// ----------------------------------------
+
+.fadeIn()         { #afl.animation(fadeIn);         }
+.fadeInDown()     { #afl.animation(fadeInDown);     }
+.fadeInDownBig()  { #afl.animation(fadeInDownBig);  }
+.fadeInLeft()     { #afl.animation(fadeInLeft);     }
+.fadeInLeftBig()  { #afl.animation(fadeInLeftBig);  }
+.fadeInRight()    { #afl.animation(fadeInRight);    }
+.fadeInRightBig() { #afl.animation(fadeInRightBig); }
+.fadeInUp()       { #afl.animation(fadeInUp);       }
+.fadeInUpBig()    { #afl.animation(fadeInUpBig);    }
+
+// ----------------------------------------
+// FADING EXITS
+// ----------------------------------------
+
+.fadeOut()         { #afl.animation(fadeOut);         }
+.fadeOutDown()     { #afl.animation(fadeOutDown);     }
+.fadeOutDownBig()  { #afl.animation(fadeOutDownBig);  }
+.fadeOutLeft()     { #afl.animation(fadeOutLeft);     }
+.fadeOutLeftBig()  { #afl.animation(fadeOutLeftBig);  }
+.fadeOutRight()    { #afl.animation(fadeOutRight);    }
+.fadeOutRightBig() { #afl.animation(fadeOutRightBig); }
+.fadeOutUp()       { #afl.animation(fadeOutUp);       }
+.fadeOutUpBig()    { #afl.animation(fadeOutUpBig);    }
+
+// ----------------------------------------
+// FLIPPERS
+// ----------------------------------------
+
+.flip()     { #afl.animation(flip); #afl.backface-visibility(visible);                                         }
+.flipInX()  { #afl.animation(flipInX); #afl.backface-visibility(visible) !important;                           }
+.flipInY()  { #afl.animation(flipInY); #afl.backface-visibility(visible) !important;                           }
+.flipOutX() { #afl.animation(flipOutX); #afl.backface-visibility(visible) !important; #afl.duration(a;0.75s); }
+.flipOutY() { #afl.animation(flipOutY); #afl.backface-visibility(visible) !important; #afl.duration(a;0.75s); }
+
+// ----------------------------------------
+// LIGHTSPEED
+// ----------------------------------------
+
+.lightSpeedIn()  { #afl.animation(lightSpeedIn); #afl.timing(ease-out); }
+.lightSpeedOut() { #afl.animation(lightSpeedOut); #afl.timing(ease-in); }
+
+// ----------------------------------------
+// ROTATING ENTRANCES
+// ----------------------------------------
+
+.rotateIn()          { #afl.animation(rotateIn);          }
+.rotateInDownLeft()  { #afl.animation(rotateInDownLeft);  }
+.rotateInDownRight() { #afl.animation(rotateInDownRight); }
+.rotateInUpLeft()    { #afl.animation(rotateInUpLeft);    }
+.rotateInUpRight()   { #afl.animation(rotateInUpRight);   }
+
+// ----------------------------------------
+// ROTATING EXITS
+// ----------------------------------------
+
+.rotateOut()          { #afl.animation(rotateOut);          }
+.rotateOutDownLeft()  { #afl.animation(rotateOutDownLeft);  }
+.rotateOutDownRight() { #afl.animation(rotateOutDownRight); }
+.rotateOutUpLeft()    { #afl.animation(rotateOutUpLeft);    }
+.rotateOutUpRight()   { #afl.animation(rotateOutUpRight);   }
+
+// ----------------------------------------
+// SPECIALS
+// ----------------------------------------
+
+.hinge()   { #afl.animation(hinge); #afl.duration(2s); }
+.rollIn()  { #afl.animation(rollIn);                        }
+.rollOut() { #afl.animation(rollOut);                       }
+
+// ----------------------------------------
+// ZOOM ENTRANCES
+// ----------------------------------------
+
+.zoomIn()      { #afl.animation(zoomIn);      }
+.zoomInDown()  { #afl.animation(zoomInDown);  }
+.zoomInLeft()  { #afl.animation(zoomInLeft);  }
+.zoomInRight() { #afl.animation(zoomInRight); }
+.zoomInUp()    { #afl.animation(zoomInUp);    }
+
+// ----------------------------------------
+// ZOOM EXITS
+// ----------------------------------------
+
+.zoomOut()      { #afl.animation(zoomOut);      }
+.zoomOutDown()  { #afl.animation(zoomOutDown);  }
+.zoomOutLeft()  { #afl.animation(zoomOutLeft);  }
+.zoomOutRight() { #afl.animation(zoomOutRight); }
+.zoomOutUp()    { #afl.animation(zoomOutUp);    }
+
+// ----------------------------------------
+// SLIDING ENTRANCES
+// ----------------------------------------
+
+.slideInDown()  { #afl.animation(slideInDown);  }
+.slideInLeft()  { #afl.animation(slideInLeft);  }
+.slideInRight() { #afl.animation(slideInRight); }
+.slideInUp()    { #afl.animation(slideInUp);    }
+
+// ----------------------------------------
+// SLIDING EXITS
+// ----------------------------------------
+
+.slideOutDown()  { #afl.animation(slideOutDown);  }
+.slideOutLeft()  { #afl.animation(slideOutLeft);  }
+.slideOutRight() { #afl.animation(slideOutRight); }
+.slideOutUp()    { #afl.animation(slideOutUp);    }
+
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION CLASSES (USES ANIMATION FUNCTIONS LISTED ABOVE)
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+.animated           { #afl.animated;          }
+.animated.infinite  { #afl.iterate(infinite); }
+.bounce             { .bounce;                     }
+.flash              { .flash;                      }
+.pulse              { .pulse;                      }
+.rubberBand         { .rubberBand;                 }
+.shake              { .shake;                      }
+.swing              { .swing;                      }
+.tada               { .tada;                       }
+.wobble             { .wobble;                     }
+.bounceIn           { .bounceIn;                   }
+.bounceInDown       { .bounceInDown;               }
+.bounceInLeft       { .bounceInLeft;               }
+.bounceInRight      { .bounceInRight;              }
+.bounceInUp         { .bounceInUp;                 }
+.bounceOut          { .bounceOut;                  }
+.bounceOutDown      { .bounceOutDown;              }
+.bounceOutLeft      { .bounceOutLeft;              }
+.bounceOutRight     { .bounceOutRight;             }
+.bounceOutUp        { .bounceOutUp;                }
+.fadeIn             { .fadeIn;                     }
+.fadeInDown         { .fadeInDown;                 }
+.fadeInDownBig      { .fadeInDownBig;              }
+.fadeInLeft         { .fadeInLeft;                 }
+.fadeInLeftBig      { .fadeInLeftBig;              }
+.fadeInRight        { .fadeInRight;                }
+.fadeInRightBig     { .fadeInRightBig;             }
+.fadeInUp           { .fadeInUp;                   }
+.fadeInUpBig        { .fadeInUpBig;                }
+.fadeOut            { .fadeOut;                    }
+.fadeOutDown        { .fadeOutDown;                }
+.fadeOutDownBig     { .fadeOutDownBig;             }
+.fadeOutLeft        { .fadeOutLeft;                }
+.fadeOutLeftBig     { .fadeOutLeftBig;             }
+.fadeOutRight       { .fadeOutRight;               }
+.fadeOutRightBig    { .fadeOutRightBig;            }
+.fadeOutUp          { .fadeOutUp;                  }
+.fadeOutUpBig       { .fadeOutUpBig;               }
+.flip               { .flip;                       }
+.flipInX            { .flipInX;                    }
+.flipInY            { .flipInY;                    }
+.flipOutX           { .flipOutX;                   }
+.flipOutY           { .flipOutY;                   }
+.lightSpeedIn       { .lightSpeedIn;               }
+.lightSpeedOut      { .lightSpeedOut;              }
+.rotateIn           { .rotateIn;                   }
+.rotateInDownLeft   { .rotateInDownLeft;           }
+.rotateInDownRight  { .rotateInDownRight;          }
+.rotateInUpLeft     { .rotateInUpLeft;             }
+.rotateInUpRight    { .rotateInUpRight;            }
+.rotateOut          { .rotateOut;                  }
+.rotateOutDownLeft  { .rotateOutDownLeft;          }
+.rotateOutDownRight { .rotateOutDownRight;         }
+.rotateOutUpLeft    { .rotateOutUpLeft;            }
+.rotateOutUpRight   { .rotateOutUpRight;           }
+.hinge              { .hinge;                      }
+.rollIn             { .rollIn;                     }
+.rollOut            { .rollOut;                    }
+.zoomIn             { .zoomIn;                     }
+.zoomInDown         { .zoomInDown;                 }
+.zoomInLeft         { .zoomInLeft;                 }
+.zoomInRight        { .zoomInRight;                }
+.zoomInUp           { .zoomInUp;                   }
+.zoomOut            { .zoomOut;                    }
+.zoomOutDown        { .zoomOutDown;                }
+.zoomOutLeft        { .zoomOutLeft;                }
+.zoomOutRight       { .zoomOutRight;               }
+.zoomOutUp          { .zoomOutUp;                  }
+.slideInDown        { .slideInDown;                }
+.slideInLeft        { .slideInLeft;                }
+.slideInRight       { .slideInRight;               }
+.slideInUp          { .slideInUp;                  }
+.slideOutDown       { .slideOutDown;               }
+.slideOutLeft       { .slideOutLeft;               }
+.slideOutRight      { .slideOutRight;              }
+.slideOutUp         { .slideOutUp;                 }
+
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - bounce
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    bounce;
+    {
+    0%, 20%, 53%, 80%, 100% {#timing(t;cubic-bezier(0.215, 0.610, 0.355, 1.000)); #transform(translate3d(0,0,0));}
+    40%, 43%                {#timing(t;cubic-bezier(0.755, 0.050, 0.855, 0.060)); #transform(translate3d(0, -30px, 0));}
+    70%                     {#timing(t;cubic-bezier(0.755, 0.050, 0.855, 0.060)); #transform(translate3d(0, -15px, 0));}
+    90%                     {#transform(translate3d(0,-4px,0));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - flash
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    flash;
+    {
+    0%, 50%, 100% {opacity: 1;}
+    25%, 75%      {opacity: 0;}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - pulse
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    pulse;
+    {
+    0%   {#transform(scale3d(1, 1, 1));}
+    50%  {#transform(scale3d(1.05, 1.05, 1.05));}
+    100% {#transform(scale3d(1, 1, 1));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - rubberBand
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    rubberBand;
+    {
+    0%   {#transform(scale3d(1, 1, 1));}
+    30%  {#transform(scale3d(1.25, 0.75, 1));}
+    40%  {#transform(scale3d(0.75, 1.25, 1));}
+    50%  {#transform(scale3d(1.15, 0.85, 1));}
+    65%  {#transform(scale3d(.95, 1.05, 1));}
+    75%  {#transform(scale3d(1.05, .95, 1));}
+    100% {#transform(scale3d(1, 1, 1));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - shake
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    shake;
+    {
+    0%, 100%                {#transform(translate3d(0, 0, 0));}
+    10%, 30%, 50%, 70%, 90% {#transform(translate3d(-10px, 0, 0));}
+    20%, 40%, 60%, 80%      {#transform(translate3d(10px, 0, 0));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - swing
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    swing;
+    {
+    20%  {#transform(rotate3d(0, 0, 1, 15deg));}
+    40%  {#transform(rotate3d(0, 0, 1, -10deg));}
+    60%  {#transform(rotate3d(0, 0, 1, 5deg));}
+    80%  {#transform(rotate3d(0, 0, 1, -5deg));}
+    100% {#transform(rotate3d(0, 0, 1, 0deg));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - tada
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    tada;
+    {
+    0%                 {#transform(scale3d(1, 1, 1));}
+    10%, 20%           {#transform(scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg));}
+    30%, 50%, 70%, 90% {#transform(scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg));}
+    40%, 60%, 80%      {#transform(scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg));}
+    100%               {#transform(scale3d(1, 1, 1));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - wobble
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    wobble;
+    {
+    0%   {#transform(none);}
+    15%  {#transform(translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg));}
+    30%  {#transform(translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg));}
+    45%  {#transform(translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg));}
+    60%  {#transform(translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg));}
+    75%  {#transform(translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg));}
+    100% {#transform(none);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - bounceIn
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    bounceIn;
+    {
+    0%, 20%, 40%, 60%, 80%, 100% {#timing(t;cubic-bezier(0.215, 0.610, 0.355, 1.000));}
+    0%                           {opacity: 0; #transform(scale3d(.3, .3, .3));}
+    20%                          {#transform(scale3d(1.1, 1.1, 1.1));}
+    40%                          {#transform(scale3d(.9, .9, .9));}
+    60%                          {opacity: 1; #transform(scale3d(1.03, 1.03, 1.03));}
+    80%                          {#transform(scale3d(.97, .97, .97));}
+    100%                         {opacity: 1; #transform(scale3d(1, 1, 1));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - bounceInDown
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    bounceInDown;
+    {
+    0%, 60%, 75%, 90%, 100% {#timing(t;cubic-bezier(0.215, 0.610, 0.355, 1.000));}
+    0%                      {opacity: 0; #transform(translate3d(0, -3000px, 0));}
+    60%                     {opacity: 1; #transform(translate3d(0, 25px, 0));}
+    75%                     {#transform(translate3d(0, -10px, 0));}
+    90%                     {#transform(translate3d(0, 5px, 0));}
+    100%                    {#transform(none);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - bounceInLeft
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    bounceInLeft;
+    {
+    0%, 60%, 75%, 90%, 100% {#timing(t;cubic-bezier(0.215, 0.610, 0.355, 1.000));}
+    0%                      {opacity: 0; #transform(translate3d(-3000px, 0, 0));}
+    60%                     {opacity: 1; #transform(translate3d(25px, 0, 0));}
+    75%                     {#transform(translate3d(-10px, 0, 0));}
+    90%                     {#transform(translate3d(5px, 0, 0));}
+    100%                    {#transform(none);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - bounceInRight
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    bounceInRight;
+    {
+    0%, 60%, 75%, 90%, 100% {#timing(t;cubic-bezier(0.215, 0.610, 0.355, 1.000));}
+    0%                      {opacity: 0; #transform(translate3d(3000px, 0, 0));}
+    60%                     {opacity: 1; #transform(translate3d(-25px, 0, 0));}
+    75%                     {#transform(translate3d(10px, 0, 0));}
+    90%                     {#transform(translate3d(-5px, 0, 0));}
+    100%                    {#transform(none);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - bounceInUp
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    bounceInUp;
+    {
+    0%, 60%, 75%, 90%, 100% {#timing(t;cubic-bezier(0.215, 0.610, 0.355, 1.000));}
+    0%                      {opacity: 0; #transform(translate3d(0, 3000px, 0));}
+    60%                     {opacity: 1; #transform(translate3d(0, -20px, 0));}
+    75%                     {#transform(translate3d(0, 10px, 0));}
+    90%                     {#transform(translate3d(0, -5px, 0));}
+    100%                    {#transform(translate3d(0, 0, 0));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - bounceOut
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    bounceOut;
+    {
+    20%      {#transform(scale3d(.9, .9, .9));}
+    50%, 55% {opacity: 1; #transform(scale3d(1.1, 1.1, 1.1));}
+    100%     {opacity: 0; #transform(scale3d(.3, .3, .3));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - bounceOutDown
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    bounceOutDown;
+    {
+    20%      {#transform(translate3d(0, 10px, 0));}
+    40%, 45% {opacity: 1; #transform(translate3d(0, -20px, 0));}
+    100%     {opacity: 0; #transform(translate3d(0, 2000px, 0));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - bounceOutLeft
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    bounceOutLeft;
+    {
+    20%  {opacity: 1; #transform(translate3d(20px, 0, 0));}
+    100% {opacity: 0; #transform(translate3d(-2000px, 0, 0));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - bounceOutRight
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    bounceOutRight;
+    {
+    20%  {opacity: 1; #transform(translate3d(-20px, 0, 0));}
+    100% {opacity: 0; #transform(translate3d(2000px, 0, 0));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - bounceOutUp
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    bounceOutUp;
+    {
+    20%      {#transform(translate3d(0, -10px, 0));}
+    40%, 45% {opacity: 1; #transform(translate3d(0, 20px, 0));}
+    100%     {opacity: 0; #transform(translate3d(0, -2000px, 0));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - fadeIn
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    fadeIn;
+    {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - fadeInDown
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    fadeInDown;
+    {
+    0%   {opacity: 0; #transform(translate3d(0, -100%, 0));}
+    100% {opacity: 1; #transform(none);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - fadeInDown
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    fadeInDown;
+    {
+    0%   {opacity: 0; #transform(translate3d(0, -100%, 0));}
+    100% {opacity: 1; #transform(none);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - fadeInDownBig
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    fadeInDownBig;
+    {
+    0%   {opacity: 0; #transform(translate3d(0, -2000px, 0));}
+    100% {opacity: 1; #transform(none);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - fadeInLeft
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    fadeInLeft;
+    {
+    0%   {opacity: 0; #transform(translate3d(-100%, 0, 0));}
+    100% {opacity: 1; #transform(none);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - fadeInLeftBig
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    fadeInLeftBig;
+    {
+    0%   {opacity: 0; #transform(translate3d(-2000px, 0, 0));}
+    100% {opacity: 1; #transform(none);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - fadeInRight
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    fadeInRight;
+    {
+    0%   {opacity: 0; #transform(translate3d(100%, 0, 0));}
+    100% {opacity: 1; #transform(none);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - fadeInRightBig
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    fadeInRightBig;
+    {
+    0%   {opacity: 0; #transform(translate3d(2000px, 0, 0));}
+    100% {opacity: 1; #transform(none);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - fadeInUp
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    fadeInUp;
+    {
+    0%   {opacity: 0; #transform(translate3d(0, 100%, 0));}
+    100% {opacity: 1; #transform(none);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - fadeInUpBig
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    fadeInUpBig;
+    {
+    0%   {opacity: 0; #transform(translate3d(0, 2000px, 0));}
+    100% {opacity: 1; #transform(none);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - fadeOut
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    fadeOut;
+    {
+    0%   {opacity: 1;}
+    100% {opacity: 0;}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - fadeOutDown
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    fadeOutDown;
+    {
+    0%   {opacity: 1;}
+    100% {opacity: 0; #transform(translate3d(0, 100%, 0));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - fadeOutDownBig
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    fadeOutDownBig;
+    {
+    0%   {opacity: 1;}
+    100% {opacity: 0; #transform(translate3d(0, 2000px, 0));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - fadeOutLeft
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    fadeOutLeft;
+    {
+    0%   {opacity: 1;}
+    100% {opacity: 0; #transform(translate3d(-100%, 0, 0));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - fadeOutLeftBig
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    fadeOutLeftBig;
+    {
+    0%   {opacity: 1;}
+    100% {opacity: 0; #transform(translate3d(-2000px, 0, 0));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - fadeOutRight
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    fadeOutRight;
+    {
+    0%   {opacity: 1;}
+    100% {opacity: 0; #transform(translate3d(100%, 0, 0));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - fadeOutRightBig
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    fadeOutRightBig;
+    {
+    0%   {opacity: 1;}
+    100% {opacity: 0; #transform(translate3d(2000px, 0, 0));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - fadeOutUp
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    fadeOutUp;
+    {
+    0%   {opacity: 1;}
+    100% {opacity: 0; #transform(translate3d(0, -100%, 0));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - fadeOutUpBig
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    fadeOutUpBig;
+    {
+    0%   {opacity: 1;}
+    100% {opacity: 0; #transform(translate3d(0, -2000px, 0));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - flip
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    flip;
+    {
+    0%   {#transform(perspective(400px) rotate3d(0, 1, 0, -360deg)); #timing(a;ease-out);}
+    40%  {#transform(perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg)); #timing(a;ease-out);}
+    50%  {#transform(perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg)); #timing(a;ease-in);}
+    80%  {#transform(perspective(400px) scale3d(.95, .95, .95)); #timing(a;ease-in);}
+    100% {#transform(perspective(400px)); #timing(a;ease-in);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - flipInX
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    flipInX;
+    {
+    0%   {#transform(perspective(400px) rotate3d(1, 0, 0, 90deg)); #timing(a;ease-in); opacity: 0;}
+    40%  {#transform(perspective(400px) rotate3d(1, 0, 0, -20deg)); #timing(a;ease-in);}
+    60%  {#transform(perspective(400px) rotate3d(1, 0, 0, 10deg)); opacity: 1;}
+    80%  {#transform(perspective(400px) rotate3d(1, 0, 0, -5deg));}
+    100% {#transform(perspective(400px));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - flipInY
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    flipInY;
+    {
+    0%   {#transform(perspective(400px) rotate3d(0, 1, 0, 90deg)); #timing(a;ease-in); opacity: 0;}
+    40%  {#transform(perspective(400px) rotate3d(0, 1, 0, -20deg)); #timing(a;ease-in);}
+    60%  {#transform(perspective(400px) rotate3d(0, 1, 0, 10deg)); opacity: 1;}
+    80%  {#transform(perspective(400px) rotate3d(0, 1, 0, -5deg));}
+    100% {#transform(perspective(400px));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - flipOutX
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    flipOutX;
+    {
+    0%   {#transform(perspective(400px));}
+    30%  {#transform(perspective(400px) rotate3d(1, 0, 0, -20deg)); opacity: 1;}
+    100% {#transform(perspective(400px) rotate3d(1, 0, 0, 90deg)); opacity: 0;}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - flipOutY
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    flipOutY;
+    {
+    0%   {#transform(perspective(400px));}
+    30%  {#transform(perspective(400px) rotate3d(0, 1, 0, -15deg)); opacity: 1;}
+    100% {#transform(perspective(400px) rotate3d(0, 1, 0, 90deg)); opacity: 0;}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - lightSpeedIn
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    lightSpeedIn;
+    {
+    0%   {#transform(translate3d(100%, 0, 0) skewX(-30deg)); opacity: 0;}
+    60%  {#transform(skewX(20deg)); opacity: 1;}
+    80%  {#transform(skewX(-5deg)); opacity: 1;}
+    100% {#transform(none); opacity: 1;}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - lightSpeedOut
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    lightSpeedOut;
+    {
+    0%   {opacity: 1;}
+    100% {opacity: 0; #transform(translate3d(100%, 0, 0) skewX(30deg));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - rotateIn
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    rotateIn;
+    {
+    0%   {opacity: 0; #transform-origin(center); #transform(rotate3d(0, 0, 1, -200deg));}
+    100% {opacity: 1; #transform-origin(center); #transform(none);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - rotateInDownLeft
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    rotateInDownLeft;
+    {
+    0%   {opacity: 0; #transform-origin(left bottom); #transform(rotate3d(0, 0, 1, -45deg));}
+    100% {opacity: 1; #transform-origin(left bottom); #transform(none);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - rotateInDownRight
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    rotateInDownRight;
+    {
+    0%   {opacity: 0; #transform-origin(right bottom); #transform(rotate3d(0, 0, 1, 45deg));}
+    100% {opacity: 1; #transform-origin(right bottom); #transform(none);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - rotateInUpLeft
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    rotateInUpLeft;
+    {
+    0%   {opacity: 0; #transform-origin(left bottom); #transform(rotate3d(0, 0, 1, 45deg));}
+    100% {opacity: 1; #transform-origin(left bottom); #transform(none);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - rotateInUpRight
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    rotateInDownLeft;
+    {
+    0%   {opacity: 0; #transform-origin(right bottom); #transform(rotate3d(0, 0, 1, -90deg));}
+    100% {opacity: 1; #transform-origin(right bottom); #transform(none);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - rotateOut
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    rotateOut;
+    {
+    0%   {opacity: 1; #transform-origin(center);}
+    100% {opacity: 0; #transform-origin(center); #transform(rotate3d(0, 0, 1, 200deg));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - rotateOutDownLeft
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    rotateOutDownLeft;
+    {
+    0%   {opacity: 1; #transform-origin(left bottom);}
+    100% {opacity: 0; #transform-origin(left bottom); #transform(rotate3d(0, 0, 1, 45deg));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - rotateOutDownRight
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    rotateOutDownRight;
+    {
+    0%   {opacity: 1; #transform-origin(right bottom);}
+    100% {opacity: 0; #transform-origin(right bottom); #transform(rotate3d(0, 0, 1, -45deg));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - rotateOutUpLeft
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    rotateOutUpLeft;
+    {
+    0%   {opacity: 1; #transform-origin(left bottom);}
+    100% {opacity: 0; #transform-origin(left bottom); #transform(rotate3d(0, 0, 1, -45deg));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - rotateOutUpRight
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    rotateOutUpRight;
+    {
+    0%   {opacity: 1; #transform-origin(right bottom);}
+    100% {opacity: 0; #transform-origin(right bottom); #transform(rotate3d(0, 0, 1, 90deg));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - hinge
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    hinge;
+    {
+    0%       {#transform-origin(top left); #timing(a;ease-in-out);}
+    20%, 60% {#transform-origin(top left); #timing(a;ease-in-out); #transform(rotate3d(0, 0, 1, 80deg));}
+    40%, 80% {#transform-origin(top left); #timing(a;ease-in-out); #transform(rotate3d(0, 0, 1, 60deg)); opacity: 1;}
+    100%     {#transform(translate3d(0, 700px, 0)); opacity: 0;}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - rollIn
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    rollIn;
+    {
+    0%   {opacity: 0; #transform(translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg));}
+    100% {opacity: 1; #transform(none);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - rollOut
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    rollOut;
+    {
+    0%   {opacity: 1;}
+    100% {opacity: 0; #transform(translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - zoomIn
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    zoomIn;
+    {
+    0%  {opacity: 0; #transform(scale3d(.3, .3, .3));}
+    50% {opacity: 1;}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - zoomInDown
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    zoomInDown;
+    {
+    0%  {opacity: 0; #transform(scale3d(.1, .1, .1) translate3d(0, -1000px, 0)); #timing(a;cubic-bezier(0.550, 0.055, 0.675, 0.190));}
+    60% {opacity: 1; #transform(scale3d(.475, .475, .475) translate3d(0, 60px, 0)); #timing(a;cubic-bezier(0.175, 0.885, 0.320, 1));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - zoomInLeft
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    zoomInLeft;
+    {
+    0%  {opacity: 0; #transform(scale3d(.1, .1, .1) translate3d(-1000px, 0, 0)); #timing(a;cubic-bezier(0.550, 0.055, 0.675, 0.190));}
+    60% {opacity: 1; #transform(scale3d(.475, .475, .475) translate3d(10px, 0, 0)); #timing(a;cubic-bezier(0.175, 0.885, 0.320, 1));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - zoomInRight
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    zoomInRight;
+    {
+    0%  {opacity: 0; #transform(scale3d(.1, .1, .1) translate3d(1000px, 0, 0)); #timing(a;cubic-bezier(0.550, 0.055, 0.675, 0.190));}
+    60% {opacity: 1; #transform(scale3d(.475, .475, .475) translate3d(-10px, 0, 0)); #timing(a;cubic-bezier(0.175, 0.885, 0.320, 1));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - zoomInUp
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    zoomInUp;
+    {
+    0%  {opacity: 0; #transform(scale3d(.1, .1, .1) translate3d(0, 1000px, 0)); #timing(a;cubic-bezier(0.550, 0.055, 0.675, 0.190));}
+    60% {opacity: 1; #transform(scale3d(.475, .475, .475) translate3d(0, -60px, 0)); #timing(a;cubic-bezier(0.175, 0.885, 0.320, 1));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - zoomOut
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    zoomOut;
+    {
+    0%   {opacity: 1;}
+    50%  {opacity: 0; #transform(scale3d(.3, .3, .3));}
+    100% {opacity: 0;}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - zoomOutDown
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    zoomOutDown;
+    {
+    40%  {opacity: 1; #transform(scale3d(.475, .475, .475) translate3d(0, -60px, 0)); #timing(a;cubic-bezier(0.550, 0.055, 0.675, 0.190));}
+    100% {opacity: 0; #transform(scale3d(.1, .1, .1) translate3d(0, 2000px, 0)); #transform-origin(center bottom); #timing(a;cubic-bezier(0.175, 0.885, 0.320, 1));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - zoomOutLeft
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    zoomOutLeft;
+    {
+    40%  {opacity: 1; #transform(scale3d(.475, .475, .475) translate3d(42px, 0, 0));}
+    100% {opacity: 0; #transform(scale(.1) translate3d(-2000px, 0, 0)); #transform-origin(left center);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - zoomOutRight
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    zoomOutRight;
+    {
+    40%  {opacity: 1; #transform(scale3d(.475, .475, .475) translate3d(-42px, 0, 0));}
+    100% {opacity: 0; #transform(scale(.1) translate3d(2000px, 0, 0)); #transform-origin(right center);}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - zoomOutUp
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    zoomOutUp;
+    {
+    40%  {opacity: 1; #transform(scale3d(.475, .475, .475) translate3d(0, 60px, 0)); #timing(a;cubic-bezier(0.550, 0.055, 0.675, 0.190));}
+    100% {opacity: 0; #transform(scale3d(.1, .1, .1) translate3d(0, -2000px, 0)); #transform-origin(center bottom); #timing(a;cubic-bezier(0.175, 0.885, 0.320, 1));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - slideInDown
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    slideInDown;
+    {
+    0%   {#transform(translateY(-100%)); visibility: visible;}
+    100% {#transform(translateY(0));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - slideInLeft
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    slideInLeft;
+    {
+    0%   {#transform(translateX(-100%)); visibility: visible;}
+    100% {#transform(translateX(0));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - slideInRight
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    slideInRight;
+    {
+    0%   {#transform(translateX(100%)); visibility: visible;}
+    100% {#transform(translateX(0));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - slideInUp
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    slideInUp;
+    {
+    0%   {#transform(translateY(100%)); visibility: visible;}
+    100% {#transform(translateY(0));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - slideOutDown
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    slideOutDown;
+    {
+    0%   {#transform(translateY(0));}
+    100% {visibility: hidden; #transform(translateY(100%));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - slideOutLeft
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    slideOutLeft;
+    {
+    0%   {#transform(translateX(0));}
+    100% {visibility: hidden; #transform(translateX(-100%));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - slideOutRight
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    slideOutRight;
+    {
+    0%   {#transform(translateX(0));}
+    100% {visibility: hidden; #transform(translateX(100%));}
+    }
+    );
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ANIMATION - slideOutUp
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#doKeyFrames(
+    slideOutUp;
+    {
+        0%   {#transform(translateY(0));}
+        100% {#transform(translateY(-100%)); visibility: hidden;}
+    }
+    );

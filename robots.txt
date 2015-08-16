@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://crushingcode.co/sitemap.xml
+Disallow:

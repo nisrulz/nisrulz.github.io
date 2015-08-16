@@ -1,0 +1,38 @@
+<header id="site-header">
+  <div id="avatar-container">
+    <a href="/">
+      <img id="author-picture" src="{{ site.author.picture }}" class="img-rounded" />
+    </a>
+    <p id="author-name"><a href="//github.com/{{ site.author.github }}" target="_blank">{{ site.author.name }}</a></p>
+    <p id="author-intro" class="visible-md-block visible-lg-block">{{ site.author.description }}</p>
+    <nav>
+      <ul id="nav" class="list-inline hidden-md hidden-lg">
+        <li><a href="/">Posts</a></li>
+         <li><a href="/archive">Archive</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="//github.com/{{ site.github_username }}" target="_blank">GitHub</a></li>
+      </ul>
+    </nav>
+    <!-- responsive menu -->
+  </div>
+  <!-- avatar -->
+  <div id="nav-container" class="visible-md-block visible-lg-block">
+    <nav>
+      <ul class="list-unstyled">
+        <li><a href="/">Posts</a></li>
+        <li><a href="/archive">Archive</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="//github.com/{{ site.github_username }}" target="_blank">GitHub</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- menu -->
+  <footer class="visible-md-block visible-lg-block">
+    <a href="//github.com/{{ site.github_username }}/{{ site.github_username }}.github.io" target="_blank" title="Visit the blog repository">Hosted with <i class="fa fa-heart"></i>&nbsp;by&nbsp;<i class="fa fa-github"></i></a>
+    <ul id="github-repo-info" class="list-inline">
+      <li><a href="//github.com/{{ site.github_username }}/{{ site.github_username }}.github.io" target="_blank" title="Star this blog!"><i class="fa fa-star"></i>&nbsp;<span id="stargazers"></span></a></li>
+      <li><a href="//github.com/{{ site.github_username }}/{{ site.github_username }}.github.io" target="_blank" title="Fork this blog!"><i class="fa fa-code-fork"></i>&nbsp;<span id="forks"></span></a></li>
+    </ul>
+  </footer>
+  <!-- footer -->
+</header>

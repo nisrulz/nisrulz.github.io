@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+  {% include header.html %}
+  <div id="page-wrap">
+    <div id="page-content">
+      <div id="content">
+        {{ content }}
+      </div>
+      <!-- Recent -->
+      {% include recent.html %}
+      <div style="clear: both"></div>
+    </div>
+  </div>
+  {% if site.share.twitter or site.share.facebook or site.share.google_plus or site.share.linkedin or site.share.hackernews %}
+  <script src="/assets/{{ site.github_username }}-{{ site.version }}.js"></script>
+  {% endif %}
+  <!-- Disqus -->
+  {% include disqus.html %}
+</body>
+
+</html>
