@@ -36,7 +36,7 @@ share:
 comments: true
 
 # if share.facebook is true, provide your facebook app id
-facebook_app_id: 730635297031262
+facebook_app_id: 404403763059422
 
 # if share.disqus is true, provide your disqus shortname, the api key and the number of comments to display
 disqus_shortname: crushingcode
