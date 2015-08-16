@@ -28,6 +28,11 @@ layout: default
             <li>
               <a href="//github.com/{{ site.github_username }}/{{ site.github_username }}.github.io/blob/master/{{ post.path }}" target="_blank"><i class="fa fa-github"></i>&nbsp;Edit this post on GitHub</a>
             </li>
+            {% if site.share.hackernews %}
+            <li>
+              <a href="http://news.ycombinator.com/submitlink?u=http://nisrulz.github.com{{ page.url }}&t={{ page.title }}" target="_blank"><img src="/assets/images/yc500.gif" title="Submit {{ page.title }} to Hacker News" />&nbsp;Share on HackerNews</a>
+            </li>
+            {% endif %}
           </ul>
         </div>
         <!-- meta -->

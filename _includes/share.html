@@ -31,11 +31,6 @@
       <script type="IN/Share" data-url="{{ post.url | prepend: site.url }}" data-counter="right" data-showzero="true"></script>
     </li>
     {% endif %}
-    {% if site.share.hackernews %}
-    <li>
-      <a href="http://news.ycombinator.com/submitlink?u=http://nisrulz.github.com{{ page.url }}&t={{ page.title }}" target="_blank"><img src="/assets/images/yc500.gif" title="Submit {{ page.title }} to Hacker News" /></a>
-    </li>
-    {% endif %}
   </ul>
 
 </section>
