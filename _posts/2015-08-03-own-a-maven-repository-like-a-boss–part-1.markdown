@@ -3,7 +3,8 @@ layout: post
 title:  "Own a maven repository, like a boss! – Part 1"
 description: Learn to host your artifacts in your own private repository!
 permalink: /own-a-maven-repository-like-a-boss–part-1
-image : /assets/images/posts/2015-07-21-meet-jack-and-jill-androids-experimental-toolchain/header.png
+date: 2015-08-03
+author: "Nishant"
 ---
 
 Have you ever thought how the central repository works like Maven Central or JCenter?

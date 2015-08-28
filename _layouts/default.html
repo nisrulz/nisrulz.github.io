@@ -8,6 +8,8 @@
     <div id="page-content">
       <div id="content">
         {{ content }}
+
+        <p class="copyright text-muted">Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}</p>
       </div>
       <!-- Recent -->
       {% include recent.html %}

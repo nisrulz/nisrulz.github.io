@@ -1,5 +1,5 @@
---- 
-layout: default 
+---
+layout: default
 ---
 <section id="post">
   <article class="post">
@@ -10,15 +10,12 @@ layout: default
     <div class="post-meta">
       <ul class="list-inline">
         <li>
-          {{ page.date | date: "%B" }} {{ page.date | date: "%d" }}, {{ page.date | date: "%Y" }}
+          Written by {{ page.author }} on {{ page.date | date: "%B %-d, %Y" }}
         </li>
         <li>
           {% if site.share.disqus %}
           <a href="{{ site.url }}{{ page.url }}/#disqus_thread" data-disqus-identifier="{{ page.path }}"></a>
           {% endif %}
-        </li>
-        <li>
-          <a href="//github.com/{{ site.github_username }}/{{ site.github_username }}.github.io/blob/master/{{ page.path }}" target="_blank"><i class="fa fa-github"></i>&nbsp;Edit this post on GitHub</a>
         </li>
         {% if site.share.hackernews %}
         <li>
@@ -31,8 +28,11 @@ layout: default
     <section class="post-content">
       {{ content }}
     </section>
+    <hr>
     <!-- content -->
-    {% if site.share.twitter or site.share.facebook or site.share.google_plus or site.share.linkedin%} {% assign isPage = true %} {% include share.html %} {% endif %}
+    {% if site.share.twitter or site.share.facebook or site.share.google_plus or site.share.linkedin%} {% assign isPage = true %}
+    {% include share.html %}
+    {% endif %}
     <!-- share -->
     <footer class="post-footer">
       {% if site.share.disqus %}

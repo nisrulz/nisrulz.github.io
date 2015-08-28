@@ -9,7 +9,7 @@ author:
 description: 43 72 75 73 68 69 6e 67 20 43 2e 4f 2e 44 2e 45
 
 # site url
-url: crushingcode.co
+url: http://crushingcode.co
 
 # site title
 title: Crushing C.O.D.E
@@ -32,7 +32,7 @@ share:
   hackernews: true
   disqus: true
 
-# set comments 
+# set comments
 comments: true
 
 # if share.facebook is true, provide your facebook app id
@@ -48,4 +48,5 @@ google_analytics_id: UA-53824796-3
 
 markdown: kramdown
 highlighter: pygments
+permalink: pretty
 exclude: [ 'README.md', 'src/', 'node_modules', 'bower_components', 'package.json', 'bower.json', 'Gruntfile.js' ]

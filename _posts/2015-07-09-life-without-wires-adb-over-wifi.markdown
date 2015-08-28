@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Life without wires : ADB over WiFi"
-description: Wi-Life 
+description: Wi-Life
 permalink: /life-without-wires-adb-over-wifi
+date: 2015-07-09
+author: "Nishant"
 ---
 
 Tired of being tied to your laptop/desktop while debugging your android apps ?
@@ -21,7 +23,7 @@ Also connect to your Wifi.
 
 ## Step 2
 
-Open up the Terminal , provided you have the adb set in your PATH, type the following 
+Open up the Terminal , provided you have the adb set in your PATH, type the following
 
 {% highlight bash %}
 
@@ -65,7 +67,7 @@ where 192.168.2.23 is your DEVICE-IP-ADDRESS
 
 you can simply on your device , go to
 
-> Settings > About phone > Status 
+> Settings > About phone > Status
 
 to view the IP address of your phone
 

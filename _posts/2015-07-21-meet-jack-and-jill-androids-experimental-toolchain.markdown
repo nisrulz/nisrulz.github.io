@@ -3,9 +3,11 @@ layout: post
 title:  "Meet JACK & JILL , Android’s experimental toolchain"
 description: Toolchain.Much love.
 permalink: /meet-jack-and-jill-androids-experimental-toolchain
+date: 2015-07-21
+author: "Nishant"
 ---
 
-JACK & JILL are part of the new toolchain for android and in the words of [Android Developer Blog](http://android-developers.blogspot.co.uk/2014/12/hello-world-meet-our-new-experimental.html) 
+JACK & JILL are part of the new toolchain for android and in the words of [Android Developer Blog](http://android-developers.blogspot.co.uk/2014/12/hello-world-meet-our-new-experimental.html)
 
 > they are designed to improve build times and simplify development by reducing dependencies on other tools
 
@@ -15,7 +17,7 @@ Woa ..woa..wooaaaa ..thats sounds too technical ..lets slow this down, right.
 
 **JACK** & **JILL** were released as an experimental toolchain in the Android SDK  21.1.1 and recently got minor bug fixes in the recent release of Android SDK 21.1.2
 
-**So what exactly are they for  ?** 
+**So what exactly are they for  ?**
 **JACK** basically compiles your Java code directly to a .dex Dalvik Executable.
 **JILL** on the other hand translates any libraries you are referencing to a new Jack library file (.jack).
 
@@ -42,7 +44,7 @@ Also due to the Oracle-Google dispute over using java , Google probably wants to
 
 **How do you use the toolchain in your apps ?**
 Good question! At the moment JACK & JILL are both in experimental phase.
-So you specifically need to enable them in your build.gradle i.e. you need to set useJack = true 
+So you specifically need to enable them in your build.gradle i.e. you need to set useJack = true
 
 {% highlight groovy %}
 

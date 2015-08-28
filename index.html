@@ -16,17 +16,12 @@ layout: default
         <div class="post-meta">
           <ul class="list-inline">
             <li>
-                {{ post.date | date: "%B" }}
-                {{ post.date | date: "%d" }},
-                {{ post.date | date: "%Y" }}
+              Written by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}
             </li>
             <li>
               {% if site.share.disqus %}
               <a href="{{ site.url }}{{ post.url }}/#disqus_thread" data-disqus-identifier="{{ post.path }}"></a>
               {% endif %}
-            </li>
-            <li>
-              <a href="//github.com/{{ site.github_username }}/{{ site.github_username }}.github.io/blob/master/{{ post.path }}" target="_blank"><i class="fa fa-github"></i>&nbsp;Edit this post on GitHub</a>
             </li>
           </ul>
         </div>
@@ -34,15 +29,10 @@ layout: default
 
         <section class="post-content">
           <p>
-          {{ post.content | strip_html | truncatewords: 50 }}
+          {{ post.content | strip_html | truncatewords: 27 }}
           </p>
         </section>
         <!-- content -->
-
-        {% if site.share.twitter or site.share.facebook or site.share.google_plus or site.share.linkedin %}
-          {% include share.html %}
-        {% endif %}
-        <!-- share -->
 
         <div class="post-reading-link">
           <a href="{{ post.url }}">Continue reading&nbsp;<i class="fa fa-caret-right"></i></a>
