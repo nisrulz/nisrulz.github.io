@@ -3,7 +3,7 @@ layout: post
 title:  "Own a maven repository, like a boss! – Part 1"
 description: Learn to host your artifacts in your own private repository!
 permalink: /own-a-maven-repository-like-a-boss–part-1
-date: 2015-08-03
+date: 2015-08-03 14:46:14 +0530
 author: "Nishant"
 ---
 

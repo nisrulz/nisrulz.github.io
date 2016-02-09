@@ -3,7 +3,7 @@ layout: post
 title:  "Meet JACK & JILL , Android’s experimental toolchain"
 description: Toolchain.Much love.
 permalink: /meet-jack-and-jill-androids-experimental-toolchain
-date: 2015-07-21
+date: 2015-07-21 14:46:14 +0530
 author: "Nishant"
 ---
 

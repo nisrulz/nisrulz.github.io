@@ -15,7 +15,7 @@ url: http://crushingcode.co
 title: Crushing C.O.D.E
 
 # site version
-version: 1.0.0
+version: 1.0.1
 
 # number of posts per page
 paginate: 8
@@ -47,6 +47,11 @@ disqus_recent_comments_to_display: 3
 google_analytics_id: UA-53824796-3
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: pretty
 exclude: [ 'README.md', 'src/', 'node_modules', 'bower_components', 'package.json', 'bower.json', 'Gruntfile.js' ]
+
+# Gems
+gems: [jekyll-paginate]
+
+future: true
