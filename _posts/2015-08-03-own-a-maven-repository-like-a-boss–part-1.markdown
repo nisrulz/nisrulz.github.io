@@ -19,7 +19,8 @@ If your answer is **YES**, well you are in the right place. I am going to walk y
 
 **For the rest of you who want a complete explanation, lets dive in**..
 
-###Terms
+## Terms
+
 Before we start, I want you to get acquainted with some of the terms:
 
 **Artifacts** : An artifact is a file, usually a JAR, that gets deployed to a Maven repository. A Maven build produces one or more artifacts, such as a compiled JAR and a “sources” JAR. Each artifact has a group ID (usually a reversed domain name, like com.example.foo), an artifact ID (just a name), and a version string. The three together uniquely identify the artifact. A project’s dependencies are specified as artifacts.
