@@ -10,7 +10,7 @@
 
     {% if site.share.twitter %}
     <li class="twitter-social-media">
-      <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ post.url | prepend: site.url }}" data-text="{{ post.title }}- @nisrulz  {{ post.url | prepend: site.url }}">Tweet</a>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ post.url | prepend: site.url }}" data-text="{{ post.title }} by @nisrulz">Tweet</a>
     </li>
     {% endif %}
 
@@ -22,7 +22,8 @@
 
     {% if site.share.google_plus %}
     <li class="google-plus-social-media">
-      <div class="g-plusone" data-size="medium" data-href="{{ post.url | prepend: site.url }}"></div>
+      <!-- Place this tag where you want the +1 button to render. -->
+      <div class="g-plusone" data-annotation="inline" data-width="300" data-href="{{ post.url | prepend: site.url }}"></div>
     </li>
     {% endif %}
 

@@ -58,7 +58,7 @@ cd mavenrepo
 
 {% endhighlight %}
 
-**Step 3** : Once inside the directory, initialise it with git
+**Step 3** : Once inside the directory, initialize it with git
 {% highlight bash %}
 
 git init

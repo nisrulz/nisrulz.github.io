@@ -18,6 +18,8 @@
   </div>
   {% if site.share.twitter or site.share.facebook or site.share.google_plus or site.share.linkedin or site.share.hackernews %}
   <script src="/assets/{{ site.github_username }}-{{ site.version }}.js"></script>
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
   {% endif %}
   <!-- Disqus -->
   {% include disqus.html %}

@@ -54,4 +54,4 @@ exclude: [ 'README.md', 'src/', 'node_modules', 'bower_components', 'package.jso
 # Gems
 gems: [jekyll-paginate]
 
-future: true
+future: false

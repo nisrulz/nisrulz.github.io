@@ -96,7 +96,7 @@ adb devices
 {% endhighlight %}
 
 this should list your device as connected over the particular DEVICE-IP-ADDRESS
-And you are done. Run/Debug your apps from your IDE wirelessly.
+And you are done. Run/Debug your apps from your IDE in wireless mode.
 Let the magic of wire-free-life begin.
 
 ## Step 8
