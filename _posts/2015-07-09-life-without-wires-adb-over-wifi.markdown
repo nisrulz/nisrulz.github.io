@@ -2,7 +2,7 @@
 layout: post
 title:  "Life without wires : ADB over WiFi"
 description: Wi-Life
-permalink: /life-without-wires-adb-over-wifi
+permalink: /life-without-wires-adb-over-wifi/
 date: 2015-07-09 14:46:14 +0530
 author: "Nishant"
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Own a maven repository, like a boss! – Part 2"
 description: Learn to use your artifacts hosted in your a private repository
-permalink: /own-a-maven-repository-like-a-boss–part-2
+permalink: /own-a-maven-repository-like-a-boss–part-2/
 date: 2016-02-16 14:46:14 +0530
 author: "Nishant"
 ---
