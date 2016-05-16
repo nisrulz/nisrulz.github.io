@@ -1,5 +1,7 @@
 #My V-Card
 
+[![Twitter](https://img.shields.io/badge/Twitter-@nisrulz-blue.svg?style=flat)](http://twitter.com/nisrulz)
+
 
 License
 =======
