@@ -1,18 +1,10 @@
 body {
     background-color: #f2f2f2;
-    font-family: "Lato";
+    font-family: 'Abel', sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #555;
     padding-top: 150px;
-    /*background-image: url(../img/header-bg.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
 }
 
 .blend-gradient {
@@ -20,11 +12,20 @@ body {
     background: -webkit-linear-gradient(-3deg, rgb(26, 78, 164), rgb(30, 199, 193));
 }
 
+.sm-text {
+    font-size: 0.8em;
+}
+
+.code-icon {
+    margin-bottom: 0;
+    color: #03A9F4;
+}
+
 
 /* Titles */
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
+    font-family: 'Abel', sans-serif;
     font-weight: 300;
     color: #333;
 }
