@@ -4,7 +4,8 @@ body {
     font-weight: 300;
     font-size: 16px;
     color: #555;
-    padding-top: 150px;
+    padding-top: 25vh;
+    padding-bottom: 25vh;
     margin: 0;
 }
 
@@ -162,4 +163,36 @@ a h6:hover {
 grey {
     color: #bdc3c7;
     font-weight: 700;
+}
+
+.bg {
+    background-size: 300% 300%;
+    background-image: -webkit-linear-gradient(135deg, #3bade3 0%, #576fe6 25%, #9844b7 51%, #ff357f 100%);
+    background-image: linear-gradient(-45deg, #3bade3 0%, #576fe6 25%, #9844b7 51%, #ff357f 100%);
+    -webkit-animation: AnimateBG 20s ease infinite;
+    animation: AnimateBG 20s ease infinite;
+}
+
+@-webkit-keyframes AnimateBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes AnimateBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
