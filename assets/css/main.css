@@ -167,10 +167,10 @@ grey {
 
 .bg {
     background-size: 300% 300%;
-    background-image: -webkit-linear-gradient(135deg, #3bade3 0%, #576fe6 25%, #9844b7 51%, #ff357f 100%);
-    background-image: linear-gradient(-45deg, #3bade3 0%, #576fe6 25%, #9844b7 51%, #ff357f 100%);
-    -webkit-animation: AnimateBG 20s ease infinite;
-    animation: AnimateBG 20s ease infinite;
+    background-image: -webkit-linear-gradient(135deg, #3bade3 0%, #577be6 25%, #0ecda0 51%, #12e2db 100%);
+    background-image: linear-gradient(-45deg, #12e2db 0%, #0ecda0 25%, #576fe6 51%, #3bade3 100%);
+    -webkit-animation: AnimateBG 15s ease infinite;
+    animation: AnimateBG 15s ease infinite;
 }
 
 @-webkit-keyframes AnimateBG {
