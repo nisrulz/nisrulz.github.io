@@ -44,3 +44,7 @@ While working at his past company, he developed the company’s patented UAB (Un
     * [Presentation Link](https://speakerdeck.com/nisrulz/jumpstart-firebase)
 * **Mastering Tools for Android** (8 October)
     * [Presentation Link](https://speakerdeck.com/nisrulz/mastering-tools-for-android)
+
+### Misc
++ Reviewed [Apps in Seven Weeks - Native Apps, Multiple Platform (Pragmatic Programmer) by Tom Hillerson](https://www.amazon.com/Seven-Mobile-Apps-Weeks-Platforms/dp/1680501488) 
+    > [Tweet](https://twitter.com/nisrulz/status/776657249825501184)
