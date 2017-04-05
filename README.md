@@ -92,3 +92,28 @@ While working at his past company, he developed the company’s patented UAB (Un
 ### Misc
 + Reviewed [Apps in Seven Weeks - Native Apps, Multiple Platform (Pragmatic Programmer) by Tom Hillerson](https://www.amazon.com/Seven-Mobile-Apps-Weeks-Platforms/dp/1680501488) 
     > [Tweet](https://twitter.com/nisrulz/status/776657249825501184)
+
+### Online Profiles
++ Development
+    + **[Github](https://github.com/nisrulz)**
+    + **[Git Awards](http://git-awards.com/users/nisrulz)**
+    + **[Git Showcase](https://www.gitshowcase.com/nisrulz)**
+    + **[StackOverflow](https://stackoverflow.com/users/2745762/nishant)**
+
++ Design
+    + **[Dribbble](https://dribbble.com/nisrulz)**
+    + **[Behance](https://behance.net/nisrulz)**
+    + **[Codepen](https://codepen.io/nisrulz)**
+
++ Social
+    + **[AngelList](https://angel.co/nisrulz)**
+    + **[Linkedin](https://linkedin.com/in/nisrulz)**
+    + **[Twitter](https://twitter.com/nisrulz)**
+    + **[Google+](https://plus.google.com/+NishantSrivastava26)**
+    + **[Facebook](https://facebook.com/NishantRulez)**
+    + **[Instagram](https://instagram.com/nisrulz)**
+
++ Blog
+    + **[Medium](https://medium.com/@nisrulz)**
+    + **[Crushing C.O.D.E](http://crushingcode.nisrulz.com/)**
+    + **[Dev.to](https://dev.to/nisrulz)**
