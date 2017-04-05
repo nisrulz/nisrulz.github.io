@@ -36,6 +36,8 @@ While working at his past company, he developed the company’s patented UAB (Un
 ### Sessions/Talks
 
 ##### 2016
++ **An-Droid 101 - Developing Libraries** (6 Feb)
+    + [Presentation Link](http://slides.com/nisrulz/android-101-developing-libraries#/)
 + **Sipping on Battery Juice** (18 May)
     + [Presentation Link](https://speakerdeck.com/nisrulz/sipping-on-battery-juice)
 + **Building Apps for Billions** (7 August)
@@ -44,6 +46,21 @@ While working at his past company, he developed the company’s patented UAB (Un
     + [Presentation Link](https://speakerdeck.com/nisrulz/jumpstart-firebase)
 + **Mastering Tools for Android** (8 October)
     + [Presentation Link](https://speakerdeck.com/nisrulz/mastering-tools-for-android)
+
+##### 2015
++ **Kickstart Android App Development** (15 Feb)
+    + [Presentation Link](http://slides.com/nisrulz/kickstart-android-app-dev#/)
++ **Materialized Instantly** (19 Mar)
+    + [Presentation Link](http://slides.com/nisrulz/materialized-instantly#/)
+
+##### 2014
++ **Kickstart Android Wear** (30 Oct)
+    + [Presentation Link](http://slides.com/nisrulz/kickstartandroidwear#/)
+
+##### 2013
++ **Introduction to NodeJS** (16 Oct)
+    + [Presentation Link](http://slides.com/nisrulz/introduction-to-node-js#/)
+
 
 ### Blogging
 
