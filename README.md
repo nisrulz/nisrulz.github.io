@@ -36,14 +36,37 @@ While working at his past company, he developed the company’s patented UAB (Un
 ### Sessions/Talks
 
 ##### 2016
-* **Sipping on Battery Juice** (18 May)
-    * [Presentation Link](https://speakerdeck.com/nisrulz/sipping-on-battery-juice)
-* **Building Apps for Billions** (7 August)
-    * [Presentation Link](https://speakerdeck.com/nisrulz/building-apps-for-billions)
-* **Jumpstart Firebase** (2 October)
-    * [Presentation Link](https://speakerdeck.com/nisrulz/jumpstart-firebase)
-* **Mastering Tools for Android** (8 October)
-    * [Presentation Link](https://speakerdeck.com/nisrulz/mastering-tools-for-android)
++ **Sipping on Battery Juice** (18 May)
+    + [Presentation Link](https://speakerdeck.com/nisrulz/sipping-on-battery-juice)
++ **Building Apps for Billions** (7 August)
+    + [Presentation Link](https://speakerdeck.com/nisrulz/building-apps-for-billions)
++ **Jumpstart Firebase** (2 October)
+    + [Presentation Link](https://speakerdeck.com/nisrulz/jumpstart-firebase)
++ **Mastering Tools for Android** (8 October)
+    + [Presentation Link](https://speakerdeck.com/nisrulz/mastering-tools-for-android)
+
+### Blogging
+
+##### [Personal Blog](http://crushingcode.nisrulz.com/)
++ **[Whats in the APK](http://crushingcode.nisrulz.com/whats-in-the-apk/)** (24 Sept 2016)
++ **[Update Dependencies.Code.Repeat.](http://crushingcode.nisrulz.com/update-dependencies-code-repeat/)** (3 Sept 2016)
++ **[Guide to publishing your Android Library via JitPack
+](http://crushingcode.nisrulz.com/publish-your-android-library-via-jitpack/)** (29 July 2016)
++ **[Guide to publishing your Android Library via MavenCentral](http://crushingcode.nisrulz.com/publish-your-android-library-via-mavencentral/)** (17 July 2016)
++ **[Guide to publishing your Android Library via Jcenter/Bintray](http://crushingcode.nisrulz.com/publish-your-android-library-via-jcenter/)** (12 July 2016)
++ **[Fun Project : Javadoc-Themer](http://crushingcode.nisrulz.com/a-splash-of-colors-to-your-boring-javadocs/)** (15 May 2016)
++ **[The curious case of dependency conflicts
+](http://crushingcode.nisrulz.com/the-curious-case-of-dependency-conflicts/)** (2 May 2016)
++ **[Own a maven repository, like a boss! – Part 2](http://crushingcode.nisrulz.com/own-a-maven-repository-like-a-bosspart-2/)** (16 Feb 2016)
++ **[Own a maven repository, like a boss! – Part 1](http://crushingcode.nisrulz.com/own-a-maven-repository-like-a-bosspart-1/)** (3 Aug 2015)
++ **[Meet JACK & JILL , Android’s experimental toolchain](http://crushingcode.nisrulz.com/meet-jack-and-jill-androids-experimental-toolchain/)** (21 July 2015)
++ **[Life without wires : ADB over WiFi](http://crushingcode.nisrulz.com/life-without-wires-adb-over-wifi/)** (9 July 2015)
+
+##### [Medium](https://medium.com/@nisrulz)
++ **[Things I wish I knew when I started building Android SDK/Libraries](https://android.jlelse.eu/things-i-wish-i-knew-when-i-started-building-android-sdk-libraries-dba1a524d619)** (5 Mar 2017)
++ **[I could not find a simple Gesture Detection android library, so I built one](https://android.jlelse.eu/i-could-not-find-a-simple-gesture-detection-android-library-so-i-built-one-334c0a307c16)** (12 Feb 2017)
++ **[Rewriting the History](https://medium.com/@nisrulz/rewriting-the-history-c0e16c4942d3)** (18 Nov 2016)
++ **[Do you like to ADB?](https://android.jlelse.eu/do-you-like-to-adb-fcae3655b9c8)** (14 Nov 2016)
 
 ### Misc
 + Reviewed [Apps in Seven Weeks - Native Apps, Multiple Platform (Pragmatic Programmer) by Tom Hillerson](https://www.amazon.com/Seven-Mobile-Apps-Weeks-Platforms/dp/1680501488) 
