@@ -19,8 +19,8 @@ html, body {
     background: -webkit-linear-gradient(-3deg, rgb(26, 78, 164), rgb(30, 199, 193));
 }
 
-.sm-text {
-    font-size: 0.8em;
+.intro-text, .sm, .sm-text {
+    font-size: 1em;
 }
 
 .code-icon {
@@ -146,10 +146,6 @@ hr {
 
 i {
     vertical-align: middle;
-}
-
-.sm {
-    font-size: 14px;
 }
 
 a h6 {
