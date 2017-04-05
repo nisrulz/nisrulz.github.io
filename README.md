@@ -19,7 +19,7 @@ While working at his past company, he developed the company’s patented UAB (Un
 
 
 ##### Android Libraries/SDK 
-+ [Sensey](https://github.com/nisrulz/Sensey) - Android library to make detecting gestures easy
++ [Sensey](https://github.com/nisrulz/sensey) - Android library to make detecting gestures easy
 + [EasyDeviceInfo](https://github.com/nisrulz/easydeviceinfo) - Enabling device information to be at android developers hand like a piece of cake!
 + [PackageHunter](https://github.com/nisrulz/PackageHunter) - Android library to hunt down package information
 + [Zentone](https://github.com/nisrulz/zentone) - Easily generate audio tone in android
@@ -30,3 +30,15 @@ While working at his past company, he developed the company’s patented UAB (Un
 + [EvTrack](https://github.com/nisrulz/EvTrack) - Android library to make event and exception tracking easy
 + [OptimusHTTP](https://github.com/nisrulz/OptimusHTTP) - Android library that simplifies networking in android via an async http client
 + [ShoutOut](https://github.com/nisrulz/ShoutOut) - Android library for logging information in android
+
+### Sessions/Talks
+
+##### 2016
+* **Sipping on Battery Juice** (18 May)
+    * [Presentation Link](https://speakerdeck.com/nisrulz/sipping-on-battery-juice)
+* **Building Apps for Billions** (7 August)
+    * [Presentation Link](https://speakerdeck.com/nisrulz/building-apps-for-billions)
+* **Jumpstart Firebase** (2 October)
+    * [Presentation Link](https://speakerdeck.com/nisrulz/jumpstart-firebase)
+* **Mastering Tools for Android** (8 October)
+    * [Presentation Link](https://speakerdeck.com/nisrulz/mastering-tools-for-android)
