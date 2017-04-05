@@ -13,13 +13,6 @@ While working at his past company, he developed the company’s patented UAB (Un
 
 ### Open Source Contributions
 
-##### Utility 
-+ [App Privacy Policy Generator](https://app-privacy-policy-generator.firebaseapp.com/) - Generate a generic privacy policy for your app for the playstore.
-+ [Javadoc Themer](https://javadoc-themer.firebaseapp.com/) - Give your boooring javadocs a splash of colors!
-+ [Android Tips and Tricks](https://github.com/nisrulz/android-tips-tricks) - Cheatsheet about tips and tricks for Android Development
-+ [Terminal Utils](https://github.com/nisrulz/terminal-utils) - A growing list of useful terminal utility/commands and bash scripts to automate your life!
-
-
 ##### Android Libraries/SDK 
 + [Sensey](https://github.com/nisrulz/sensey) - Android library to make detecting gestures easy
 + [EasyDeviceInfo](https://github.com/nisrulz/easydeviceinfo) - Enabling device information to be at android developers hand like a piece of cake!
@@ -32,6 +25,17 @@ While working at his past company, he developed the company’s patented UAB (Un
 + [EvTrack](https://github.com/nisrulz/EvTrack) - Android library to make event and exception tracking easy
 + [OptimusHTTP](https://github.com/nisrulz/OptimusHTTP) - Android library that simplifies networking in android via an async http client
 + [ShoutOut](https://github.com/nisrulz/ShoutOut) - Android library for logging information in android
+
+##### Utility 
++ [App Privacy Policy Generator](https://app-privacy-policy-generator.firebaseapp.com/) - Generate a generic privacy policy for your app for the playstore.
++ [Javadoc Themer](https://javadoc-themer.firebaseapp.com/) - Give your boooring javadocs a splash of colors!
++ [Android Tips and Tricks](https://github.com/nisrulz/android-tips-tricks) - Cheatsheet about tips and tricks for Android Development
++ [Terminal Utils](https://github.com/nisrulz/terminal-utils) - A growing list of useful terminal utility/commands and bash scripts to automate your life!
+
+##### Bots 
++ Twitter Bot
+    + [NodeJS](https://github.com/nisrulz/twitterbot-nodejs) - A twitter bot made using nodejs which can post tweets, retweet other tweets and possibly fav tweets. Active bot: [gdgndbot](https://twitter.com/gdgndbot)
+    + [Java](https://github.com/nisrulz/twitterbot-java) - Twitter bot to automate few tasks on twitter.
 
 ### Sessions/Talks
 
