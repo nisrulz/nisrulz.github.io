@@ -2,7 +2,7 @@
 
 <center><img height="200" style="border-radius:50%;" src="assets/img/avatar.jpg" /></center>
 
-<center><h1>Nishant Srivastava</h1></center>
+# Nishant Srivastava
 Nishant is a Software Engineer/Founding Team Member (at) [OmniLabs, Inc.](https://omniinc.com/) with 4+ years of experience in Android SDK Engineering and DSP(Audio). 
 
 He is the [Lead Organizer](https://developers.google.com/groups/chapter/114576537688641864561/) (at) Google Developer Group, New Delhi.
