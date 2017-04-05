@@ -34,7 +34,9 @@ While working at his past company, he developed the company’s patented UAB (Un
 
 ##### Bots 
 + Twitter Bot
-    + [NodeJS](https://github.com/nisrulz/twitterbot-nodejs) - A twitter bot made using nodejs which can post tweets, retweet other tweets and possibly fav tweets. Active bot: [gdgndbot](https://twitter.com/gdgndbot)
+    + [NodeJS](https://github.com/nisrulz/twitterbot-nodejs) - A twitter bot made using nodejs which can post tweets, retweet other tweets and possibly fav tweets.
+        > Active bot: [gdgndbot](https://twitter.com/gdgndbot) - GDG New Delhi twitter bot
+
     + [Java](https://github.com/nisrulz/twitterbot-java) - Twitter bot to automate few tasks on twitter.
 
 ### Sessions/Talks
