@@ -105,6 +105,7 @@ While working at his past company, he developed the company’s patented UAB (Un
     + **[Git Awards](http://git-awards.com/users/nisrulz)**
     + **[Git Showcase](https://www.gitshowcase.com/nisrulz)**
     + **[StackOverflow](https://stackoverflow.com/users/2745762/nishant)**
+    + **[Playstore](https://play.google.com/store/apps/developer?id=Excogitation)**
 
 + Design
     + **[Dribbble](https://dribbble.com/nisrulz)**
