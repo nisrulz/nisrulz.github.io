@@ -11,6 +11,10 @@ He is a caffeine-dependent life-form who doubles up as an [Open Source enthusias
 
 While working at his past company, he developed the company’s patented UAB (Unique Audio Beacon Technology) [[Patent 1](https://www.google.com/patents/WO2016005999A3),[Patent 2](https://www.google.com/patents/WO2016006000A3)] [Featured in [Techcrunch](https://techcrunch.com/2014/07/24/silverpush-audio-beacons/), [Business Today](http://www.businesstoday.in/magazine/features/silverpushs-technology-lets-advertisers-reach-the-consumer-on-multiple-devices/story/206815.html)].
 
+
+### Past
++ Former Lead Organizer (at) Google Developer Group, Allahabad.
+
 ### Open Source Contributions
 
 ##### Android Libraries/SDK 
