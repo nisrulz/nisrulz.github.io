@@ -14,6 +14,16 @@ While working at his past company, he developed the company’s patented UAB (Un
 
 ### Past
 + Former Lead Organizer (at) Google Developer Group, Allahabad.
++ Events organized/judged/headed/spoke at
+    <details>
+
+    + India
+        + Part of panel at event [#Tech चर्चा](https://www.facebook.com/events/351053608564766/), Odeon Social, CP (Oct 18, 2016)
+        + Judged [Android Hackathon 2015](https://www.facebook.com/Android-Hackathon-2015-893134300747697/) at NSIT College, Delhi (Apr 25-26, 2015)
+
+    > [Event Pictures](https://drive.google.com/open?id=0Bxq_-GnQfRl0SlFMYkQyQjI5V1E)
+
+    </details>
 
 ### Open Source Contributions
 
