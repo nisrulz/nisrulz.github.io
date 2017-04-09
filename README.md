@@ -39,11 +39,12 @@ While working at his past company, he developed the company’s patented UAB (Un
 + [PackageHunter](https://github.com/nisrulz/PackageHunter) - Android library to hunt down package information
 + [Zentone](https://github.com/nisrulz/zentone) - Easily generate audio tone in android
 + [RecyclerViewHelper](https://github.com/nisrulz/recyclerviewhelper) - RecyclerViewHelper provides the most common functions around recycler view like Swipe to dismiss, Drag and Drop, Divider in the ui, events for when item selected and when not selected, on-click listener for items.
-+ [StackedHorizontalProgressbar](https://github.com/nisrulz/stackedhorizontalprogressbar) - Android Library to implement stacked horizontal progressbar
 + [QREader](https://github.com/nisrulz/qreader) - A library that uses google's mobile vision api and simplifies the QR code reading process
++ [OptimusHTTP](https://github.com/nisrulz/OptimusHTTP) - Android library that simplifies networking in android via an async http client
++ [Android-Utils](https://github.com/nisrulz/android-utils) - Android library facilitating some very common functionalities in the form of utility classes for Android
++ [StackedHorizontalProgressbar](https://github.com/nisrulz/stackedhorizontalprogressbar) - Android Library to implement stacked horizontal progressbar
 + [ScreenShott](https://github.com/nisrulz/screenshott) - Simple library to take a screenshot of the device screen, programmatically!
 + [EvTrack](https://github.com/nisrulz/EvTrack) - Android library to make event and exception tracking easy
-+ [OptimusHTTP](https://github.com/nisrulz/OptimusHTTP) - Android library that simplifies networking in android via an async http client
 + [ShoutOut](https://github.com/nisrulz/ShoutOut) - Android library for logging information in android
 
 ##### Utility 
