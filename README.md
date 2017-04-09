@@ -27,9 +27,7 @@ While working at his past company, he developed the company’s patented UAB (Un
             + UPES, Dehradun on UI/UX Design ([Mar 31, 2015](https://www.facebook.com/pg/upesgooglehub/photos/?tab=album&album_id=908567799205510), [Feb 19, 2016](https://drive.google.com/file/d/0B22x4DrYAn6DZTZlNGtjN3dnNXp0MGJjMkFLZi1oTW4xeEM4/view))
             + [BBDNITM, Lucknow on Android App Development & Admob Integration](https://docs.google.com/document/d/1r4otVeZFX9wcvJCtX5wMJtv4ezJ0F8h9lC4FVuSqhwU/edit) (Feb 7, 2014)
             + [IIIT, Allahabad on Android UX elements](https://www.facebook.com/thunderbolt.iiita/media_set?set=a.809194865827393.1073741963.100002106609068) (Mar 21, 2015)
-        + Organized a lot of [events for GDG New Delhi](https://www.facebook.com/pg/gdgnewdelhi/events/) (2014 - Present)
-
-    > [Event Pictures](https://drive.google.com/open?id=0Bxq_-GnQfRl0SlFMYkQyQjI5V1E)
+        + Organized a lot of [events for GDG New Delhi](https://www.facebook.com/pg/gdgnewdelhi/events/) (2014 - Present) [[Event Pictures](https://drive.google.com/open?id=0Bxq_-GnQfRl0SlFMYkQyQjI5V1E)]
 
     </details>
 
