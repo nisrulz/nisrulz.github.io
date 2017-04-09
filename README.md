@@ -53,12 +53,26 @@ While working at his past company, he developed the company’s patented UAB (Un
 + [Android Tips and Tricks](https://github.com/nisrulz/android-tips-tricks) - Cheatsheet about tips and tricks for Android Development
 + [Terminal Utils](https://github.com/nisrulz/terminal-utils) - A growing list of useful terminal utility/commands and bash scripts to automate your life!
 
+##### Web 
++ [Parallax One Pager Template](https://github.com/nisrulz/Parallax-One-Pager-Template) - A simple one pager parallax scrolling template.
++ [NodeJS GCM Server](https://github.com/nisrulz/gcm-nodejs-server) - NodeJS GCM Server
++ [angular-seed](https://github.com/nisrulz/angular-seed) -  A simple angular-based seed website
+
 ##### Bots 
 + Twitter Bot
     + [NodeJS](https://github.com/nisrulz/twitterbot-nodejs) - A twitter bot made using nodejs which can post tweets, retweet other tweets and possibly fav tweets.
         > Active bot: [gdgndbot](https://twitter.com/gdgndbot) - GDG New Delhi twitter bot
 
     + [Java](https://github.com/nisrulz/twitterbot-java) - Twitter bot to automate few tasks on twitter.
+
+##### Educational/Learning/Example Apps
++ [Android Examples](https://github.com/nisrulz/android-examples) - Simple basic isolated apps, for budding android devs.
++ [Firebase Example](https://github.com/nisrulz/FirebaseExample) - Simplistic example app demonstrating using latest Firebase features. Checkout branches for each feature.
++ [UploadToMavenCentral](https://github.com/nisrulz/UploadToMavenCentral) - Base repository to demonstrate the process of uploading an aar/jar to maven central.
++ [UploadToJitpack](https://github.com/nisrulz/UploadToJitpack) - Base repository to demonstrate the process of uploading an aar/jar to JitPack.
++ [UploadToBintray](https://github.com/nisrulz/UploadToBintray) - Awesome library built to demonstrate the process of publishing android libraries via JCenter/Bintray.
++ [LearnKotlin](https://github.com/nisrulz/LearnKotlin) - Learning Kotlin programming in Android.
++ [SelfieApp](https://github.com/nisrulz/SelfieApp) - A simple app to demonstrate building applications in android. The app lets you take selfies and show it as list inside the app.
 
 ### Sessions/Talks
 
