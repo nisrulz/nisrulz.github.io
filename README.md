@@ -22,7 +22,7 @@ While working at his past company, he developed the company’s patented UAB (Un
         + Judged [Android Hackathon 2015](https://www.facebook.com/Android-Hackathon-2015-893134300747697/) at NSIT College, Delhi (Apr 25-26, 2015)
         + Mentored
             + [Android Study JAM](https://www.facebook.com/pg/gdgnewdelhi/photos/?tab=album&album_id=556492817855172) by Google for New Delhi. (Apr 2016)
-            +[Google Hackathon](https://www.facebook.com/pg/Google-Developers-Group-LNMIIT-Jaipur-448482871921503/photos/?tab=album&album_id=542309292538860) at GDG LNMIIT, Jaipur (Feb 4, 2015)
+            + [Google Hackathon](https://www.facebook.com/pg/Google-Developers-Group-LNMIIT-Jaipur-448482871921503/photos/?tab=album&album_id=542309292538860) at GDG LNMIIT, Jaipur (Feb 4, 2015)
         + Took workshop at 
             + UPES, Dehradun on UI/UX Design ([Mar 31, 2015](https://www.facebook.com/pg/upesgooglehub/photos/?tab=album&album_id=908567799205510), [Feb 19, 2016](https://drive.google.com/file/d/0B22x4DrYAn6DZTZlNGtjN3dnNXp0MGJjMkFLZi1oTW4xeEM4/view))
             + [BBDNITM, Lucknow on Android App Development & Admob Integration](https://docs.google.com/document/d/1r4otVeZFX9wcvJCtX5wMJtv4ezJ0F8h9lC4FVuSqhwU/edit) (Feb 7, 2014)
