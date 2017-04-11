@@ -1,6 +1,6 @@
 [![GitHub followers](https://img.shields.io/github/followers/nisrulz.svg?style=social&label=Follow)](https://github.com/nisrulz/) [![Twitter Follow](https://img.shields.io/twitter/follow/nisrulz.svg?style=social)](https://twitter.com/nisrulz)
 
-<center><img height="200" style="border-radius:50%;" src="assets/img/avatar.jpg" /></center>
+<img align="center" height="200" style="border-radius:50%;" src="assets/img/avatar.jpg" />
 
 # Nishant Srivastava
 Nishant is a Software Engineer/Founding Team Member (at) [OmniLabs, Inc.](https://omniinc.com/) with 4+ years of experience in Android SDK Engineering and DSP(Audio). 
@@ -11,6 +11,10 @@ He is a caffeine-dependent life-form who doubles up as an [Open Source enthusias
 
 While working at his past company, he developed the company’s patented UAB (Unique Audio Beacon Technology) [[Patent 1](https://www.google.com/patents/WO2016005999A3),[Patent 2](https://www.google.com/patents/WO2016006000A3)] [Featured in [Techcrunch](https://techcrunch.com/2014/07/24/silverpush-audio-beacons/), [Business Today](http://www.businesstoday.in/magazine/features/silverpushs-technology-lets-advertisers-reach-the-consumer-on-multiple-devices/story/206815.html)].
 
+
+<a href="http://stackoverflow.com/users/2745762/nishant">
+    <img src="http://stackoverflow.com/users/flair/2745762.png" width="208" height="58" alt="profile for Nishant. at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Nishant. at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+</a>
 
 ### Past
 + Former Lead Organizer (at) Google Developer Group, Allahabad.
@@ -77,16 +81,20 @@ While working at his past company, he developed the company’s patented UAB (Un
 ### Sessions/Talks
 
 ##### 2016
-+ **An-Droid 101 - Developing Libraries** (6 Feb)
++ **An-Droid 101 - Developing Libraries** (14 Feb)
     + [Presentation Link](http://slides.com/nisrulz/android-101-developing-libraries#/)
+    + [Event Listing](https://www.facebook.com/events/955024451217698/)
 + **Sipping on Battery Juice** (18 May)
     + [Presentation Link](https://speakerdeck.com/nisrulz/sipping-on-battery-juice)
+    + [Event Listing](https://www.facebook.com/events/473690916167419/)
 + **Building Apps for Billions** (7 August)
     + [Presentation Link](https://speakerdeck.com/nisrulz/building-apps-for-billions)
+    + [Event Listing](https://www.facebook.com/events/628659553963716/)
 + **Jumpstart Firebase** (2 October)
     + [Presentation Link](https://speakerdeck.com/nisrulz/jumpstart-firebase)
 + **Mastering Tools for Android** (8 October)
     + [Presentation Link](https://speakerdeck.com/nisrulz/mastering-tools-for-android)
+    + [Event Listing](https://www.facebook.com/gdgnewdelhi/photos/?tab=album&album_id=629784580525995)
 
 ##### 2015
 + **Kickstart Android App Development** (15 Feb)
@@ -97,6 +105,7 @@ While working at his past company, he developed the company’s patented UAB (Un
 ##### 2014
 + **Kickstart Android Wear** (30 Oct)
     + [Presentation Link](http://slides.com/nisrulz/kickstartandroidwear#/)
+    + [Event Listing](https://www.facebook.com/events/724559614292296/)
 
 ##### 2013
 + **Introduction to NodeJS** (16 Oct)
