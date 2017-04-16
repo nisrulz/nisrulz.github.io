@@ -1,7 +1,7 @@
+<p align="center"><img height="200" src="assets/img/avatar.jpg" /></p>
+
 <h1 align="center">Nishant Srivastava</h1>
 
-
-<p align="right" style="float:right;margin:0.3em;"><img height="200" src="assets/img/avatar.jpg"  style="border-radius: 5%;"/></p>
 
 [![GitHub followers](https://img.shields.io/github/followers/nisrulz.svg?style=social&label=Follow)](https://github.com/nisrulz/) [![Twitter Follow](https://img.shields.io/twitter/follow/nisrulz.svg?style=social)](https://twitter.com/nisrulz)
 
