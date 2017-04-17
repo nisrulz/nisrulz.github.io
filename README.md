@@ -88,6 +88,10 @@ While working at his past company, he developed the company’s patented UAB (Un
 
 ### Sessions/Talks
 
+##### 2017
++ **Build.Better.­Android.Libraries** (25 Apr) [Upcoming]
+    + [Presentation Link](#)
+    + [Event Listing](https://www.meetup.com/VanDev/events/239212540/)
 ##### 2016
 + **An-Droid 101 - Developing Libraries** (14 Feb)
     + [Presentation Link](http://slides.com/nisrulz/android-101-developing-libraries#/)
