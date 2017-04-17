@@ -35,6 +35,13 @@ While working at his past company, he developed the company’s patented UAB (Un
         + Organized a lot of [events for GDG New Delhi](https://www.facebook.com/pg/gdgnewdelhi/events/) (2014 - Present) [[Event Pictures](https://drive.google.com/open?id=0Bxq_-GnQfRl0SlFMYkQyQjI5V1E)]
 
     </details>
++ Upcoming talks/sessions
+    <details>
+
+    + Vancouver, BC
+        + Speaking at [VanDev: Vancouver's Software Developers Network](https://www.meetup.com/VanDev/) on [Build.Better.­Android.Libraries](https://www.meetup.com/VanDev/events/239212540/)
+
+    </details>
 
 ### Open Source Contributions
 
