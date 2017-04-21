@@ -43,6 +43,25 @@ While working at his past company, he developed the company’s patented UAB (Un
 
     </details>
 
+
+
+### Patents
+
++ [A method and system for identifying a user across multiple communication devices](https://www.google.com/patents/WO2016005999A3)
+    <details>
+
+    The present disclosure provides a method and system for determining an exposure of media content. The method includes identifying a first plurality of communication devices, enabling broadcasting the media content embedded with an audio data stream for each of the first plurality of communication devices, receiving a unique deciphered identification information and a communication device identification information from each of a second plurality of communication devices and determining the exposure for the media content based on a pre-defined criteria. Each of the first plurality of communication devices are identified via corresponding communication device identifier information. The audio data stream includes unique audio identification information for each of the first plurality of communication devices. Each of the second plurality of communication devices deciphers the unique audio identification information from the media content broadcasted on the first plurality of communication devices.
+
+    </details>
+
++ [A method and system for optimization of power back up of a communication device for identifying a media content](https://www.google.com/patents/WO2016006000A3)
+    <details>
+
+    The present disclosure provides a method for optimizing utilization of a power back up of a communication device. The communication device is used for identifying a media content by recording a portion of the media content. The computer implemented method includes triggering a recording facility of the communication device based on a first pre-defined criteria and de-activating the recording facility of the communication device by the processor based on a second pre-defined criteria. The first pre-defined criteria are based on a first set of one or more inputs. The second pre-defined criteria are based on a second set of one or more inputs. The first set of one or more inputs and the second set of one or more inputs are received from one or more sensors. The triggering and the de-activating of the recording facility optimizes the utilization of the power back up of the communication device.
+
+    </details>
+
+
 ### Open Source Contributions
 
 ##### Android Libraries/SDK 
