@@ -66,17 +66,42 @@ While working at his past company, he developed the company’s patented UAB (Un
 
 ##### Android Libraries/SDK 
 + [Sensey](https://github.com/nisrulz/sensey) - Android library to make detecting gestures easy
+    + [![GitHub stars](https://img.shields.io/github/stars/nisrulz/sensey.svg?style=social&label=Star)](https://github.com/nisrulz/sensey) [![GitHub forks](https://img.shields.io/github/forks/nisrulz/sensey.svg?style=social&label=Fork)](https://github.com/nisrulz/sensey/fork) [![GitHub watchers](https://img.shields.io/github/watchers/nisrulz/sensey.svg?style=social&label=Watch)](https://github.com/nisrulz/sensey)
+
 + [EasyDeviceInfo](https://github.com/nisrulz/easydeviceinfo) - Enabling device information to be at android developers hand like a piece of cake!
-+ [PackageHunter](https://github.com/nisrulz/PackageHunter) - Android library to hunt down package information
-+ [Zentone](https://github.com/nisrulz/zentone) - Easily generate audio tone in android
+    + [![GitHub stars](https://img.shields.io/github/stars/nisrulz/easydeviceinfo.svg?style=social&label=Star)](https://github.com/nisrulz/easydeviceinfo) [![GitHub forks](https://img.shields.io/github/forks/nisrulz/easydeviceinfo.svg?style=social&label=Fork)](https://github.com/nisrulz/easydeviceinfo/fork) [![GitHub watchers](https://img.shields.io/github/watchers/nisrulz/easydeviceinfo.svg?style=social&label=Watch)](https://github.com/nisrulz/easydeviceinfo) 
+
 + [RecyclerViewHelper](https://github.com/nisrulz/recyclerviewhelper) - RecyclerViewHelper provides the most common functions around recycler view like Swipe to dismiss, Drag and Drop, Divider in the ui, events for when item selected and when not selected, on-click listener for items.
+    + [![GitHub stars](https://img.shields.io/github/stars/nisrulz/recyclerviewhelper.svg?style=social&label=Star)](https://github.com/nisrulz/recyclerviewhelper) [![GitHub forks](https://img.shields.io/github/forks/nisrulz/recyclerviewhelper.svg?style=social&label=Fork)](https://github.com/nisrulz/recyclerviewhelper/fork) [![GitHub watchers](https://img.shields.io/github/watchers/nisrulz/recyclerviewhelper.svg?style=social&label=Watch)](https://github.com/nisrulz/recyclerviewhelper)
+
 + [QREader](https://github.com/nisrulz/qreader) - A library that uses google's mobile vision api and simplifies the QR code reading process
-+ [OptimusHTTP](https://github.com/nisrulz/OptimusHTTP) - Android library that simplifies networking in android via an async http client
-+ [Android-Utils](https://github.com/nisrulz/android-utils) - Android library facilitating some very common functionalities in the form of utility classes for Android
-+ [StackedHorizontalProgressbar](https://github.com/nisrulz/stackedhorizontalprogressbar) - Android Library to implement stacked horizontal progressbar
+    + [![GitHub stars](https://img.shields.io/github/stars/nisrulz/qreader.svg?style=social&label=Star)](https://github.com/nisrulz/qreader) [![GitHub forks](https://img.shields.io/github/forks/nisrulz/qreader.svg?style=social&label=Fork)](https://github.com/nisrulz/qreader/fork) [![GitHub watchers](https://img.shields.io/github/watchers/nisrulz/qreader.svg?style=social&label=Watch)](https://github.com/nisrulz/qreader)
+
 + [ScreenShott](https://github.com/nisrulz/screenshott) - Simple library to take a screenshot of the device screen, programmatically!
+    + [![GitHub stars](https://img.shields.io/github/stars/nisrulz/screenshott.svg?style=social&label=Star)](https://github.com/nisrulz/screenshott) [![GitHub forks](https://img.shields.io/github/forks/nisrulz/screenshott.svg?style=social&label=Fork)](https://github.com/nisrulz/screenshott/fork) [![GitHub watchers](https://img.shields.io/github/watchers/nisrulz/screenshott.svg?style=social&label=Watch)](https://github.com/nisrulz/screenshott)
+
++ [Android-Utils](https://github.com/nisrulz/android-utils) - Android library facilitating some very common functionalities in the form of utility classes for Android
+    + [![GitHub stars](https://img.shields.io/github/stars/nisrulz/android-utils.svg?style=social&label=Star)](https://github.com/nisrulz/android-utils) [![GitHub forks](https://img.shields.io/github/forks/nisrulz/android-utils.svg?style=social&label=Fork)](https://github.com/nisrulz/android-utils/fork) [![GitHub watchers](https://img.shields.io/github/watchers/nisrulz/android-utils.svg?style=social&label=Watch)](https://github.com/nisrulz/android-utils)
+
++ [PackageHunter](https://github.com/nisrulz/PackageHunter) - Android library to hunt down package information
+    + [![GitHub stars](https://img.shields.io/github/stars/nisrulz/packagehunter.svg?style=social&label=Star)](https://github.com/nisrulz/packagehunter) [![GitHub forks](https://img.shields.io/github/forks/nisrulz/packagehunter.svg?style=social&label=Fork)](https://github.com/nisrulz/packagehunter/fork) [![GitHub watchers](https://img.shields.io/github/watchers/nisrulz/packagehunter.svg?style=social&label=Watch)](https://github.com/nisrulz/packagehunter)
+
++ [Zentone](https://github.com/nisrulz/zentone) - Easily generate audio tone in android
+    + [![GitHub stars](https://img.shields.io/github/stars/nisrulz/zentone.svg?style=social&label=Star)](https://github.com/nisrulz/zentone) [![GitHub forks](https://img.shields.io/github/forks/nisrulz/zentone.svg?style=social&label=Fork)](https://github.com/nisrulz/zentone/fork) [![GitHub watchers](https://img.shields.io/github/watchers/nisrulz/zentone.svg?style=social&label=Watch)](https://github.com/nisrulz/zentone)
+
++ [StackedHorizontalProgressbar](https://github.com/nisrulz/stackedhorizontalprogressbar) - Android Library to implement stacked horizontal progressbar
+    + [![GitHub stars](https://img.shields.io/github/stars/nisrulz/stackedhorizontalprogressbar.svg?style=social&label=Star)](https://github.com/nisrulz/stackedhorizontalprogressbar) [![GitHub forks](https://img.shields.io/github/forks/nisrulz/stackedhorizontalprogressbar.svg?style=social&label=Fork)](https://github.com/nisrulz/stackedhorizontalprogressbar/fork) [![GitHub watchers](https://img.shields.io/github/watchers/nisrulz/stackedhorizontalprogressbar.svg?style=social&label=Watch)](https://github.com/nisrulz/stackedhorizontalprogressbar)
+
++ [OptimusHTTP](https://github.com/nisrulz/OptimusHTTP) - Android library that simplifies networking in android via an async http client
+    + [![GitHub stars](https://img.shields.io/github/stars/nisrulz/OptimusHTTP.svg?style=social&label=Star)](https://github.com/nisrulz/OptimusHTTP) [![GitHub forks](https://img.shields.io/github/forks/nisrulz/OptimusHTTP.svg?style=social&label=Fork)](https://github.com/nisrulz/OptimusHTTP/fork) [![GitHub watchers](https://img.shields.io/github/watchers/nisrulz/OptimusHTTP.svg?style=social&label=Watch)](https://github.com/nisrulz/OptimusHTTP)
+
+
 + [EvTrack](https://github.com/nisrulz/EvTrack) - Android library to make event and exception tracking easy
+    + [![GitHub stars](https://img.shields.io/github/stars/nisrulz/evtrack.svg?style=social&label=Star)](https://github.com/nisrulz/evtrack) [![GitHub forks](https://img.shields.io/github/forks/nisrulz/evtrack.svg?style=social&label=Fork)](https://github.com/nisrulz/evtrack/fork) [![GitHub watchers](https://img.shields.io/github/watchers/nisrulz/evtrack.svg?style=social&label=Watch)](https://github.com/nisrulz/evtrack)
+
 + [ShoutOut](https://github.com/nisrulz/ShoutOut) - Android library for logging information in android
+    + [![GitHub stars](https://img.shields.io/github/stars/nisrulz/ShoutOut.svg?style=social&label=Star)](https://github.com/nisrulz/ShoutOut) [![GitHub forks](https://img.shields.io/github/forks/nisrulz/ShoutOut.svg?style=social&label=Fork)](https://github.com/nisrulz/ShoutOut/fork) [![GitHub watchers](https://img.shields.io/github/watchers/nisrulz/ShoutOut.svg?style=social&label=Watch)](https://github.com/nisrulz/ShoutOut)
+
 
 ##### Utility 
 + [App Privacy Policy Generator](https://app-privacy-policy-generator.firebaseapp.com/) - Generate a generic privacy policy for your app for the playstore.
