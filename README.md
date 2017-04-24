@@ -1,5 +1,14 @@
-<img height="200" src="assets/img/avatar.jpg"  align="right"/>
-<h1>Nishant Srivastava</h1>
+<img height="190" src="assets/img/avatar.jpg" alt="Nishant Srivastava" align="right"/>
+
+[![GitHub followers](https://img.shields.io/github/followers/nisrulz.svg?style=social&label=Follow)](https://github.com/nisrulz/) [![Twitter Follow](https://img.shields.io/twitter/follow/nisrulz.svg?style=social)](https://twitter.com/nisrulz)
+
+<a href="http://stackoverflow.com/users/2745762/nishant">
+    <img src="http://stackoverflow.com/users/flair/2745762.png" width="208" height="58" alt="profile for Nishant. at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Nishant. at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+</a>
+
+### Website: [nisrulz.com](http://www.nisrulz.com/)
+
+# Nishant Srivastava
 
 Nishant is a Software Engineer/Founding Team Member (at) [OmniLabs, Inc.](https://omniinc.com/) with 4+ years of experience in Android SDK Engineering and DSP(Audio). 
 
@@ -9,17 +18,7 @@ He is a caffeine-dependent life-form who doubles up as an [Open Source enthusias
 
 While working at his past company, he developed the company’s patented UAB (Unique Audio Beacon Technology) [[Patent 1](https://www.google.com/patents/WO2016005999A3),[Patent 2](https://www.google.com/patents/WO2016006000A3)] [Featured in [Techcrunch](https://techcrunch.com/2014/07/24/silverpush-audio-beacons/), [Business Today](http://www.businesstoday.in/magazine/features/silverpushs-technology-lets-advertisers-reach-the-consumer-on-multiple-devices/story/206815.html), [Live Mint](http://www.livemint.com/Opinion/3QXskshem9l6fcbfAkqmUO/New-ways-to-count-viewers.html)].
 
-
-
-[![GitHub followers](https://img.shields.io/github/followers/nisrulz.svg?style=social&label=Follow)](https://github.com/nisrulz/) [![Twitter Follow](https://img.shields.io/twitter/follow/nisrulz.svg?style=social)](https://twitter.com/nisrulz)
-
-<a href="http://stackoverflow.com/users/2745762/nishant">
-    <img src="http://stackoverflow.com/users/flair/2745762.png" width="208" height="58" alt="profile for Nishant. at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Nishant. at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
-</a>
-
-
--
-
+#
 ### Upcoming
 + Talks/sessions
     <details>
