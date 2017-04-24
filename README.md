@@ -1,4 +1,4 @@
-<img height="190" src="assets/img/avatar.jpg" alt="Nishant Srivastava" align="right"/>
+<img height="220" src="assets/img/avatar.jpg" alt="Nishant Srivastava" align="right"/>
 
 [![GitHub followers](https://img.shields.io/github/followers/nisrulz.svg?style=social&label=Follow)](https://github.com/nisrulz/) [![Twitter Follow](https://img.shields.io/twitter/follow/nisrulz.svg?style=social)](https://twitter.com/nisrulz)
 
@@ -7,6 +7,7 @@
 </a>
 
 ### Website: [nisrulz.com](http://www.nisrulz.com/)
+### Blog: [Crushing C.O.D.E](http://crushingcode.nisrulz.com/)
 
 # Nishant Srivastava
 
