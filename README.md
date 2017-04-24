@@ -17,6 +17,15 @@ He is a caffeine-dependent life-form who doubles up as an [Open Source enthusias
 
 While working at his past company, he developed the company’s patented UAB (Unique Audio Beacon Technology) [[Patent 1](https://www.google.com/patents/WO2016005999A3),[Patent 2](https://www.google.com/patents/WO2016006000A3)] [Featured in [Techcrunch](https://techcrunch.com/2014/07/24/silverpush-audio-beacons/), [Business Today](http://www.businesstoday.in/magazine/features/silverpushs-technology-lets-advertisers-reach-the-consumer-on-multiple-devices/story/206815.html), [Live Mint](http://www.livemint.com/Opinion/3QXskshem9l6fcbfAkqmUO/New-ways-to-count-viewers.html)].
 
+### Upcoming
++ Talks/sessions
+    <details>
+
+    + Vancouver, BC
+        + Speaking at [VanDev: Vancouver's Software Developers Network](https://www.meetup.com/VanDev/) on [Build.Better.­Android.Libraries](https://www.meetup.com/VanDev/events/239212540/)
+
+    </details>
+
 ### Past
 + Former Lead Organizer (at) Google Developer Group, Allahabad.
 + Events organized/judged/headed/spoke at
@@ -35,16 +44,6 @@ While working at his past company, he developed the company’s patented UAB (Un
         + Organized a lot of [events for GDG New Delhi](https://www.facebook.com/pg/gdgnewdelhi/events/) (2014 - Present) [[Event Pictures](https://drive.google.com/open?id=0Bxq_-GnQfRl0SlFMYkQyQjI5V1E)]
 
     </details>
-+ Upcoming talks/sessions
-    <details>
-
-    + Vancouver, BC
-        + Speaking at [VanDev: Vancouver's Software Developers Network](https://www.meetup.com/VanDev/) on [Build.Better.­Android.Libraries](https://www.meetup.com/VanDev/events/239212540/)
-
-    </details>
-
-
-
 ### Patents
 
 + [A method and system for identifying a user across multiple communication devices](https://www.google.com/patents/WO2016005999A3)
@@ -105,9 +104,16 @@ While working at his past company, he developed the company’s patented UAB (Un
 
 ##### Utility 
 + [App Privacy Policy Generator](https://app-privacy-policy-generator.firebaseapp.com/) - Generate a generic privacy policy for your app for the playstore.
+    + [![GitHub stars](https://img.shields.io/github/stars/nisrulz/app-privacy-policy-generator.svg?style=social&label=Star)](https://github.com/nisrulz/app-privacy-policy-generator) [![GitHub forks](https://img.shields.io/github/forks/nisrulz/app-privacy-policy-generator.svg?style=social&label=Fork)](https://github.com/nisrulz/app-privacy-policy-generator/fork) [![GitHub watchers](https://img.shields.io/github/watchers/nisrulz/app-privacy-policy-generator.svg?style=social&label=Watch)
+
 + [Javadoc Themer](https://javadoc-themer.firebaseapp.com/) - Give your boooring javadocs a splash of colors!
+    + [![GitHub stars](https://img.shields.io/github/stars/nisrulz/javadoc-themer.svg?style=social&label=Star)](https://github.com/nisrulz/javadoc-themer) [![GitHub forks](https://img.shields.io/github/forks/nisrulz/javadoc-themer.svg?style=social&label=Fork)](https://github.com/nisrulz/javadoc-themer/fork) [![GitHub watchers](https://img.shields.io/github/watchers/nisrulz/javadoc-themer.svg?style=social&label=Watch)](https://github.com/nisrulz/javadoc-themer)
+
 + [Android Tips and Tricks](https://github.com/nisrulz/android-tips-tricks) - Cheatsheet about tips and tricks for Android Development
+    + [![GitHub stars](https://img.shields.io/github/stars/nisrulz/android-tips-tricks.svg?style=social&label=Star)](https://github.com/nisrulz/android-tips-tricks) [![GitHub forks](https://img.shields.io/github/forks/nisrulz/android-tips-tricks.svg?style=social&label=Fork)](https://github.com/nisrulz/android-tips-tricks/fork) [![GitHub watchers](https://img.shields.io/github/watchers/nisrulz/android-tips-tricks.svg?style=social&label=Watch)](https://github.com/nisrulz/android-tips-tricks)
+
 + [Terminal Utils](https://github.com/nisrulz/terminal-utils) - A growing list of useful terminal utility/commands and bash scripts to automate your life!
+
 
 ##### Web 
 + [Parallax One Pager Template](https://github.com/nisrulz/Parallax-One-Pager-Template) - A simple one pager parallax scrolling template.
