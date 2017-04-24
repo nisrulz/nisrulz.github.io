@@ -1,5 +1,6 @@
 <img height="200" src="assets/img/avatar.jpg"  align="right"/>
 <h1>Nishant Srivastava</h1>
+
 Nishant is a Software Engineer/Founding Team Member (at) [OmniLabs, Inc.](https://omniinc.com/) with 4+ years of experience in Android SDK Engineering and DSP(Audio). 
 
 He is the [Lead Organizer](https://developers.google.com/groups/chapter/114576537688641864561/) (at) Google Developer Group, New Delhi.
@@ -16,7 +17,9 @@ While working at his past company, he developed the company’s patented UAB (Un
     <img src="http://stackoverflow.com/users/flair/2745762.png" width="208" height="58" alt="profile for Nishant. at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Nishant. at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
 </a>
 
----
+
+-
+
 ### Upcoming
 + Talks/sessions
     <details>
