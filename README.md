@@ -24,9 +24,6 @@ While working at his past company, he developed the company’s patented UAB (Un
 + Talks/sessions
     <details>
 
-    + Vancouver, BC
-        + Speaking at [VanDev: Vancouver's Software Developers Network](https://www.meetup.com/VanDev/) on [Build.Better.­Android.Libraries](https://www.meetup.com/VanDev/events/239212540/)
-
     </details>
 
 ### Past
@@ -45,6 +42,9 @@ While working at his past company, he developed the company’s patented UAB (Un
             + [BBDNITM, Lucknow on Android App Development & Admob Integration](https://docs.google.com/document/d/1r4otVeZFX9wcvJCtX5wMJtv4ezJ0F8h9lC4FVuSqhwU/edit) (Feb 7, 2014)
             + [IIIT, Allahabad on Android UX elements](https://www.facebook.com/thunderbolt.iiita/media_set?set=a.809194865827393.1073741963.100002106609068) (Mar 21, 2015)
         + Organized a lot of [events for GDG New Delhi](https://www.facebook.com/pg/gdgnewdelhi/events/) (2014 - Present) [[Event Pictures](https://drive.google.com/open?id=0Bxq_-GnQfRl0SlFMYkQyQjI5V1E)]
+    
+    + Vancouver, BC
+        + Spoke at [VanDev: Vancouver's Software Developers Network](https://www.meetup.com/VanDev/) on [Build.Better.­Android.Libraries](https://www.meetup.com/VanDev/events/239212540/)
 
     </details>
 ### Patents
