@@ -24,6 +24,8 @@ While working at his past company, he developed the company’s patented UAB (Un
 + Talks/sessions
     <details>
 
+    + Speaking at [Code & Coffee Vancouver Meetup ](https://www.meetup.com/Code-Coffee-Vancouver/) on [Hello 'Kotlin' World!](https://www.meetup.com/Code-Coffee-Vancouver/events/237554732/)
+
     </details>
 
 ### Past
