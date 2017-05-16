@@ -24,7 +24,9 @@ While working at his past company, he developed the company’s patented UAB (Un
 + Talks/sessions
     <details>
 
-    + Speaking at [Code & Coffee Vancouver Meetup ](https://www.meetup.com/Code-Coffee-Vancouver/) on [Hello 'Kotlin' World!](https://www.meetup.com/Code-Coffee-Vancouver/events/237554732/)
+    + Speaking at [Code & Coffee Vancouver Meetup](https://www.meetup.com/Code-Coffee-Vancouver/) on [Hello 'Kotlin' World!](https://www.meetup.com/Code-Coffee-Vancouver/events/237554732/)
+
+    + Kickoff and adress [Google I/O Extended '17 New Delhi](http://meetu.ps/390N33) on GDG and Google I/O '17 updates
 
     </details>
 
