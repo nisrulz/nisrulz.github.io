@@ -24,8 +24,6 @@ While working at his past company, he developed the company’s patented UAB (Un
 + Talks/sessions
     <details>
 
-    + Speaking at [Code & Coffee Vancouver Meetup](https://www.meetup.com/Code-Coffee-Vancouver/) on [Hello 'Kotlin' World!](https://www.meetup.com/Code-Coffee-Vancouver/events/237554732/)
-
     + Kickoff and adress [Google I/O Extended '17 New Delhi](http://meetu.ps/390N33) on GDG and Google I/O '17 updates
 
     </details>
@@ -48,7 +46,9 @@ While working at his past company, he developed the company’s patented UAB (Un
         + Organized a lot of [events for GDG New Delhi](https://www.facebook.com/pg/gdgnewdelhi/events/) (2014 - Present) [[Event Pictures](https://drive.google.com/open?id=0Bxq_-GnQfRl0SlFMYkQyQjI5V1E)]
     
     + Vancouver, BC
-        + Spoke at [VanDev: Vancouver's Software Developers Network](https://www.meetup.com/VanDev/) on [Build.Better.­Android.Libraries](https://www.meetup.com/VanDev/events/239212540/)
+        + Took a session at [VanDev: Vancouver's Software Developers Network](https://www.meetup.com/VanDev/) on [Build.Better.­Android.Libraries](https://www.meetup.com/VanDev/events/239212540/)
+
+        + Took a session at [Code & Coffee Vancouver Meetup](https://www.meetup.com/Code-Coffee-Vancouver/) on [Hello 'Kotlin' World!](https://www.meetup.com/Code-Coffee-Vancouver/events/237554732/)
 
     </details>
 ### Patents
@@ -144,9 +144,13 @@ While working at his past company, he developed the company’s patented UAB (Un
 ### Sessions/Talks
 
 ##### 2017
-+ **Build.Better.­Android.Libraries** (25 Apr) [Upcoming]
++ **Build.Better.­Android.Libraries** (25 Apr)
     + [Presentation Link](https://speakerdeck.com/nisrulz/build-dot-better-dot-android-dot-libraries)
     + [Event Listing](https://www.meetup.com/VanDev/events/239212540/)
++ **Hello 'Kotlin' World** (18 May)
+    + [Presentation Link](https://speakerdeck.com/nisrulz/hello-kotlin-world)
+    + [Event Listing](https://www.meetup.com/Code-Coffee-Vancouver/events/237554732/)
+
 ##### 2016
 + **An-Droid 101 - Developing Libraries** (14 Feb)
     + [Presentation Link](http://slides.com/nisrulz/android-101-developing-libraries#/)
