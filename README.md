@@ -30,7 +30,7 @@ While working at his past company, he developed the company’s patented UAB (Un
 
 ### Past
 + Former Lead Organizer (at) Google Developer Group, Allahabad.
-+ [Featured in JSLovers Decode series(http://jslovers.com/decode/nishant/)
++ [Featured in JSLovers Decode series](http://jslovers.com/decode/nishant/)
 + Events organized/judged/headed/spoke at
     <details>
 
