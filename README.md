@@ -24,12 +24,13 @@ While working at his past company, he developed the company’s patented UAB (Un
 + Talks/sessions
     <details>
 
-    + Kickoff and adress [Google I/O Extended '17 New Delhi](http://meetu.ps/390N33) on GDG and Google I/O '17 updates
+    To be added
 
     </details>
 
 ### Past
 + Former Lead Organizer (at) Google Developer Group, Allahabad.
++ [Featured in JSLovers Decode series(http://jslovers.com/decode/nishant/)
 + Events organized/judged/headed/spoke at
     <details>
 
@@ -44,11 +45,12 @@ While working at his past company, he developed the company’s patented UAB (Un
             + [BBDNITM, Lucknow on Android App Development & Admob Integration](https://docs.google.com/document/d/1r4otVeZFX9wcvJCtX5wMJtv4ezJ0F8h9lC4FVuSqhwU/edit) (Feb 7, 2014)
             + [IIIT, Allahabad on Android UX elements](https://www.facebook.com/thunderbolt.iiita/media_set?set=a.809194865827393.1073741963.100002106609068) (Mar 21, 2015)
         + Organized a lot of [events for GDG New Delhi](https://www.facebook.com/pg/gdgnewdelhi/events/) (2014 - Present) [[Event Pictures](https://drive.google.com/open?id=0Bxq_-GnQfRl0SlFMYkQyQjI5V1E)]
+        + Kickoff and address [Google I/O Extended '17 New Delhi](http://meetu.ps/390N33) on GDG and Google I/O '17 updates (20 May, 2017)
     
     + Vancouver, BC
-        + Took a session at [VanDev: Vancouver's Software Developers Network](https://www.meetup.com/VanDev/) on [Build.Better.­Android.Libraries](https://www.meetup.com/VanDev/events/239212540/)
+        + Took a session at [VanDev: Vancouver's Software Developers Network](https://www.meetup.com/VanDev/) on [Build.Better.­Android.Libraries](https://www.meetup.com/VanDev/events/239212540/) (25 April 2017)
 
-        + Took a session at [Code & Coffee Vancouver Meetup](https://www.meetup.com/Code-Coffee-Vancouver/) on [Hello 'Kotlin' World!](https://www.meetup.com/Code-Coffee-Vancouver/events/237554732/)
+        + Took a session at [Code & Coffee Vancouver Meetup](https://www.meetup.com/Code-Coffee-Vancouver/) on [Hello 'Kotlin' World!](https://www.meetup.com/Code-Coffee-Vancouver/events/237554732/) (18 May 2017)
 
     </details>
 ### Patents
