@@ -108,6 +108,8 @@ While working at his past company, he developed the company’s patented UAB (Un
 
 + [ShoutOut](https://github.com/nisrulz/ShoutOut) - Android library for logging information in android
     + ![GitHub stars](https://img.shields.io/github/stars/nisrulz/ShoutOut.svg?style=social&label=Star)
+    
++ [Lantern](https://github.com/nisrulz/lantern) - Android library handling flashlight for camera and camera2 api. Added support for handling display/screen light.
 
 ##### Utility 
 + [App Privacy Policy Generator](https://app-privacy-policy-generator.firebaseapp.com/) - Generate a generic privacy policy for your app for the playstore.
