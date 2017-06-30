@@ -13,7 +13,7 @@
 
 Nishant is a Software Engineer/Founding Team Member (at) [OmniLabs, Inc.](https://omniinc.com/) with 4+ years of experience in Android SDK Engineering and DSP(Audio). 
 
-He is the [Lead Organizer](https://developers.google.com/groups/chapter/114576537688641864561/) (at) Google Developer Group, New Delhi.
+He is the [Co-Organizer](https://www.meetup.com/GDGCloudVancouver/members/?op=leaders) (at) Google Developer Group Cloud Vancouver (GDGCV)
 
 He is a caffeine-dependent life-form who doubles up as an [Open Source enthusiast](https://github.com/nisrulz) at the same time and spends his time doodling when not hacking on Android. 
 
@@ -24,12 +24,13 @@ While working at his past company, he developed the company’s patented UAB (Un
 + Talks/sessions
     <details>
 
-    To be added
+    + Berlin
+        + [Droidcon Berlin - Things I wish I knew when I started building Android sdk/libraries](http://droidcon.de/en/sessions/things-i-wish-i-knew-when-i-started-building-android-sdklibraries) (Sept 3-5, 2017Ï)
 
     </details>
 
 ### Past
-+ Former Lead Organizer (at) Google Developer Group, Allahabad.
++ Former Lead Organizer (at) Google Developer Group, New Delhi and Google Developer Group, Allahabad.
 + [Featured in JSLovers Decode series](http://jslovers.com/decode/nishant/)
 + Events organized/judged/headed/spoke at
     <details>
