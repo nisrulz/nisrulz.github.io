@@ -25,12 +25,12 @@ While working at his past company, he developed the company’s patented UAB (Un
     <details>
 
     + Berlin
-        + [Droidcon Berlin - Things I wish I knew when I started building Android sdk/libraries](http://droidcon.de/en/sessions/things-i-wish-i-knew-when-i-started-building-android-sdklibraries) (Sept 3-5, 2017Ï)
+        + [Droidcon Berlin - Things I wish I knew when I started building Android sdk/libraries](http://droidcon.de/en/sessions/things-i-wish-i-knew-when-i-started-building-android-sdklibraries) (Sept 3-5, 2017)
 
     </details>
 
 ### Past
-+ Former Lead Organizer (at) Google Developer Group, New Delhi and Google Developer Group, Allahabad.
++ Former Lead Organizer (at) Google Developer Group, New Delhi, IN and Google Developer Group, Allahabad, IN.
 + [Featured in JSLovers Decode series](http://jslovers.com/decode/nishant/)
 + Events organized/judged/headed/spoke at
     <details>
