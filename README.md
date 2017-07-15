@@ -72,49 +72,49 @@ While working at his past company, he developed the company’s patented UAB (Un
 
 
 ### Open Source Contributions
-|Android Libraries/SDK|Github Stars|Description|
+|Android Libraries/SDK|Github|Description|
 | ------------ | ------------ | ------------ |
-|[Sensey](https://github.com/nisrulz/sensey)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/sensey.svg?style=social&label=Star)|Android library to make detecting gestures easy|
-|[EasyDeviceInfo](https://github.com/nisrulz/easydeviceinfo)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/easydeviceinfo.svg?style=social&label=Star)|Enabling device information to be at android developers hand like a piece of cake!|
-|[RecyclerViewHelper](https://github.com/nisrulz/recyclerviewhelper)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/recyclerviewhelper.svg?style=social&label=Star)|RecyclerViewHelper provides the most common functions around recycler view like Swipe to dismiss, Drag and Drop, Divider in the ui, events for when item selected and when not selected, on-click listener for items.|
-|[QREader](https://github.com/nisrulz/qreader)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/qreader.svg?style=social&label=Star)|A library that uses google's mobile vision api and simplifies the QR code reading process|
-|[ScreenShott](https://github.com/nisrulz/screenshott)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/screenshott.svg?style=social&label=Star)|Simple library to take a screenshot of the device screen, programmatically!|
-|[Android-Utils](https://github.com/nisrulz/android-utils)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/android-utils.svg?style=social&label=Star)|Android library facilitating some very common functionalities in the form of utility classes for Android|
-|[PackageHunter](https://github.com/nisrulz/PackageHunter)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/packagehunter.svg?style=social&label=Star)|Android library to hunt down package information|
-|[Zentone](https://github.com/nisrulz/zentone)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/zentone.svg?style=social&label=Star)|Easily generate audio tone in android|
-|[StackedHorizontalProgressbar](https://github.com/nisrulz/stackedhorizontalprogressbar)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/stackedhorizontalprogressbar.svg?style=social&label=Star)|Android Library to implement stacked horizontal progressbar|
-|[OptimusHTTP](https://github.com/nisrulz/OptimusHTTP)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/OptimusHTTP.svg?style=social&label=Star)|Android library that simplifies networking in android via an async http client|
-|[EvTrack](https://github.com/nisrulz/EvTrack)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/evtrack.svg?style=social&label=Star)|Android library to make event and exception tracking easy|
-|[ShoutOut](https://github.com/nisrulz/ShoutOut)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/ShoutOut.svg?style=social&label=Star)|Android library for logging information in android|
-|[Lantern](https://github.com/nisrulz/lantern)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/lantern.svg?style=social&label=Star)|Android library handling flashlight for camera and camera2 api. Added support for handling display/screen light.|
+|[Sensey](https://github.com/nisrulz/sensey)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/sensey.svg?style=flat&label=Stars)|Android library to make detecting gestures easy|
+|[EasyDeviceInfo](https://github.com/nisrulz/easydeviceinfo)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/easydeviceinfo.svg?style=flat&label=Stars)|Enabling device information to be at android developers hand like a piece of cake!|
+|[RecyclerViewHelper](https://github.com/nisrulz/recyclerviewhelper)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/recyclerviewhelper.svg?style=flat&label=Stars)|RecyclerViewHelper provides the most common functions around recycler view like Swipe to dismiss, Drag and Drop, Divider in the ui, events for when item selected and when not selected, on-click listener for items.|
+|[QREader](https://github.com/nisrulz/qreader)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/qreader.svg?style=flat&label=Stars)|A library that uses google's mobile vision api and simplifies the QR code reading process|
+|[ScreenShott](https://github.com/nisrulz/screenshott)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/screenshott.svg?style=flat&label=Stars)|Simple library to take a screenshot of the device screen, programmatically!|
+|[Android-Utils](https://github.com/nisrulz/android-utils)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/android-utils.svg?style=flat&label=Stars)|Android library facilitating some very common functionalities in the form of utility classes for Android|
+|[PackageHunter](https://github.com/nisrulz/PackageHunter)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/packagehunter.svg?style=flat&label=Stars)|Android library to hunt down package information|
+|[Zentone](https://github.com/nisrulz/zentone)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/zentone.svg?style=flat&label=Stars)|Easily generate audio tone in android|
+|[StackedHorizontalProgressbar](https://github.com/nisrulz/stackedhorizontalprogressbar)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/stackedhorizontalprogressbar.svg?style=flat&label=Stars)|Android Library to implement stacked horizontal progressbar|
+|[OptimusHTTP](https://github.com/nisrulz/OptimusHTTP)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/OptimusHTTP.svg?style=flat&label=Stars)|Android library that simplifies networking in android via an async http client|
+|[EvTrack](https://github.com/nisrulz/EvTrack)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/evtrack.svg?style=flat&label=Stars)|Android library to make event and exception tracking easy|
+|[ShoutOut](https://github.com/nisrulz/ShoutOut)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/ShoutOut.svg?style=flat&label=Stars)|Android library for logging information in android|
+|[Lantern](https://github.com/nisrulz/lantern)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/lantern.svg?style=flat&label=Stars)|Android library handling flashlight for camera and camera2 api. Added support for handling display/screen light.|
 
-|Utility|Github Stars|Description|
+|Utility|Github|Description|
 | ------------ | ------------ | ------------ |
-|[App Privacy Policy Generator](https://app-privacy-policy-generator.firebaseapp.com/)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/app-privacy-policy-generator.svg?style=social&label=Star)|Generate a generic privacy policy and terms & conditions for your app|
-|[Javadoc Themer](https://javadoc-themer.firebaseapp.com/)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/javadoc-themer.svg?style=social&label=Star)|Give your boooring javadocs a splash of colors!|
-|[Android Tips and Tricks](https://github.com/nisrulz/android-tips-tricks)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/android-tips-tricks.svg?style=social&label=Star)|Cheatsheet about tips and tricks for Android Development|
-|[Terminal Utils](https://github.com/nisrulz/terminal-utils)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/terminal-utils.svg?style=social&label=Star)|A growing list of useful terminal utility/commands and bash scripts to automate your life!|
+|[App Privacy Policy Generator](https://app-privacy-policy-generator.firebaseapp.com/)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/app-privacy-policy-generator.svg?style=flat&label=Stars)|Generate a generic privacy policy and terms & conditions for your app|
+|[Javadoc Themer](https://javadoc-themer.firebaseapp.com/)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/javadoc-themer.svg?style=flat&label=Stars)|Give your boooring javadocs a splash of colors!|
+|[Android Tips and Tricks](https://github.com/nisrulz/android-tips-tricks)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/android-tips-tricks.svg?style=flat&label=Stars)|Cheatsheet about tips and tricks for Android Development|
+|[Terminal Utils](https://github.com/nisrulz/terminal-utils)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/terminal-utils.svg?style=flat&label=Stars)|A growing list of useful terminal utility/commands and bash scripts to automate your life!|
 
-|Web|Github Stars|Description|
+|Web|Github|Description|
 | ------------ | ------------ | ------------ |
-|[Parallax One Pager Template](https://github.com/nisrulz/Parallax-One-Pager-Template)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/Parallax-One-Pager-Template.svg?style=social&label=Star)|A simple one pager parallax scrolling template.|
-|[NodeJS GCM Server](https://github.com/nisrulz/gcm-nodejs-server)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/gcm-nodejs-server.svg?style=social&label=Star)|NodeJS GCM Server|
-|[Angular-Seed Project](https://github.com/nisrulz/angular-seed)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/angular-seed.svg?style=social&label=Star)| A simple angular-based seed website|
+|[Parallax One Pager Template](https://github.com/nisrulz/Parallax-One-Pager-Template)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/Parallax-One-Pager-Template.svg?style=flat&label=Stars)|A simple one pager parallax scrolling template.|
+|[NodeJS GCM Server](https://github.com/nisrulz/gcm-nodejs-server)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/gcm-nodejs-server.svg?style=flat&label=Stars)|NodeJS GCM Server|
+|[Angular-Seed Project](https://github.com/nisrulz/angular-seed)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/angular-seed.svg?style=flat&label=Stars)| A simple angular-based seed website|
 
 |Bots|Github Stars|Description|
 | ------------ | ------------ | ------------ |
-|[Twitter NodeJS](https://github.com/nisrulz/twitterbot-nodejs)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/twitterbot-nodejs.svg?style=social&label=Star)|A twitter bot made using nodejs which can post tweets, retweet other tweets and possibly fav tweets.<br/> `Active bot`: [gdgndbot](https://twitter.com/gdgndbot) - GDG New Delhi twitter bot|
-|[Twitter Java](https://github.com/nisrulz/twitterbot-java)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/twitterbot-java.svg?style=social&label=Star)|Twitter bot to automate few tasks on twitter.|
+|[Twitter NodeJS](https://github.com/nisrulz/twitterbot-nodejs)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/twitterbot-nodejs.svg?style=flat&label=Stars)|A twitter bot made using nodejs which can post tweets, retweet other tweets and possibly fav tweets.<br/> `Active bot`: [gdgndbot](https://twitter.com/gdgndbot) - GDG New Delhi twitter bot|
+|[Twitter Java](https://github.com/nisrulz/twitterbot-java)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/twitterbot-java.svg?style=flat&label=Stars)|Twitter bot to automate few tasks on twitter.|
 
-|Educational/Learning/Example Apps|Github Stars|Description|
+|Educational/Learning/Example Apps|Github|Description|
 | ------------ | ------------ | ------------ |
-|[Android Examples](https://github.com/nisrulz/android-examples)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/android-examples.svg?style=social&label=Star)|Simple basic isolated apps, for budding android devs.|
-|[Firebase Example](https://github.com/nisrulz/FirebaseExample)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/FirebaseExample.svg?style=social&label=Star)|Simplistic example app demonstrating using latest Firebase features. Checkout branches for each feature.|
-|[LearnKotlin](https://github.com/nisrulz/LearnKotlin)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/LearnKotlin.svg?style=social&label=Star)|Learning Kotlin programming in Android.|
-|[UploadToMavenCentral](https://github.com/nisrulz/UploadToMavenCentral)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/UploadToMavenCentral.svg?style=social&label=Star)|Base repository to demonstrate the process of uploading an aar/jar to maven central.|
-|[UploadToJitpack](https://github.com/nisrulz/UploadToJitpack)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/UploadToJitpack.svg?style=social&label=Star)|Base repository to demonstrate the process of uploading an aar/jar to JitPack.|
-|[UploadToBintray](https://github.com/nisrulz/UploadToBintray)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/UploadToBintray.svg?style=social&label=Star)|Awesome library built to demonstrate the process of publishing android libraries via JCenter/Bintray.|
-|[SelfieApp](https://github.com/nisrulz/SelfieApp)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/SelfieApp.svg?style=social&label=Star)|A simple app to demonstrate building applications in android. The app lets you take selfies and show it as list inside the app.|
+|[Android Examples](https://github.com/nisrulz/android-examples)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/android-examples.svg?style=flat&label=Stars)|Simple basic isolated apps, for budding android devs.|
+|[Firebase Example](https://github.com/nisrulz/FirebaseExample)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/FirebaseExample.svg?style=flat&label=Stars)|Simplistic example app demonstrating using latest Firebase features. Checkout branches for each feature.|
+|[LearnKotlin](https://github.com/nisrulz/LearnKotlin)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/LearnKotlin.svg?style=flat&label=Stars)|Learning Kotlin programming in Android.|
+|[UploadToMavenCentral](https://github.com/nisrulz/UploadToMavenCentral)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/UploadToMavenCentral.svg?style=flat&label=Stars)|Base repository to demonstrate the process of uploading an aar/jar to maven central.|
+|[UploadToJitpack](https://github.com/nisrulz/UploadToJitpack)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/UploadToJitpack.svg?style=flat&label=Stars)|Base repository to demonstrate the process of uploading an aar/jar to JitPack.|
+|[UploadToBintray](https://github.com/nisrulz/UploadToBintray)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/UploadToBintray.svg?style=flat&label=Stars)|Awesome library built to demonstrate the process of publishing android libraries via JCenter/Bintray.|
+|[SelfieApp](https://github.com/nisrulz/SelfieApp)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/SelfieApp.svg?style=flat&label=Stars)|A simple app to demonstrate building applications in android. The app lets you take selfies and show it as list inside the app.|
 
 ### Sessions/Talks
 
