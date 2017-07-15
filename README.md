@@ -101,7 +101,7 @@ While working at his past company, he developed the company’s patented UAB (Un
 |[NodeJS GCM Server](https://github.com/nisrulz/gcm-nodejs-server)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/gcm-nodejs-server.svg?style=flat&label=Stars)|NodeJS GCM Server|
 |[Angular-Seed Project](https://github.com/nisrulz/angular-seed)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/angular-seed.svg?style=flat&label=Stars)| A simple angular-based seed website|
 
-|Bots|Github Stars|Description|
+|Bots|Github|Description|
 | ------------ | ------------ | ------------ |
 |[Twitter NodeJS](https://github.com/nisrulz/twitterbot-nodejs)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/twitterbot-nodejs.svg?style=flat&label=Stars)|A twitter bot made using nodejs which can post tweets, retweet other tweets and possibly fav tweets.<br/> `Active bot`: [gdgndbot](https://twitter.com/gdgndbot) - GDG New Delhi twitter bot|
 |[Twitter Java](https://github.com/nisrulz/twitterbot-java)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/twitterbot-java.svg?style=flat&label=Stars)|Twitter bot to automate few tasks on twitter.|
