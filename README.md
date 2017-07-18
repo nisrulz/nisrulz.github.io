@@ -53,6 +53,8 @@ While working at his past company, he developed the company’s patented UAB (Un
 
         + Took a session at [Code & Coffee Vancouver Meetup](https://www.meetup.com/Code-Coffee-Vancouver/) on [Hello 'Kotlin' World!](https://www.meetup.com/Code-Coffee-Vancouver/events/237554732/) (18 May 2017)
 
+        + Took a session at [GDG Cloud Vancouver Meetup](https://www.meetup.com/GDGCloudVancouver/) on [Google I/O '17 Recap: Android, Kotlin and Firebase](https://www.meetup.com/GDGCloudVancouver/events/240940726/)
+
     </details>
 ### Patents
 
@@ -125,6 +127,9 @@ While working at his past company, he developed the company’s patented UAB (Un
 + **Hello 'Kotlin' World** (18 May)
     + [Presentation Link](https://speakerdeck.com/nisrulz/hello-kotlin-world)
     + [Event Listing](https://www.meetup.com/Code-Coffee-Vancouver/events/237554732/)
++ **Google I/O '17 Recap: Android, Kotlin and Firebase** (17 July)
+    + [Presentation Link](https://speakerdeck.com/nisrulz/o-17-recap-android-kotlin-and-firebase)
+    + [Event Listing](https://www.meetup.com/GDGCloudVancouver/events/240940726/)
 
 ##### 2016
 + **An-Droid 101 - Developing Libraries** (14 Feb)
