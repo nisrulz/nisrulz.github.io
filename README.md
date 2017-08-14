@@ -11,7 +11,7 @@
 
 # Nishant Srivastava
 
-Nishant is a Software Engineer/Founding Team Member (at) [OmniLabs, Inc.](https://omniinc.com/) with 4+ years of experience in Android SDK Engineering and DSP(Audio). 
+Nishant is a Software Engineer/Founding Team Member (at) [OmniLabs, Inc.](https://omniinc.com/) with experience in Android SDK Engineering and DSP(Audio). 
 
 He is the [Co-Organizer](https://www.meetup.com/GDGCloudVancouver/members/?op=leaders) (at) Google Developer Group Cloud Vancouver (GDGCV)
 
