@@ -29,8 +29,7 @@ While working at his past company, he developed the company’s patented UAB (Un
             + [Things I wish I knew when I started building Android sdk/libraries](http://droidcon.de/en/sessions/things-i-wish-i-knew-when-i-started-building-android-sdklibraries) (Sept 5, 2017)
     
     + Vancouver
-        + [Code And Cofee YVR](https://www.meetup.com/codecoffeeyvr/)
-            + [Delightful X-App Development with Flutter](https://www.meetup.com/codecoffeeyvr/events/237554774/) (Aug 17, 2017)
+        + Yet to list
 
     </details>
 
@@ -58,6 +57,7 @@ While working at his past company, he developed the company’s patented UAB (Un
             + [Build.Better.­Android.Libraries](https://www.meetup.com/VanDev/events/239212540/) (April 25, 2017)
         + [Code And Cofee YVR](https://www.meetup.com/codecoffeeyvr/)
             + [Hello 'Kotlin' World!](https://www.meetup.com/codecoffeeyvr/events/237554732/) (May 18, 2017)
+            + [Delightful X-App Development with Flutter](https://www.meetup.com/codecoffeeyvr/events/237554774/) (Aug 17, 2017)
         + [GDG Cloud Vancouver Meetup](https://www.meetup.com/GDGCloudVancouver/)
             + [Google I/O '17 Recap: Android, Kotlin and Firebase](https://www.meetup.com/GDGCloudVancouver/events/240940726/) (July 17, 2017)
 
@@ -133,9 +133,14 @@ While working at his past company, he developed the company’s patented UAB (Un
 + **Hello 'Kotlin' World** (18 May)
     + [Presentation Link](https://speakerdeck.com/nisrulz/hello-kotlin-world)
     + [Event Listing](https://www.meetup.com/Code-Coffee-Vancouver/events/237554732/)
+    + [Video Link](https://www.youtube.com/watch?v=Up7bS3hOTF4&feature=youtu.be&t=1435)
 + **Google I/O '17 Recap: Android, Kotlin and Firebase** (17 July)
     + [Presentation Link](https://speakerdeck.com/nisrulz/o-17-recap-android-kotlin-and-firebase)
     + [Event Listing](https://www.meetup.com/GDGCloudVancouver/events/240940726/)
++ **Delightful X-App Development with Flutter** (17 Aug)
+    + [Presentation Link](https://speakerdeck.com/nisrulz/delightful-x-app-development-with-flutter)
+    + [Event Listing](https://www.meetup.com/codecoffeeyvr/events/237554774/)
+    + [Video Link](https://youtu.be/s7W-0SUS37Y?t=2348)
 
 ##### 2016
 + **An-Droid 101 - Developing Libraries** (14 Feb)
