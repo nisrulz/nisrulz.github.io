@@ -119,6 +119,7 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
 |Educational/Learning/Example Apps|Github|Description|
 | ------------ | ------------ | ------------ |
 |[Android Examples](https://github.com/nisrulz/android-examples)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/android-examples.svg?style=flat&label=Stars)|Simple basic isolated apps, for budding android devs.|
+|[Flutter Examples](https://github.com/nisrulz/flutter-examples)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/flutter-examples.svg?style=flat&label=Stars)|Simple basic isolated apps, for budding flutter devs.|
 |[Firebase Example](https://github.com/nisrulz/FirebaseExample)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/FirebaseExample.svg?style=flat&label=Stars)|Simplistic example app demonstrating using latest Firebase features. Checkout branches for each feature.|
 |[LearnKotlin](https://github.com/nisrulz/LearnKotlin)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/LearnKotlin.svg?style=flat&label=Stars)|Learning Kotlin programming in Android.|
 |[UploadToMavenCentral](https://github.com/nisrulz/UploadToMavenCentral)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/UploadToMavenCentral.svg?style=flat&label=Stars)|Base repository to demonstrate the process of uploading an aar/jar to maven central.|
