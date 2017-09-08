@@ -26,10 +26,6 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
 + Talks/sessions
     <details>
 
-    + Berlin
-        + [Droidcon Berlin](http://droidcon.de/en)
-            + [Things I wish I knew when I started building Android sdk/libraries](http://droidcon.de/en/sessions/things-i-wish-i-knew-when-i-started-building-android-sdklibraries) (Sept 5, 2017)
-    
     + Vancouver
         + Yet to list
 
@@ -62,6 +58,11 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
             + [Delightful X-App Development with Flutter](https://www.meetup.com/codecoffeeyvr/events/237554774/) (Aug 17, 2017)
         + [GDG Cloud Vancouver Meetup](https://www.meetup.com/GDGCloudVancouver/)
             + [Google I/O '17 Recap: Android, Kotlin and Firebase](https://www.meetup.com/GDGCloudVancouver/events/240940726/) (July 17, 2017)
+    
+    + Berlin
+        + [Droidcon Berlin](http://droidcon.de/en)
+            + [Things I wish I knew when I started building Android sdk/libraries](http://droidcon.de/en/sessions/things-i-wish-i-knew-when-i-started-building-android-sdklibraries) (Sept 5, 2017)
+    
 
     </details>
 ### Patents
@@ -144,6 +145,11 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
     + [Presentation Link](https://speakerdeck.com/nisrulz/delightful-x-app-development-with-flutter)
     + [Event Listing](https://www.meetup.com/codecoffeeyvr/events/237554774/)
     + [Video Link](https://youtu.be/s7W-0SUS37Y?t=2348)
++ **Things I wish I knew when I started building Android sdk/libraries** (5 Sept)
+    + [Presentation Link](https://speakerdeck.com/nisrulz/libraries)
+    + [Event Listing](http://droidcon.de/en/sessions/things-i-wish-i-knew-when-i-started-building-android-sdklibraries)
+    + [Video Link](https://www.youtube.com/+droidconde)
+
 
 ##### 2016
 + **An-Droid 101 - Developing Libraries** (14 Feb)
