@@ -201,13 +201,14 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
 + **[Life without wires : ADB over WiFi](http://crushingcode.nisrulz.com/life-without-wires-adb-over-wifi/)** (9 July 2015)
 
 ##### [Medium](https://medium.com/@nisrulz)
++ **[Want To Step Up Your Android Learning Game? You Need To Read This First](https://android.jlelse.eu/want-to-step-up-your-android-learning-game-you-need-to-read-this-first-e0cb9a7816a3)** (29 July 2017)
 + **[Things I wish I knew when I started building Android SDK/Libraries](https://android.jlelse.eu/things-i-wish-i-knew-when-i-started-building-android-sdk-libraries-dba1a524d619)** (5 Mar 2017)
 + **[I could not find a simple Gesture Detection android library, so I built one](https://android.jlelse.eu/i-could-not-find-a-simple-gesture-detection-android-library-so-i-built-one-334c0a307c16)** (12 Feb 2017)
 + **[Rewriting the History](https://medium.com/@nisrulz/rewriting-the-history-c0e16c4942d3)** (18 Nov 2016)
 + **[Do you like to ADB?](https://android.jlelse.eu/do-you-like-to-adb-fcae3655b9c8)** (14 Nov 2016)
 
 ### Misc
-+ Reviewed [Apps in Seven Weeks - Native Apps, Multiple Platform (Pragmatic Programmer) by Tom Hillerson](https://www.amazon.com/Seven-Mobile-Apps-Weeks-Platforms/dp/1680501488) 
++ Reviewed the book [Apps in Seven Weeks - Native Apps, Multiple Platform (Pragmatic Programmer) by Tom Hillerson](https://www.amazon.com/Seven-Mobile-Apps-Weeks-Platforms/dp/1680501488) 
     > [Tweet](https://twitter.com/nisrulz/status/776657249825501184)
 
 ### Online Profiles
