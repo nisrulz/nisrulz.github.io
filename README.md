@@ -14,11 +14,11 @@ While working at his past company, he developed the company’s patented UAB (Un
 
 Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awards.com/users?country=canada&language=java)**_ based on no. of github stars on java projects.
 
+#### Website: [nisrulz.com](http://www.nisrulz.com/) | Blog: [Crushing C.O.D.E](http://crushingcode.nisrulz.com/)
+
 <a href="http://stackoverflow.com/users/2745762/nishant" >
     <img src="http://stackoverflow.com/users/flair/2745762.png" width="208" height="58" alt="profile for Nishant. at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Nishant. at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
 </a>
-
-### Website: [nisrulz.com](http://www.nisrulz.com/) | Blog: [Crushing C.O.D.E](http://crushingcode.nisrulz.com/)
 
 #
 ### Upcoming
