@@ -57,6 +57,8 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
             + [Delightful X-App Development with Flutter](https://www.meetup.com/codecoffeeyvr/events/237554774/) (Aug 17, 2017)
         + [GDG Cloud Vancouver Meetup](https://www.meetup.com/GDGCloudVancouver/)
             + [Google I/O '17 Recap: Android, Kotlin and Firebase](https://www.meetup.com/GDGCloudVancouver/events/240940726/) (July 17, 2017)
+            + [Google Developer Days, Europe - Extended '17 Recap: Android and Flutter](https://www.meetup.com/GDGCloudVancouver/events/241827573) (Sept 29, 2017)
+
     
     + Berlin
         + [Droidcon Berlin](http://droidcon.de/en)
@@ -148,7 +150,9 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
     + [Presentation Link](https://speakerdeck.com/nisrulz/libraries)
     + [Event Listing](http://droidcon.de/en/sessions/things-i-wish-i-knew-when-i-started-building-android-sdklibraries)
     + [Video Link](https://www.youtube.com/+droidconde)
-
++ **Google Developer Days, Europe - Extended '17 Recap: Android and Flutter** (29 Sept)
+    + [Presentation Link](https://speakerdeck.com/nisrulz/gdd-europe-extended-recap)
+    + [Event Listing](https://www.meetup.com/GDGCloudVancouver/events/241827573)
 
 ##### 2016
 + **An-Droid 101 - Developing Libraries** (14 Feb)
