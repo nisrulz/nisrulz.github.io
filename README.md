@@ -31,7 +31,9 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
     </details>
 
 ### Past
-+ Former Lead Organizer (at) Google Developer Group, New Delhi, IN and Google Developer Group, Allahabad, IN.
++ Former Lead Organizer at
+    + Google Developer Group, New Delhi, India
+    + Google Developer Group, Allahabad, India
 + [Featured in JSLovers Decode series](http://jslovers.com/decode/nishant/)
 + Events organized/judged/headed/spoke at
     <details>
