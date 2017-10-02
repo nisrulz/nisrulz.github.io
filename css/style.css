@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-
 /*------------------------------------*\
     $RESET
 \*------------------------------------*/
@@ -179,7 +178,6 @@ textarea {
 }
 
 
-
 /*------------------------------------*\
     $MAIN
 \*------------------------------------*/
@@ -214,6 +212,7 @@ body {
     font-size: 48px;
     font-weight: normal;
     line-height: 1;
+    color: #2a84e6;
 }
 
 .social-icons li {
@@ -245,7 +244,6 @@ body {
 }
 
 
-
 /*------------------------------------*\
     $TYPOGRAPHY
 \*------------------------------------*/
@@ -269,20 +267,19 @@ dl {
 }
 
 a {
-    color: #339999;
+    color: #2a84e6;
     font-weight: bold;
 }
 
 a:hover,
 a:focus {
-    color: #95a4a9;
+    color: #9E9E9E;
     -webkit-transition: color 0.2s ease;
     -moz-transition: color 0.2s ease;
     -o-transition: color 0.2s ease;
     -ms-transition: color 0.2s ease;
     transition: color 0.2s ease;
 }
-
 
 
 /*------------------------------------*\
@@ -300,7 +297,6 @@ a img:hover,
     -ms-transition: opacity 0.2s ease;
     transition: opacity 0.2s ease;
 }
-
 
 
 /*
@@ -397,7 +393,6 @@ Copyright (c) 2012 Dan Eden
     -o-animation-name: bounceInDown;
     animation-name: bounceInDown;
 }
-
 
 
 /*------------------------------------*\
