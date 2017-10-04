@@ -223,7 +223,7 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
     + **[Git Awards](http://git-awards.com/users/nisrulz)**
     + **[Git Showcase](https://www.gitshowcase.com/nisrulz)**
     + **[StackOverflow](https://stackoverflow.com/users/2745762/nishant)**
-    + **[Playstore](https://play.google.com/store/apps/developer?id=Excogitation)**
+    + **[Playstore](https://play.google.com/store/apps/developer?id=Nishant%20Srivastava)**
 
 + Design
     + **[Dribbble](https://dribbble.com/nisrulz)**
