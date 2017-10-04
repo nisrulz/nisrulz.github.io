@@ -26,7 +26,7 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
     <details>
 
     + Vancouver
-        + Yet to list
+        + [Devfest'17 Vancouver - Architecture Components](https://www.meetup.com/preview/GDGCloudVancouver/events/241827175)
 
     </details>
 
@@ -148,7 +148,7 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
     + [Presentation Link](https://speakerdeck.com/nisrulz/delightful-x-app-development-with-flutter)
     + [Event Listing](https://www.meetup.com/codecoffeeyvr/events/237554774/)
     + [Video Link](https://youtu.be/s7W-0SUS37Y?t=2348)
-+ **Things I wish I knew when I started building Android sdk/libraries** (5 Sept)
++ **Things I wish I knew when I started building Android sdk/libraries [Droidcon Berlin '17]** (5 Sept)
     + [Presentation Link](https://speakerdeck.com/nisrulz/libraries)
     + [Event Listing](http://droidcon.de/en/sessions/things-i-wish-i-knew-when-i-started-building-android-sdklibraries)
     + [Video Link](https://www.youtube.com/+droidconde)
