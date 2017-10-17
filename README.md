@@ -4,7 +4,7 @@
 
 [![GitHub followers](https://img.shields.io/github/followers/nisrulz.svg?style=social&label=Follow)](https://github.com/nisrulz/) [![Twitter Follow](https://img.shields.io/twitter/follow/nisrulz.svg?style=social)](https://twitter.com/nisrulz)
 
-Nishant is a Software Engineer/Founding Team Member (at) [OmniLabs, Inc.](https://omniinc.com/) with experience in Android SDK Engineering and DSP(Audio). 
+Nishant is a Software Engineer/Founding Team Member (at) [OmniLabs, Inc.](https://omniinc.com/) with experience in Android SDK Engineering and Audio Digital Signal Processing(DSP) on Android.
 
 He is the [Co-Organizer](https://www.meetup.com/GDGCloudVancouver/members/?op=leaders) (at) Google Developer Group Cloud Vancouver (GDGCV)
 
@@ -26,7 +26,7 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
     <details>
 
     + Vancouver
-        + [Devfest'17 Vancouver - Architecture Components](https://www.meetup.com/preview/GDGCloudVancouver/events/241827175)
+        + TBD
 
     </details>
 
@@ -60,6 +60,7 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
         + [GDG Cloud Vancouver Meetup](https://www.meetup.com/GDGCloudVancouver/)
             + [Google I/O '17 Recap: Android, Kotlin and Firebase](https://www.meetup.com/GDGCloudVancouver/events/240940726/) (July 17, 2017)
             + [Google Developer Days, Europe - Extended '17 Recap: Android and Flutter](https://www.meetup.com/GDGCloudVancouver/events/241827573) (Sept 29, 2017)
+            + [Devfest'17 Vancouver - Architecture Components](https://www.meetup.com/preview/GDGCloudVancouver/events/241827175) (Oct 14, 2017)
 
     
     + Berlin
@@ -117,7 +118,7 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
 
 |Bots|Github|Description|
 | ------------ | ------------ | ------------ |
-|[Twitter NodeJS](https://github.com/nisrulz/twitterbot-nodejs)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/twitterbot-nodejs.svg?style=flat&label=Stars)|A twitter bot made using nodejs which can post tweets, retweet other tweets and possibly fav tweets.<br/> `Active bot`: [gdgndbot](https://twitter.com/gdgndbot) - GDG New Delhi twitter bot|
+|[Twitter NodeJS](https://github.com/nisrulz/twitterbot-nodejs)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/twitterbot-nodejs.svg?style=flat&label=Stars)|A twitter bot made using nodejs which can post tweets, retweet other tweets and possibly fav tweets.<br/> `Active bot`: [gdgndbot](https://twitter.com/gdgndbot) - GDG New Delhi twitter bot<br/> `Active bot`: [gdgcvbot](https://twitter.com/gdgcvbot) - GDG Cloud Vancouver twitter bot|
 |[Twitter Java](https://github.com/nisrulz/twitterbot-java)|![GitHub stars](https://img.shields.io/github/stars/nisrulz/twitterbot-java.svg?style=flat&label=Stars)|Twitter bot to automate few tasks on twitter.|
 
 |Educational/Learning/Example Apps|Github|Description|
@@ -155,6 +156,9 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
 + **Google Developer Days, Europe - Extended '17 Recap: Android and Flutter** (29 Sept)
     + [Presentation Link](https://speakerdeck.com/nisrulz/gdd-europe-extended-recap)
     + [Event Listing](https://www.meetup.com/GDGCloudVancouver/events/241827573)
++ **Devfest'17 Vancouver - Architecture Components** (14 Oct)
+    + [Presentation Link](https://speakerdeck.com/nisrulz/devfest-17-architecture-components)
+    + [Event Listing](https://www.meetup.com/preview/GDGCloudVancouver/events/241827175)
 
 ##### 2016
 + **An-Droid 101 - Developing Libraries** (14 Feb)
