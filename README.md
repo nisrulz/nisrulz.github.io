@@ -134,6 +134,7 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
 
 ### Sessions/Talks
 
+[[Video playlist of recorded talks/sessions](https://www.youtube.com/playlist?list=PLk0xKpla8YMQQUAk8Qa1BxPRqH1zJTScZ)]
 ##### 2017
 + **Build.Better.­Android.Libraries** (25 Apr)
     + [Presentation Link](https://speakerdeck.com/nisrulz/build-dot-better-dot-android-dot-libraries)
