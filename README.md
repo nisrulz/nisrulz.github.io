@@ -152,7 +152,7 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
 + **Things I wish I knew when I started building Android sdk/libraries [Droidcon Berlin '17]** (5 Sept)
     + [Presentation Link](https://speakerdeck.com/nisrulz/libraries)
     + [Event Listing](http://droidcon.de/en/sessions/things-i-wish-i-knew-when-i-started-building-android-sdklibraries)
-    + [Video Link](https://www.youtube.com/+droidconde)
+    + [Video Link](https://www.youtube.com/watch?v=RAZEIrmtUPo)
 + **Google Developer Days, Europe - Extended '17 Recap: Android and Flutter** (29 Sept)
     + [Presentation Link](https://speakerdeck.com/nisrulz/gdd-europe-extended-recap)
     + [Event Listing](https://www.meetup.com/GDGCloudVancouver/events/241827573)
