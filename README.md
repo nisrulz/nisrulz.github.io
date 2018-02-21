@@ -7,7 +7,7 @@
 
 Nishant is an Android Engineer and [open source enthusiast](https://github.com/nisrulz) who spends his time doodling when not hacking on Android.He is a caffeine-dependent life-form and can be found either talking about android libraries or advocating that coffee is the elixir of life at community gatherings.
 
-He is the [Co-Organizer](https://www.meetup.com/GDGCloudVancouver/members/?op=leaders) (at) Google Developer Group Cloud Vancouver (GDGCV)
+He is the [Co-Organizer](https://www.meetup.com/GDGCloudVancouver/members/?op=leaders) (at) Google Developer Group Cloud Vancouver (GDGCV) and an [Intel Software Innovator](https://software.intel.com/en-us/intel-software-innovators/meet-innovators#K-S)
 
 He has been part of 2 startups in the past (Founding Team Member at [OmniLabs, Inc.](https://omniinc.com/) and one of the first employees at Silverpush) with experience in Android SDK Engineering and Audio Digital Signal Processing(DSP) on Android.
 While working at his past company (Silverpush),  he developed the company’s patented UAB (Unique Audio Beacon) Technology [[Patent 1](https://www.google.com/patents/WO2016005999A3),[Patent 2](https://www.google.com/patents/WO2016006000A3)] [Featured in [Techcrunch](https://techcrunch.com/2014/07/24/silverpush-audio-beacons/), [Business Today](http://www.businesstoday.in/magazine/features/silverpushs-technology-lets-advertisers-reach-the-consumer-on-multiple-devices/story/206815.html), [Live Mint](http://www.livemint.com/Opinion/3QXskshem9l6fcbfAkqmUO/New-ways-to-count-viewers.html)].
@@ -25,16 +25,28 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
 + Talks/sessions
     <details>
 
-    + Vancouver
-        + TBD
+    + To be added
 
     </details>
 
 ### Past
 + Former Lead Organizer at
+    + Google Developer Group Cloud Vancouver, Vancouver, BC, Canada
     + Google Developer Group, New Delhi, India
     + Google Developer Group, Allahabad, India
 + [Featured in JSLovers Decode series](http://jslovers.com/decode/nishant/)
+
+
+
+
+
+
++ Volunteer Work
+    <details>
+
+    + Droidcon Boston: [Contributed to code and design of building the android app](https://twitter.com/droidconbos/status/964178383629414400)
+
+    </details>
 + Events organized/judged/headed/spoke at
     <details>
 
@@ -214,6 +226,7 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
 + **[Is your Android Library, Lifecycle-Aware?](https://android.jlelse.eu/is-your-android-library-lifecycle-aware-127629d32dcc)** (17 Sept 2017)
 + **[Want To Step Up Your Android Learning Game? You Need To Read This First](https://android.jlelse.eu/want-to-step-up-your-android-learning-game-you-need-to-read-this-first-e0cb9a7816a3)** (29 July 2017)
 + **[Things I wish I knew when I started building Android SDK/Libraries](https://android.jlelse.eu/things-i-wish-i-knew-when-i-started-building-android-sdk-libraries-dba1a524d619)** (5 Mar 2017)
+    + Featured in [Android Weekly #297](http://androidweekly.net/issues/issue-297)
 + **[I could not find a simple Gesture Detection android library, so I built one](https://android.jlelse.eu/i-could-not-find-a-simple-gesture-detection-android-library-so-i-built-one-334c0a307c16)** (12 Feb 2017)
 + **[Rewriting the History](https://medium.com/@nisrulz/rewriting-the-history-c0e16c4942d3)** (18 Nov 2016)
 + **[Do you like to ADB?](https://android.jlelse.eu/do-you-like-to-adb-fcae3655b9c8)** (14 Nov 2016)
