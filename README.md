@@ -65,7 +65,7 @@ While working at his past company (Silverpush),  he developed the company’s pa
         + [GDG Cloud Vancouver Meetup](https://www.meetup.com/GDGCloudVancouver/)
             + [Google I/O '17 Recap: Android, Kotlin and Firebase](https://www.meetup.com/GDGCloudVancouver/events/240940726/) (July 17, 2017)
             + [Google Developer Days, Europe - Extended '17 Recap: Android and Flutter](https://www.meetup.com/GDGCloudVancouver/events/241827573) (Sept 29, 2017)
-            + [Devfest'17 Vancouver - Architecture Components](https://www.meetup.com/preview/GDGCloudVancouver/events/241827175) (Oct 14, 2017)
+            + [Devfest'17 Vancouver - Architecture Components](https://www.meetup.com/GDGCloudVancouver/events/241827175) (Oct 14, 2017)
 
     
     + Berlin
