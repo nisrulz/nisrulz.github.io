@@ -10,9 +10,7 @@ Nishant is an Android Engineer and [open source enthusiast](https://github.com/n
 He is also an [Intel Software Innovator](https://web.archive.org/web/20180315123440/https://software.intel.com/en-us/intel-software-innovators/meet-innovators#K-S)
 
 He has been part of 2 startups in the past (Founding Team Member at [OmniLabs, Inc.](https://omniinc.com/) and one of the first employees at Silverpush) with experience in Android SDK Engineering and Audio Digital Signal Processing(DSP) on Android.
-While working at his past company (Silverpush),  he developed the company’s patented UAB (Unique Audio Beacon) Technology [[Patent 1](https://www.google.com/patents/WO2016005999A3),[Patent 2](https://www.google.com/patents/WO2016006000A3)] [Featured in [Techcrunch](https://techcrunch.com/2014/07/24/silverpush-audio-beacons/), [Business Today](http://www.businesstoday.in/magazine/features/silverpushs-technology-lets-advertisers-reach-the-consumer-on-multiple-devices/story/206815.html), [Live Mint](http://www.livemint.com/Opinion/3QXskshem9l6fcbfAkqmUO/New-ways-to-count-viewers.html)].
-
-Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awards.com/users?country=canada&language=java)**_ based on no. of github stars on java projects.
+While working at his past company (Silverpush),  he developed the company’s patented UAB (Unique Audio Beacon) Technology [[Patent 1](https://www.google.com/patents/WO2016005999A3),[Patent 2](https://www.google.com/patents/WO2016006000A3)] [Featured in [Techcrunch](https://techcrunch.com/2014/07/24/silverpush-audio-beacons/), [Business Today](https://web.archive.org/web/20180315123959/https://www.businesstoday.in/magazine/features/silverpushs-technology-lets-advertisers-reach-the-consumer-on-multiple-devices/story/206815.html), [Live Mint](https://web.archive.org/web/20180315124010/http://www.livemint.com/Opinion/3QXskshem9l6fcbfAkqmUO/New-ways-to-count-viewers.html)].
 
 #### Website: [nisrulz.com](http://www.nisrulz.com/) | Blog: [Crushing C.O.D.E](http://crushingcode.nisrulz.com/)
 
@@ -35,7 +33,7 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
     + Google Developer Group, New Delhi, India
     + Google Developer Group, Allahabad, India
 + [Featured in JSLovers Decode series](https://web.archive.org/web/20170625111014/http://jslovers.com:80/decode/nishant)
-
++ Was ranked _**[#1 for Top Java GitHub developers in Canada](https://web.archive.org/web/20180315123904/http://git-awards.com/users?country=canada&language=java)**_ based on no. of github stars on java projects. (2017-2018)
 + Volunteer Work
     <details>
 
@@ -228,7 +226,7 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
 
 ### Misc
 + Reviewed the book [Apps in Seven Weeks - Native Apps, Multiple Platform (Pragmatic Programmer) by Tom Hillerson](https://www.amazon.com/Seven-Mobile-Apps-Weeks-Platforms/dp/1680501488) 
-    > [Tweet](https://twitter.com/nisrulz/status/776657249825501184)
+    > [Tweet](https://web.archive.org/web/20180315124513/https:/twitter.com/nisrulz/status/776657249825501184)
 
 ### Online Profiles
 + Development
