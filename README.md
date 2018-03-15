@@ -36,11 +36,6 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
     + Google Developer Group, Allahabad, India
 + [Featured in JSLovers Decode series](http://jslovers.com/decode/nishant/)
 
-
-
-
-
-
 + Volunteer Work
     <details>
 
@@ -76,8 +71,8 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
 
     
     + Berlin
-        + [Droidcon Berlin](http://droidcon.de/en)
-            + [Things I wish I knew when I started building Android sdk/libraries](http://droidcon.de/en/sessions/things-i-wish-i-knew-when-i-started-building-android-sdklibraries) (Sept 5, 2017)
+        + [Droidcon Berlin](https://web.archive.org/web/20170904210528/http://droidcon.de:80/en)
+            + [Things I wish I knew when I started building Android sdk/libraries](https://web.archive.org/web/20170911165658/http://droidcon.de/en/sessions/things-i-wish-i-knew-when-i-started-building-android-sdklibraries) (Sept 5, 2017)
     
 
     </details>
@@ -164,7 +159,7 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
     + [Video Link](https://youtu.be/s7W-0SUS37Y?t=2348)
 + **Things I wish I knew when I started building Android sdk/libraries [Droidcon Berlin '17]** (5 Sept)
     + [Presentation Link](https://speakerdeck.com/nisrulz/libraries)
-    + [Event Listing](http://droidcon.de/en/sessions/things-i-wish-i-knew-when-i-started-building-android-sdklibraries)
+    + [Event Listing](https://web.archive.org/web/20170911165658/http://droidcon.de/en/sessions/things-i-wish-i-knew-when-i-started-building-android-sdklibraries) (Sept 5, 2017)
     + [Video Link](https://www.youtube.com/watch?v=RAZEIrmtUPo)
 + **Google Developer Days, Europe - Extended '17 Recap: Android and Flutter** (29 Sept)
     + [Presentation Link](https://speakerdeck.com/nisrulz/gdd-europe-extended-recap)
