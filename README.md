@@ -7,7 +7,7 @@
 
 Nishant is an Android Engineer and [open source enthusiast](https://github.com/nisrulz) who spends his time doodling when not hacking on Android.He is a caffeine-dependent life-form and can be found either talking about android libraries or advocating that coffee is the elixir of life at community gatherings.
 
-He is the [Co-Organizer](https://www.meetup.com/GDGCloudVancouver/members/?op=leaders) (at) Google Developer Group Cloud Vancouver (GDGCV) and an [Intel Software Innovator](https://software.intel.com/en-us/intel-software-innovators/meet-innovators#K-S)
+He is also an [Intel Software Innovator](https://web.archive.org/web/20180315123440/https://software.intel.com/en-us/intel-software-innovators/meet-innovators#K-S)
 
 He has been part of 2 startups in the past (Founding Team Member at [OmniLabs, Inc.](https://omniinc.com/) and one of the first employees at Silverpush) with experience in Android SDK Engineering and Audio Digital Signal Processing(DSP) on Android.
 While working at his past company (Silverpush),  he developed the company’s patented UAB (Unique Audio Beacon) Technology [[Patent 1](https://www.google.com/patents/WO2016005999A3),[Patent 2](https://www.google.com/patents/WO2016006000A3)] [Featured in [Techcrunch](https://techcrunch.com/2014/07/24/silverpush-audio-beacons/), [Business Today](http://www.businesstoday.in/magazine/features/silverpushs-technology-lets-advertisers-reach-the-consumer-on-multiple-devices/story/206815.html), [Live Mint](http://www.livemint.com/Opinion/3QXskshem9l6fcbfAkqmUO/New-ways-to-count-viewers.html)].
@@ -34,12 +34,12 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
     + Google Developer Group Cloud Vancouver, Vancouver, BC, Canada
     + Google Developer Group, New Delhi, India
     + Google Developer Group, Allahabad, India
-+ [Featured in JSLovers Decode series](http://jslovers.com/decode/nishant/)
++ [Featured in JSLovers Decode series](https://web.archive.org/web/20170625111014/http://jslovers.com:80/decode/nishant)
 
 + Volunteer Work
     <details>
 
-    + Droidcon Boston: [Contributed to code and design of building the android app](https://twitter.com/droidconbos/status/964178383629414400)
+    + [Droidcon Boston](https://web.archive.org/web/20180314072654/http://droidcon-boston.com/): [Contributed to code and design of building the android app](https://web.archive.org/web/20180315121841/https:/twitter.com/droidconbos/status/964178383629414400)
 
     </details>
 + Events organized/judged/headed/spoke at
@@ -159,7 +159,7 @@ Currently ranked _**[#1 for Top Java GitHub developers in Canada](http://git-awa
     + [Video Link](https://youtu.be/s7W-0SUS37Y?t=2348)
 + **Things I wish I knew when I started building Android sdk/libraries [Droidcon Berlin '17]** (5 Sept)
     + [Presentation Link](https://speakerdeck.com/nisrulz/libraries)
-    + [Event Listing](https://web.archive.org/web/20170911165658/http://droidcon.de/en/sessions/things-i-wish-i-knew-when-i-started-building-android-sdklibraries) (Sept 5, 2017)
+    + [Event Listing](https://web.archive.org/web/20170911165658/http://droidcon.de/en/sessions/things-i-wish-i-knew-when-i-started-building-android-sdklibraries)
     + [Video Link](https://www.youtube.com/watch?v=RAZEIrmtUPo)
 + **Google Developer Days, Europe - Extended '17 Recap: Android and Flutter** (29 Sept)
     + [Presentation Link](https://speakerdeck.com/nisrulz/gdd-europe-extended-recap)
