@@ -33,7 +33,7 @@ While working at his past company (Silverpush),  he developed the company’s pa
     + Google Developer Group, New Delhi, India
     + Google Developer Group, Allahabad, India
 + [Featured in JSLovers Decode series](https://web.archive.org/web/20170625111014/http://jslovers.com:80/decode/nishant)
-+ Was ranked _**[#1 for Top Java GitHub developers in Canada](https://web.archive.org/web/20180315123904/http://git-awards.com/users?country=canada&language=java)**_ based on no. of github stars on java projects. (2017-2018)
++ Got ranked _**#1 for Top [Dart](https://web.archive.org/web/20180320040728/http://git-awards.com/users?country=canada&language=dart) and [Java](https://web.archive.org/web/20180315123904/http://git-awards.com/users?country=canada&language=java) developers in Canada**_ based on no. of stars on github projects. (2017-2018)
 + Volunteer Work
     <details>
 
