@@ -7,7 +7,7 @@
 
 Nishant is an Android Engineer and [open source enthusiast](https://github.com/nisrulz) who spends his time doodling when not hacking on Android.He is a caffeine-dependent life-form and can be found either talking about android libraries or advocating that coffee is the elixir of life at community gatherings.
 
-He is also an [Intel Software Innovator](https://web.archive.org/web/20180315123440/https://software.intel.com/en-us/intel-software-innovators/meet-innovators#K-S)
+He is an [Intel Software Innovator](https://web.archive.org/web/20180315123440/https://software.intel.com/en-us/intel-software-innovators/meet-innovators#K-S) and part of the [raywenderlich.com's Android Tutorial Team](https://www.raywenderlich.com/about#abt_tut-android).
 
 He has been part of 2 startups in the past (Founding Team Member at [OmniLabs, Inc.](https://omniinc.com/) and one of the first employees at Silverpush) with experience in Android SDK Engineering and Audio Digital Signal Processing(DSP) on Android.
 While working at his past company (Silverpush),  he developed the company’s patented UAB (Unique Audio Beacon) Technology [[Patent 1](https://www.google.com/patents/WO2016005999A3),[Patent 2](https://www.google.com/patents/WO2016006000A3)] [Featured in [Techcrunch](https://techcrunch.com/2014/07/24/silverpush-audio-beacons/), [Business Today](https://web.archive.org/web/20180315123959/https://www.businesstoday.in/magazine/features/silverpushs-technology-lets-advertisers-reach-the-consumer-on-multiple-devices/story/206815.html), [Live Mint](https://web.archive.org/web/20180315124010/http://www.livemint.com/Opinion/3QXskshem9l6fcbfAkqmUO/New-ways-to-count-viewers.html)].
@@ -89,7 +89,6 @@ While working at his past company (Silverpush),  he developed the company’s pa
     The present disclosure provides a method for optimizing utilization of a power back up of a communication device. The communication device is used for identifying a media content by recording a portion of the media content. The computer implemented method includes triggering a recording facility of the communication device based on a first pre-defined criteria and de-activating the recording facility of the communication device by the processor based on a second pre-defined criteria. The first pre-defined criteria are based on a first set of one or more inputs. The second pre-defined criteria are based on a second set of one or more inputs. The first set of one or more inputs and the second set of one or more inputs are received from one or more sensors. The triggering and the de-activating of the recording facility optimizes the utilization of the power back up of the communication device.
 
     </details>
-
 
 ### Open Source Contributions
 |Android Libraries/SDK|Github|Description|
@@ -216,6 +215,7 @@ While working at his past company (Silverpush),  he developed the company’s pa
 + **[Life without wires : ADB over WiFi](http://crushingcode.nisrulz.com/life-without-wires-adb-over-wifi/)** (9 July 2015)
 
 ##### [Medium](https://medium.com/@nisrulz)
++ **[How I reduced my Android build times by 89%](https://android.jlelse.eu/how-i-reduced-my-android-build-times-by-89-4242e51ce946)** (4 April 2018)
 + **[Is your Android Library, Lifecycle-Aware?](https://android.jlelse.eu/is-your-android-library-lifecycle-aware-127629d32dcc)** (17 Sept 2017)
 + **[Want To Step Up Your Android Learning Game? You Need To Read This First](https://android.jlelse.eu/want-to-step-up-your-android-learning-game-you-need-to-read-this-first-e0cb9a7816a3)** (29 July 2017)
 + **[Things I wish I knew when I started building Android SDK/Libraries](https://android.jlelse.eu/things-i-wish-i-knew-when-i-started-building-android-sdk-libraries-dba1a524d619)** (5 Mar 2017)
