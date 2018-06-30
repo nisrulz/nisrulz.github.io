@@ -25,8 +25,7 @@ While working at his past company (Silverpush), he developed the company’s pat
 
     <details>
 
-  - [Droidcon Berlin](https://web.archive.org/web/20170904210528/http://droidcon.de:80/en)
-    - [The A, B and C of Lifecycle Components](https://www.de.droidcon.com/Sessions/THE-A%2C-B-AND-C-OF-LIFECYCLE-COMPONENTS) (June 26, 2018)
+  - To be added
 
     </details>
 
@@ -150,6 +149,12 @@ While working at his past company (Silverpush), he developed the company’s pat
 ### Sessions/Talks
 
 [[Video playlist of recorded talks/sessions](https://www.youtube.com/playlist?list=PLk0xKpla8YMQQUAk8Qa1BxPRqH1zJTScZ)]
+
+
+##### 2018
+- **The A, B and C of Lifecycle Components** (26 June)
+  - [Presentation Link](https://speakerdeck.com/nisrulz/the-a-b-and-c-of-lifecycle-components)
+  - [Event Listing](/assets/droidcon_berlin_18.pdf)
 
 ##### 2017
 
