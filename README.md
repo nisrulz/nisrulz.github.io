@@ -155,6 +155,7 @@ While working at his past company (Silverpush), he developed the company’s pat
 - **The A, B and C of Lifecycle Components** (26 June)
   - [Presentation Link](https://speakerdeck.com/nisrulz/the-a-b-and-c-of-lifecycle-components)
   - [Event Listing](/assets/droidcon_berlin_18.pdf)
+  - [Video Link](https://youtu.be/2lCrTkwnqu4 )
 
 ##### 2017
 
