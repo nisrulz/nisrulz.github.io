@@ -76,7 +76,7 @@ While working at his past company (Silverpush), he developed the company’s pat
 
   * Berlin
     - [Droidcon Berlin](https://web.archive.org/web/20170904210528/http://droidcon.de:80/en)
-      - [Things I wish I knew when I started building Android sdk/libraries](https://web.archive.org/web/20170911165658/http://droidcon.de/en/sessions/things-i-wish-i-knew-when-i-started-building-android-sdklibraries) (Sept 5, 2017)
+      - [Things I wish I knew when I started building Android sdk/libraries](https://berlin2017.droidcon.cod.newthinking.net/sessions/things-i-wish-i-knew-when-i-started-building-android-sdklibraries) (Sept 5, 2017)
 
 
     </details>
@@ -176,7 +176,7 @@ While working at his past company (Silverpush), he developed the company’s pat
   - [Video Link](https://youtu.be/s7W-0SUS37Y?t=2348)
 - **Things I wish I knew when I started building Android sdk/libraries [Droidcon Berlin '17]** (5 Sept)
   - [Presentation Link](https://speakerdeck.com/nisrulz/libraries)
-  - [Event Listing](https://web.archive.org/web/20170911165658/http://droidcon.de/en/sessions/things-i-wish-i-knew-when-i-started-building-android-sdklibraries)
+  - [Event Listing](https://berlin2017.droidcon.cod.newthinking.net/sessions/things-i-wish-i-knew-when-i-started-building-android-sdklibraries)
   - [Video Link](https://www.youtube.com/watch?v=RAZEIrmtUPo)
 - **Google Developer Days, Europe - Extended '17 Recap: Android and Flutter** (29 Sept)
   - [Presentation Link](https://speakerdeck.com/nisrulz/gdd-europe-extended-recap)
