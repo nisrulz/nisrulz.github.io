@@ -153,10 +153,14 @@ While working at his past company (Silverpush), he developed the company’s pat
 
 
 ##### 2018
-- **The A, B and C of Lifecycle Components** (26 June)
+- **The A, B and C of Lifecycle Components  [Droidcon Berlin '18]** (26 June)
   - [Presentation Link](https://speakerdeck.com/nisrulz/the-a-b-and-c-of-lifecycle-components)
-  - [Event Listing](https://berlin2018.droidcon.cod.newthinking.net/en/sessions/b-and-c-lifecycle-components)
+  - [Event Listing](https://web.archive.org/web/20181117200100/https://berlin2018.droidcon.cod.newthinking.net/en/sessions/b-and-c-lifecycle-components)
   - [Video Link](https://youtu.be/2lCrTkwnqu4 )
+- **Things I wish I knew when I started building Android libraries-Vol.2 [Devoxx Belgium '18]** (15 November)
+  - [Presentation Link](https://speakerdeck.com/nisrulz/sdk-vol-dot-2)
+  - [Event Listing](https://web.archive.org/web/20181117195829/https://dvbe18.confinabox.com/talk/OBY-2356/Things_I_wish_I_knew_when_I_started_building_Android_Libraries_-_Vol_2)
+  - [Video Link]( https://www.youtube.com/watch?v=jQyt3HSmx2I)
 
 ##### 2017
 
