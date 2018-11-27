@@ -4,7 +4,6 @@
     $RESET
 \*------------------------------------*/
 
-
 /* A more considered reset; more of a restart... As per: csswizardry.com/2011/10/reset-restarted */
 
 html,
@@ -82,8 +81,8 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 article,
@@ -97,7 +96,7 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
 
 h1,
@@ -106,19 +105,19 @@ h3,
 h4,
 h5,
 h6 {
-    font-size: 100%;
+  font-size: 100%;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 strong,
 b,
 mark {
-    font-weight: bold;
-    font-style: inherit;
+  font-weight: bold;
+  font-style: inherit;
 }
 
 em,
@@ -128,45 +127,45 @@ q,
 address,
 dfn,
 var {
-    font-style: italic;
-    font-weight: inherit;
+  font-style: italic;
+  font-weight: inherit;
 }
 
 abbr[title],
 dfn[title] {
-    cursor: help;
-    border-bottom: 1px dotted;
+  cursor: help;
+  border-bottom: 1px dotted;
 }
 
 ins {
-    border-bottom: 1px solid;
+  border-bottom: 1px solid;
 }
 
 a,
 u,
 ins {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 del,
 s {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 pre,
 code,
 samp,
 kbd {
-    font-family: monospace;
+  font-family: monospace;
 }
 
 small {
-    font-size: 0.75em;
+  font-size: 0.75em;
 }
 
 img {
-    border: none;
-    font-style: italic;
+  border: none;
+  font-style: italic;
 }
 
 input,
@@ -174,75 +173,72 @@ select,
 option,
 optgroup,
 textarea {
-    font: inherit;
+  font: inherit;
 }
-
 
 /*------------------------------------*\
     $MAIN
 \*------------------------------------*/
 
 html {
-    background-color: #f6f9f9;
-    color: #95a4a9;
-    font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:white;
+  font: 12px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 body {
-    margin: 10%;
+  margin: 10%;
 }
 
 .avatar {
-    float: left;
-    margin: 0 40px 20px 0;
+  float: left;
+  margin: 0 40px 20px 0;
 }
 
 .avatar img {
-    max-width: 200px;
-    max-height: 200px;
-    border-radius: 125px;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 125px;
 }
 
 .content {
-    float: left;
-    width: 60%;
+  float: left;
+  width: 60%;
 }
 
 .title {
-    font-size: 48px;
-    font-weight: normal;
-    line-height: 1;
-    color: #2a84e6;
+  font-size: 48px;
+  font-weight: normal;
+  line-height: 1;
+  color: #32b3f5;
 }
 
 .social-icons li {
-    display: inline;
+  display: inline;
 }
 
 .social-icons a {
-    display: inline-block;
-    margin-right: 10px;
-    text-indent: -9999px;
+  display: inline-block;
+  margin-right: 10px;
+  text-indent: -9999px;
 }
 
 .twitter {
-    background-image: url(../img/twitter.png);
-    width: 20px;
-    height: 20px;
+  background-image: url(../img/twitter.png);
+  width: 20px;
+  height: 20px;
 }
 
 .github {
-    background-image: url(../img/github.png);
-    width: 20px;
-    height: 20px;
+  background-image: url(../img/github.png);
+  width: 20px;
+  height: 20px;
 }
 
 .linkedin {
-    background-image: url(../img/linkedin.png);
-    width: 20px;
-    height: 20px;
+  background-image: url(../img/linkedin.png);
+  width: 20px;
+  height: 20px;
 }
-
 
 /*------------------------------------*\
     $TYPOGRAPHY
@@ -253,34 +249,33 @@ ul,
 ol,
 dl,
 .title {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 p {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 ul,
 ol,
 dl {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-    color: #2a84e6;
-    font-weight: bold;
+  color:#97d0f5;
+  font-weight: bold;
 }
 
 a:hover,
 a:focus {
-    color: #9E9E9E;
-    -webkit-transition: color 0.2s ease;
-    -moz-transition: color 0.2s ease;
-    -o-transition: color 0.2s ease;
-    -ms-transition: color 0.2s ease;
-    transition: color 0.2s ease;
+    color: #2a84e6;
+  -webkit-transition: color 0.2s ease;
+  -moz-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+  -ms-transition: color 0.2s ease;
+  transition: color 0.2s ease;
 }
-
 
 /*------------------------------------*\
     $MISC
@@ -288,16 +283,15 @@ a:focus {
 
 a img:hover,
 .social-icons a:hover {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-    filter: alpha(opacity=85);
-    opacity: 0.85;
-    -webkit-transition: opacity 0.2s ease;
-    -moz-transition: opacity 0.2s ease;
-    -o-transition: opacity 0.2s ease;
-    -ms-transition: opacity 0.2s ease;
-    transition: opacity 0.2s ease;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=85)';
+  filter: alpha(opacity=85);
+  opacity: 0.85;
+  -webkit-transition: opacity 0.2s ease;
+  -moz-transition: opacity 0.2s ease;
+  -o-transition: opacity 0.2s ease;
+  -ms-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
 }
-
 
 /*
 Animate.css - http://daneden.me/animate
@@ -307,109 +301,107 @@ Copyright (c) 2012 Dan Eden
 */
 
 .animated {
-    -webkit-animation-fill-mode: both;
-    -moz-animation-fill-mode: both;
-    -ms-animation-fill-mode: both;
-    -o-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -ms-animation-duration: 1s;
-    -o-animation-duration: 1s;
-    animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
 }
 
 .animated.hinge {
-    -webkit-animation-duration: 2s;
-    -moz-animation-duration: 2s;
-    -ms-animation-duration: 2s;
-    -o-animation-duration: 2s;
-    animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -ms-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  animation-duration: 2s;
 }
 
 @-webkit-keyframes bounceInDown {
-    0% {
-        -webkit-transform: translateY(-2000px);
-    }
-    60% {
-        -webkit-transform: translateY(30px);
-    }
-    80% {
-        -webkit-transform: translateY(-10px);
-    }
-    100% {
-        -webkit-transform: translateY(0);
-    }
+  0% {
+    -webkit-transform: translateY(-2000px);
+  }
+  60% {
+    -webkit-transform: translateY(30px);
+  }
+  80% {
+    -webkit-transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+  }
 }
 
 @-moz-keyframes bounceInDown {
-    0% {
-        -moz-transform: translateY(-2000px);
-    }
-    60% {
-        -moz-transform: translateY(30px);
-    }
-    80% {
-        -moz-transform: translateY(-10px);
-    }
-    100% {
-        -moz-transform: translateY(0);
-    }
+  0% {
+    -moz-transform: translateY(-2000px);
+  }
+  60% {
+    -moz-transform: translateY(30px);
+  }
+  80% {
+    -moz-transform: translateY(-10px);
+  }
+  100% {
+    -moz-transform: translateY(0);
+  }
 }
 
 @-o-keyframes bounceInDown {
-    0% {
-        -o-transform: translateY(-2000px);
-    }
-    60% {
-        -o-transform: translateY(30px);
-    }
-    80% {
-        -o-transform: translateY(-10px);
-    }
-    100% {
-        -o-transform: translateY(0);
-    }
+  0% {
+    -o-transform: translateY(-2000px);
+  }
+  60% {
+    -o-transform: translateY(30px);
+  }
+  80% {
+    -o-transform: translateY(-10px);
+  }
+  100% {
+    -o-transform: translateY(0);
+  }
 }
 
 @keyframes bounceInDown {
-    0% {
-        transform: translateY(-2000px);
-    }
-    60% {
-        transform: translateY(30px);
-    }
-    80% {
-        transform: translateY(-10px);
-    }
-    100% {
-        transform: translateY(0);
-    }
+  0% {
+    transform: translateY(-2000px);
+  }
+  60% {
+    transform: translateY(30px);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .bounceInDown {
-    -webkit-animation-name: bounceInDown;
-    -moz-animation-name: bounceInDown;
-    -o-animation-name: bounceInDown;
-    animation-name: bounceInDown;
+  -webkit-animation-name: bounceInDown;
+  -moz-animation-name: bounceInDown;
+  -o-animation-name: bounceInDown;
+  animation-name: bounceInDown;
 }
-
 
 /*------------------------------------*\
     $MOBILE
 \*------------------------------------*/
 
-@media handheld,
-only screen and (max-width: 720px) {
-    .avatar,
-    .content {
-        float: none;
-    }
-    .avatar img {
-        max-width: 125px;
-        max-height: 125px;
-    }
-    .content {
-        width: 100%;
-    }
+@media handheld, only screen and (max-width: 720px) {
+  .avatar,
+  .content {
+    float: none;
+  }
+  .avatar img {
+    max-width: 125px;
+    max-height: 125px;
+  }
+  .content {
+    width: 100%;
+  }
 }
