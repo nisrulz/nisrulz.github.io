@@ -181,7 +181,7 @@ textarea {
 \*------------------------------------*/
 
 html {
-  color:white;
+  color: white;
   font: 12px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -198,6 +198,10 @@ body {
   max-width: 200px;
   max-height: 200px;
   border-radius: 125px;
+}
+
+.nishant-sri-main-logo {
+  height: 9em;
 }
 
 .content {
@@ -263,13 +267,13 @@ dl {
 }
 
 a {
-  color:#97d0f5;
+  color: #97d0f5;
   font-weight: bold;
 }
 
 a:hover,
 a:focus {
-    color: #2a84e6;
+  color: #2a84e6;
   -webkit-transition: color 0.2s ease;
   -moz-transition: color 0.2s ease;
   -o-transition: color 0.2s ease;
@@ -403,5 +407,8 @@ Copyright (c) 2012 Dan Eden
   }
   .content {
     width: 100%;
+  }
+  .nishant-sri-main-logo {
+    height: 6em;
   }
 }
