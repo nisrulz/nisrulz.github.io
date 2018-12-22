@@ -160,7 +160,11 @@ While working at his past company (Silverpush), he developed the company’s pat
 - **Things I wish I knew when I started building Android libraries-Vol.2 [Devoxx Belgium '18]** (15 November)
   - [Presentation Link](https://speakerdeck.com/nisrulz/sdk-vol-dot-2)
   - [Event Listing](https://web.archive.org/web/20181117195829/https://dvbe18.confinabox.com/talk/OBY-2356/Things_I_wish_I_knew_when_I_started_building_Android_Libraries_-_Vol_2)
-  - [Video Link]( https://www.youtube.com/watch?v=jQyt3HSmx2I)
+  - [Video Link](https://www.youtube.com/watch?v=jQyt3HSmx2I)
+- **Things I wish I knew when I started building Android libraries-Vol.2 [Mobius Moscow '18]** (8 December)
+  - [Presentation Link](https://speakerdeck.com/nisrulz/sdk-vol-2)
+  - [Event Listing](https://web.archive.org/web/20181208055246/https://mobiusconf.com/en/talks/2uzvuesodoi2yeowkwiiws)
+  - [Video Link](https://www.youtube.com/watch?v=ZLYcEkkdj4A)
 
 ##### 2017
 
