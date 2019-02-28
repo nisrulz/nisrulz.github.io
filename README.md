@@ -152,6 +152,11 @@ While working at his past company (Silverpush), he developed the company’s pat
 [[Video playlist of recorded talks/sessions](https://www.youtube.com/playlist?list=PLk0xKpla8YMQQUAk8Qa1BxPRqH1zJTScZ)]
 
 
+##### 2019
+- **Things I wish I knew when I started building Android libraries-Vol.2 [Berlindroid Feb'19]** (27 February)
+  - [Presentation Link](https://docs.google.com/presentation/d/1ibC7rW-Rxr-o74Ovllmw0JHq3ia-NzoDz-SrhQGYnUw/)
+  - [Event Listing](https://web.archive.org/web/20190227235932/https://www.meetup.com/GDG-Berlin-Android/events/fvvctlyzdbkc/)
+
 ##### 2018
 - **The A, B and C of Lifecycle Components  [Droidcon Berlin '18]** (26 June)
   - [Presentation Link](https://speakerdeck.com/nisrulz/the-a-b-and-c-of-lifecycle-components)
