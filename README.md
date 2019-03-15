@@ -157,6 +157,10 @@ While working at his past company (Silverpush), he developed the company’s pat
   - [Presentation Link](https://docs.google.com/presentation/d/1ibC7rW-Rxr-o74Ovllmw0JHq3ia-NzoDz-SrhQGYnUw/)
   - [Event Listing](https://web.archive.org/web/20190227235932/https://www.meetup.com/GDG-Berlin-Android/events/fvvctlyzdbkc/)
 
+- **Demystifying Android Libraries [AppdevCon '19]** (15 March)
+  - [Presentation Link](https://speakerdeck.com/nisrulz/appdevcon-19-demystifying-android-libraries)
+  - [Event Listing](https://web.archive.org/web/20190315154423/https://appdevcon.nl/session/demystifying-android-libraries/)
+
 ##### 2018
 - **The A, B and C of Lifecycle Components  [Droidcon Berlin '18]** (26 June)
   - [Presentation Link](https://speakerdeck.com/nisrulz/the-a-b-and-c-of-lifecycle-components)
