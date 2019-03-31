@@ -263,6 +263,8 @@ While working at his past company (Silverpush), he developed the company’s pat
 
 ##### [Medium](https://medium.com/@nisrulz)
 
+- **[How I built an automated Android Localization Tool](https://medium.com/@nisrulz/building-an-automated-android-localization-tool-today-59a2d9582a2a)** (28 March 2019)
+
 - **[How I reduced my Android build times by 89%](https://android.jlelse.eu/how-i-reduced-my-android-build-times-by-89-4242e51ce946)** (4 April 2018)
 - **[Is your Android Library, Lifecycle-Aware?](https://android.jlelse.eu/is-your-android-library-lifecycle-aware-127629d32dcc)** (17 Sept 2017)
 - **[Want To Step Up Your Android Learning Game? You Need To Read This First](https://android.jlelse.eu/want-to-step-up-your-android-learning-game-you-need-to-read-this-first-e0cb9a7816a3)** (29 July 2017)
@@ -272,10 +274,14 @@ While working at his past company (Silverpush), he developed the company’s pat
 - **[Rewriting the History](https://medium.com/@nisrulz/rewriting-the-history-c0e16c4942d3)** (18 Nov 2016)
 - **[Do you like to ADB?](https://android.jlelse.eu/do-you-like-to-adb-fcae3655b9c8)** (14 Nov 2016)
 
-### Misc
+### Books
 
-- Reviewed the book [Apps in Seven Weeks - Native Apps, Multiple Platform (Pragmatic Programmer) by Tom Hillerson](https://www.amazon.com/Seven-Mobile-Apps-Weeks-Platforms/dp/1680501488)
-  > [Tweet](https://web.archive.org/web/20180315124513/https:/twitter.com/nisrulz/status/776657249825501184)
+- Written
+  - [Kotlin Coroutines by Tutorials](https://store.raywenderlich.com/products/kotlin-coroutines-by-tutorials)
+
+- Reviewed 
+  - [Apps in Seven Weeks - Native Apps, Multiple Platform (Pragmatic Programmer) by Tom Hillerson](https://www.amazon.com/Seven-Mobile-Apps-Weeks-Platforms/dp/1680501488)
+    - [Tweet](https://web.archive.org/web/20180315124513/https:/twitter.com/nisrulz/status/776657249825501184)
 
 ### Online Profiles
 
