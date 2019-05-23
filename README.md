@@ -160,6 +160,7 @@ While working at his past company (Silverpush), he developed the company’s pat
 - **Demystifying Android Libraries [AppdevCon '19]** (15 March)
   - [Presentation Link](https://speakerdeck.com/nisrulz/appdevcon-19-demystifying-android-libraries)
   - [Event Listing](https://web.archive.org/web/20190315154423/https://appdevcon.nl/session/demystifying-android-libraries/)
+  - [Video Link](https://vimeo.com/337753588)
 
 ##### 2018
 - **The A, B and C of Lifecycle Components  [Droidcon Berlin '18]** (26 June)
