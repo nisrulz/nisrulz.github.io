@@ -25,7 +25,8 @@ While working at his past company (Silverpush), he developed the company’s pat
 
     <details>
 
-  - To be added
+  - Devoxx Poland: [My love-hate relationship with Android Studio](https://web.archive.org/web/20190610115625/https://cfp.devoxx.pl/talk/JCI-4114/My_love-hate_relationship_with_Android_Studio)
+  - Droidcon Vienna: My love-hate relationship with Android Studio
 
     </details>
 
@@ -36,7 +37,10 @@ While working at his past company (Silverpush), he developed the company’s pat
   - Google Developer Group, New Delhi, India
   - Google Developer Group, Allahabad, India
 - [Featured in JSLovers Decode series](https://web.archive.org/web/20170625111014/http://jslovers.com:80/decode/nishant)
-- Got ranked _**#1 for Top [Dart](https://web.archive.org/web/20180320040728/http://git-awards.com/users?country=canada&language=dart) and [Java](https://web.archive.org/web/20180315123904/http://git-awards.com/users?country=canada&language=java) developers in Canada**_ based on no. of stars on github projects. (2017-2018)
+- Based on no. of stars on Github projects, was ranked by GitAwards
+  - **2018 onwards**: Ranked _**#1 for [Dart](https://web.archive.org/web/20190610145112/http://git-awards.com/users?country=germany&language=dart) and #5 for [Java](https://web.archive.org/web/20190610145140/http://git-awards.com/users?country=germany&language=java) developers in Germany**_
+  - **2017-2018**: Ranked _**#1 for [Dart](https://web.archive.org/web/20180320040728/http://git-awards.com/users?country=canada&language=dart) and [Java](https://web.archive.org/web/20180315123904/http://git-awards.com/users?country=canada&language=java) developers in Canada**_
+
 - Volunteer Work
 
     <details>
@@ -44,7 +48,6 @@ While working at his past company (Silverpush), he developed the company’s pat
   - [Droidcon Boston](https://web.archive.org/web/20180314072654/http://droidcon-boston.com/): [Contributed to code and design of building the android app](https://web.archive.org/web/20180315121841/https:/twitter.com/droidconbos/status/964178383629414400)
 
     </details>
-
 - Events organized/judged/headed/spoke at
 
     <details>
@@ -74,7 +77,7 @@ While working at his past company (Silverpush), he developed the company’s pat
       - [Google Developer Days, Europe - Extended '17 Recap: Android and Flutter](https://www.meetup.com/GDGCloudVancouver/events/241827573) (Sept 29, 2017)
       - [Devfest'17 Vancouver - Architecture Components](https://www.meetup.com/GDGCloudVancouver/events/241827175) (Oct 14, 2017)
 
-  * Berlin
+  - Berlin
     - [Droidcon Berlin](https://web.archive.org/web/20170904210528/http://droidcon.de:80/en)
       - [Things I wish I knew when I started building Android sdk/libraries](https://berlin2017.droidcon.cod.newthinking.net/sessions/things-i-wish-i-knew-when-i-started-building-android-sdklibraries) (Sept 5, 2017)
 
