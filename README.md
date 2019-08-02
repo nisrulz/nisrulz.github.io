@@ -34,9 +34,10 @@ While working at his past company (Silverpush), he developed the company’s pat
 
     <details>
 
-  - [Droidcon Boston](https://web.archive.org/web/20180314072654/http://droidcon-boston.com/): [Contributed to code and design of building the android app](https://web.archive.org/web/20180315121841/https:/twitter.com/droidconbos/status/964178383629414400)
+    - [Droidcon Boston](https://web.archive.org/web/20180314072654/http://droidcon-boston.com/): [Contributed to code and design of building the android app](https://web.archive.org/web/20180315121841/https:/twitter.com/droidconbos/status/964178383629414400)
 
     </details>
+    
 - Events organized/judged/headed/spoke at
 
     <details>
