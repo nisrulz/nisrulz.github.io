@@ -19,17 +19,6 @@ While working at his past company (Silverpush), he developed the company’s pat
 
 #
 
-### Upcoming
-
-- Talks/sessions
-
-    <details>
-
-  - Devoxx Poland: [My love-hate relationship with Android Studio](https://web.archive.org/web/20190610115625/https://cfp.devoxx.pl/talk/JCI-4114/My_love-hate_relationship_with_Android_Studio)
-  - Droidcon Vienna: My love-hate relationship with Android Studio
-
-    </details>
-
 ### Past
 
 - Former Lead Organizer at
@@ -156,6 +145,7 @@ While working at his past company (Silverpush), he developed the company’s pat
 
 
 ##### 2019
+
 - **Things I wish I knew when I started building Android libraries-Vol.2 [Berlindroid Feb'19]** (27 February)
   - [Presentation Link](https://docs.google.com/presentation/d/1ibC7rW-Rxr-o74Ovllmw0JHq3ia-NzoDz-SrhQGYnUw/)
   - [Event Listing](https://web.archive.org/web/20190227235932/https://www.meetup.com/GDG-Berlin-Android/events/fvvctlyzdbkc/)
@@ -164,6 +154,26 @@ While working at his past company (Silverpush), he developed the company’s pat
   - [Presentation Link](https://speakerdeck.com/nisrulz/appdevcon-19-demystifying-android-libraries)
   - [Event Listing](https://web.archive.org/web/20190315154423/https://appdevcon.nl/session/demystifying-android-libraries/)
   - [Video Link](https://vimeo.com/337753588)
+
+- **My love-hate relationship with Android Studio [Devoxx Poland '19]** (24 June)
+  - [Presentation Link](https://speakerdeck.com/nisrulz/devoxx-poland-19-my-love-hate-relationship-with-android-studio)
+  - [Event Listing](https://web.archive.org/web/20190610115625/https://cfp.devoxx.pl/talk/JCI-4114/My_love-hate_relationship_with_Android_Studio)
+  - [Video Link](https://www.youtube.com/watch?v=sl9qMGpEJp8)
+
+- **My love-hate relationship with Android Studio [Droidcon Vienna '19]** (19 September)
+  - [Presentation Link]()
+  - [Event Listing](https://web.archive.org/web/20190802205329/https://droidcon.at/speakers/)
+  - [Video Link]()
+
+- **My love-hate relationship with Android Studio [Droidcon Greece '19]** (24 September)
+  - [Presentation Link]()
+  - [Event Listing](https://droidcon.gr/#droidcon)
+  - [Video Link]()
+
+- **Cooking with Koroutines Recipes [Mobilization IX]** (26 October)
+  - [Presentation Link]()
+  - [Event Listing](https://2019.mobilization.pl/index.html)
+  - [Video Link]()
 
 ##### 2018
 - **The A, B and C of Lifecycle Components  [Droidcon Berlin '18]** (26 June)
