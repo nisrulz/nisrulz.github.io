@@ -161,17 +161,17 @@ While working at his past company (Silverpush), he developed the company’s pat
   - [Event Listing](https://web.archive.org/web/20190610115625/https://cfp.devoxx.pl/talk/JCI-4114/My_love-hate_relationship_with_Android_Studio)
   - [Video Link](https://www.youtube.com/watch?v=sl9qMGpEJp8)
 
-- **My love-hate relationship with Android Studio [Droidcon Vienna '19]** (19 September)
+- **[Upcoming] My love-hate relationship with Android Studio [Droidcon Vienna '19]** (19 September)
   - [Presentation Link]()
   - [Event Listing](https://web.archive.org/web/20190802205329/https://droidcon.at/speakers/)
   - [Video Link]()
 
-- **My love-hate relationship with Android Studio [Droidcon Greece '19]** (24 September)
+- **[Upcoming] My love-hate relationship with Android Studio [Droidcon Greece '19]** (24 September)
   - [Presentation Link]()
   - [Event Listing](https://droidcon.gr/#droidcon)
   - [Video Link]()
 
-- **Cooking with Koroutines Recipes [Mobilization IX]** (26 October)
+- **[Upcoming] Cooking with Koroutines Recipes [Mobilization IX]** (26 October)
   - [Presentation Link]()
   - [Event Listing](https://2019.mobilization.pl/index.html)
   - [Video Link]()
