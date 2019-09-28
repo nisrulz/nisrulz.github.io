@@ -6,7 +6,7 @@
 
 Nishant is an Android Engineer and [open source enthusiast](https://github.com/nisrulz) who spends his time doodling when not hacking on Android.He is a caffeine-dependent life-form and can be found either talking about android libraries or advocating that coffee is the elixir of life at community gatherings.
 
-He is an [Intel Software Innovator](https://web.archive.org/web/20180315123440/https://software.intel.com/en-us/intel-software-innovators/meet-innovators#K-S) and part of the [raywenderlich.com's Android Tutorial Team](https://www.raywenderlich.com/u/nisrulz).
+He is an [Intel Software Innovator](https://web.archive.org/web/20190928093321/https://software.intel.com/en-us/intel-software-innovators/meet-innovators#K-S) and part of the [raywenderlich.com's Android & Flutter Team](https://www.raywenderlich.com/u/nisrulz).
 
 He has been part of 2 startups in the past (Founding Team Member at [OmniLabs, Inc.](https://omniinc.com/) and one of the first employees at Silverpush) with experience in Android SDK Engineering and Audio Digital Signal Processing(DSP) on Android.
 While working at his past company (Silverpush), he developed the company’s patented UAB (Unique Audio Beacon) Technology [[Patent 1](https://www.google.com/patents/WO2016005999A3),[Patent 2](https://www.google.com/patents/WO2016006000A3)] [Featured in [Techcrunch](https://techcrunch.com/2014/07/24/silverpush-audio-beacons/), [Business Today](https://web.archive.org/web/20180315123959/https://www.businesstoday.in/magazine/features/silverpushs-technology-lets-advertisers-reach-the-consumer-on-multiple-devices/story/206815.html), [Live Mint](https://web.archive.org/web/20180315124010/http://www.livemint.com/Opinion/3QXskshem9l6fcbfAkqmUO/New-ways-to-count-viewers.html)].
