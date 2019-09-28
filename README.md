@@ -161,22 +161,21 @@ While working at his past company (Silverpush), he developed the company’s pat
   - [Event Listing](https://web.archive.org/web/20190610115625/https://cfp.devoxx.pl/talk/JCI-4114/My_love-hate_relationship_with_Android_Studio)
   - [Video Link](https://www.youtube.com/watch?v=sl9qMGpEJp8)
 
-- **[Upcoming] My love-hate relationship with Android Studio [Droidcon Vienna '19]** (19 September)
-  - [Presentation Link]()
-  - [Event Listing](https://web.archive.org/web/20190802205329/https://droidcon.at/speakers/)
-  - [Video Link]()
+- **My love-hate relationship with Android Studio [Droidcon Vienna '19]** (19 September)
+  - [Presentation Link](https://speakerdeck.com/nisrulz/droidcon-vienna-19-my-love-hate-relationship-with-android-studio)
+  - [Event Listing](https://web.archive.org/web/20190921195636/https://droidcon.at/schedule/#session-108)
 
-- **[Upcoming] My love-hate relationship with Android Studio [Droidcon Greece '19]** (24 September)
-  - [Presentation Link]()
-  - [Event Listing](https://droidcon.gr/#droidcon)
-  - [Video Link]()
+- **My love-hate relationship with Android Studio [Droidcon Greece '19]** (25 September)
+  - [Presentation Link](https://speakerdeck.com/nisrulz/droidcon-greece-19-my-love-hate-relationship-with-android-studio)
+  - [Event Listing](https://web.archive.org/web/20190921200216/https://droidcon.gr/agenda/)
 
-- **[Upcoming] Cooking with Koroutines Recipes [Mobilization IX]** (26 October)
-  - [Presentation Link]()
-  - [Event Listing](https://2019.mobilization.pl/index.html)
-  - [Video Link]()
+- **[Upcoming] Cooking with Coroutines Recipes [Mobilization IX]** (26 October)
+  - Presentation Link
+  - [Event Listing](https://web.archive.org/web/20190928092623/https://2019.mobilization.pl/index.html)
+  - Video Link
 
 ##### 2018
+
 - **The A, B and C of Lifecycle Components  [Droidcon Berlin '18]** (26 June)
   - [Presentation Link](https://speakerdeck.com/nisrulz/the-a-b-and-c-of-lifecycle-components)
   - [Event Listing](https://web.archive.org/web/20181117200100/https://berlin2018.droidcon.cod.newthinking.net/en/sessions/b-and-c-lifecycle-components)
