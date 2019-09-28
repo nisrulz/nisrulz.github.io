@@ -26,7 +26,7 @@ While working at his past company (Silverpush), he developed the company’s pat
   - Google Developer Group, New Delhi, India
   - Google Developer Group, Allahabad, India
 - [Featured in JSLovers Decode series](https://web.archive.org/web/20170625111014/http://jslovers.com:80/decode/nishant)
-- Based on no. of stars on Github projects, was ranked by GitAwards
+- Based on no. of stars on Github projects, [was ranked by GitAwards](http://git-awards.com/users/nisrulz)
   - **2018 onwards**: Ranked _**#1 for [Dart](https://web.archive.org/web/20190610145112/http://git-awards.com/users?country=germany&language=dart) and #5 for [Java](https://web.archive.org/web/20190610145140/http://git-awards.com/users?country=germany&language=java) developers in Germany**_
   - **2017-2018**: Ranked _**#1 for [Dart](https://web.archive.org/web/20180320040728/http://git-awards.com/users?country=canada&language=dart) and [Java](https://web.archive.org/web/20180315123904/http://git-awards.com/users?country=canada&language=java) developers in Canada**_
 
