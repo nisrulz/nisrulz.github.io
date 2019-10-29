@@ -169,8 +169,8 @@ While working at his past company (Silverpush), he developed the company’s pat
   - [Presentation Link](https://speakerdeck.com/nisrulz/droidcon-greece-19-my-love-hate-relationship-with-android-studio)
   - [Event Listing](https://web.archive.org/web/20190921200216/https://droidcon.gr/agenda/)
 
-- **[Upcoming] Cooking with Coroutines Recipes [Mobilization IX]** (26 October)
-  - Presentation Link
+- **Cooking with Coroutines Recipes [Mobilization IX]** (26 October)
+  - [Presentation Link](https://docs.google.com/presentation/d/1O82DjFLV-hdziQMXFNOzFb3jI7V5p2GLBAh_9Ar0Dtw)
   - [Event Listing](https://web.archive.org/web/20190928092623/https://2019.mobilization.pl/index.html)
   - Video Link
 
