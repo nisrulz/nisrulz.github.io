@@ -272,8 +272,10 @@ While working at his past company (Silverpush), he developed the company’s pat
 
 ##### [Raywenderlich.com](https://www.raywenderlich.com/u/nisrulz)
 
-- **[Building an Android Library Tutorial](https://www.raywenderlich.com/52-building-an-android-library-tutorial)**
-- **[Gradle Tips and Tricks for Android](https://www.raywenderlich.com/5532-gradle-tips-and-tricks-for-android)**
+- **[Building an Android Library Tutorial](https://www.raywenderlich.com/52-building-an-android-library-tutorial)**(18 April 2018)
+- **[Gradle Tips and Tricks for Android](https://www.raywenderlich.com/5532-gradle-tips-and-tricks-for-android)**(15 Aug 2018)
+- **[Android Studio Tips and Tricks](https://www.raywenderlich.com/2807578-android-studio-tips-and-tricks)**(3 July 2019)
+- **[Getting Started with Flutter](https://www.raywenderlich.com/4529993-getting-started-with-flutter)**(26 Aug 2019)
 
 ##### [Medium](https://medium.com/@nisrulz)
 
