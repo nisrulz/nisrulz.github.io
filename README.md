@@ -145,6 +145,11 @@ While working at his past company (Silverpush), he developed the company’s pat
 [[Video playlist of recorded talks/sessions](https://www.youtube.com/playlist?list=PLk0xKpla8YMQQUAk8Qa1BxPRqH1zJTScZ)]
 
 
+##### 2020
+
+- **Kotlin MP: Into the Multi-Verse [FOSDEM 2020: Kotlin devroom]** (2 February)
+  - [Event Listing](https://web.archive.org/web/20191216202953/https://fosdem.org/2020/schedule/event/kotlin_mp_into_the_multi_verse/)
+
 ##### 2019
 
 - **Things I wish I knew when I started building Android libraries-Vol.2 [Berlindroid Feb'19]** (27 February)
