@@ -177,7 +177,7 @@ While working at his past company (Silverpush), he developed the company’s pat
 - **Cooking with Coroutines Recipes [Mobilization IX]** (26 October)
   - [Presentation Link](https://docs.google.com/presentation/d/1O82DjFLV-hdziQMXFNOzFb3jI7V5p2GLBAh_9Ar0Dtw)
   - [Event Listing](https://web.archive.org/web/20190928092623/https://2019.mobilization.pl/index.html)
-  - Video Link
+  - [Video Link](https://www.youtube.com/watch?v=D-oRq5oS8NM)
 
 ##### 2018
 
