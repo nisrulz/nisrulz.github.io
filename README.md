@@ -26,6 +26,7 @@ He has been part of 3 startups in the past, ranging from being the Founding team
   - Google Developer Group, Allahabad, India
 - [Featured in JSLovers Decode series](https://web.archive.org/web/20170625111014/http://jslovers.com:80/decode/nishant)
 - Based on no. of stars on Github projects, [was ranked by GitAwards](http://git-awards.com/users/nisrulz)
+
   - **2018 onwards**: Ranked _**#1 for [Dart](https://web.archive.org/web/20190610145112/http://git-awards.com/users?country=germany&language=dart) and #5 for [Java](https://web.archive.org/web/20190610145140/http://git-awards.com/users?country=germany&language=java) developers in Germany**_
   - **2017-2018**: Ranked _**#1 for [Dart](https://web.archive.org/web/20180320040728/http://git-awards.com/users?country=canada&language=dart) and [Java](https://web.archive.org/web/20180315123904/http://git-awards.com/users?country=canada&language=java) developers in Canada**_
 
@@ -33,10 +34,11 @@ He has been part of 3 startups in the past, ranging from being the Founding team
 
     <details>
 
-    - [Droidcon Boston](https://web.archive.org/web/20180314072654/http://droidcon-boston.com/): [Contributed to code and design of building the android app](https://web.archive.org/web/20180315121841/https:/twitter.com/droidconbos/status/964178383629414400)
+  - [Droidcon Boston](https://web.archive.org/web/20180314072654/http://droidcon-boston.com/): [Contributed to code and design of building the android app](https://web.archive.org/web/20180315121841/https:/twitter.com/droidconbos/status/964178383629414400)
 
     </details>
-    
+
+
 - Events organized/judged/headed/spoke at
 
     <details>
@@ -56,6 +58,7 @@ He has been part of 3 startups in the past, ranging from being the Founding team
     - Kickoff and address [Google I/O Extended '17 New Delhi](http://meetu.ps/390N33) on GDG and Google I/O '17 updates (20 May, 2017)
 
   - Vancouver, BC
+
     - [VanDev: Vancouver's Software Developers Network](https://www.meetup.com/VanDev/)
       - [Build.Better.­Android.Libraries](https://www.meetup.com/VanDev/events/239212540/) (April 25, 2017)
     - [Code And Cofee YVR](https://www.meetup.com/codecoffeeyvr/)
@@ -108,7 +111,7 @@ He has been part of 3 startups in the past, ranging from being the Founding team
 | [EvTrack](https://github.com/nisrulz/EvTrack)                                           | ![GitHub stars](https://img.shields.io/github/stars/nisrulz/evtrack.svg?style=flat&label=Stars)                      | Android library to make event and exception tracking easy                                                                                                                                                             |
 | [ShoutOut](https://github.com/nisrulz/ShoutOut)                                         | ![GitHub stars](https://img.shields.io/github/stars/nisrulz/ShoutOut.svg?style=flat&label=Stars)                     | Android library for logging information in android                                                                                                                                                                    |
 | [Lantern](https://github.com/nisrulz/lantern)                                           | ![GitHub stars](https://img.shields.io/github/stars/nisrulz/lantern.svg?style=flat&label=Stars)                      | Android library handling flashlight for camera and camera2 api. Added support for handling display/screen light.                                                                                                      |
-| [ValidateTor](https://github.com/nisrulz/validatetor)                                           | ![GitHub stars](https://img.shields.io/github/stars/nisrulz/validatetor.svg?style=flat&label=Stars)                      | Android library for fast and simple string validation.                                                                                                      |
+| [ValidateTor](https://github.com/nisrulz/validatetor)                                   | ![GitHub stars](https://img.shields.io/github/stars/nisrulz/validatetor.svg?style=flat&label=Stars)                  | Android library for fast and simple string validation.                                                                                                                                                                |
 
 | Utility                                                                               | Github                                                                                                               | Description                                                                                |
 | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
@@ -143,7 +146,6 @@ He has been part of 3 startups in the past, ranging from being the Founding team
 
 [[Video playlist of recorded talks/sessions](https://www.youtube.com/playlist?list=PLk0xKpla8YMQQUAk8Qa1BxPRqH1zJTScZ)]
 
-
 ##### 2020
 
 - **Kotlin MP: Into the Multi-Verse [FOSDEM 2020: Kotlin devroom]** (2 February)
@@ -152,24 +154,29 @@ He has been part of 3 startups in the past, ranging from being the Founding team
 ##### 2019
 
 - **Things I wish I knew when I started building Android libraries-Vol.2 [Berlindroid Feb'19]** (27 February)
+
   - [Presentation Link](https://docs.google.com/presentation/d/1ibC7rW-Rxr-o74Ovllmw0JHq3ia-NzoDz-SrhQGYnUw/)
   - [Event Listing](https://web.archive.org/web/20190227235932/https://www.meetup.com/GDG-Berlin-Android/events/fvvctlyzdbkc/)
 
 - **Demystifying Android Libraries [AppdevCon '19]** (15 March)
+
   - [Presentation Link](https://speakerdeck.com/nisrulz/appdevcon-19-demystifying-android-libraries)
   - [Event Listing](https://web.archive.org/web/20190315154423/https://appdevcon.nl/session/demystifying-android-libraries/)
   - [Video Link](https://vimeo.com/337753588)
 
 - **My love-hate relationship with Android Studio [Devoxx Poland '19]** (24 June)
+
   - [Presentation Link](https://speakerdeck.com/nisrulz/devoxx-poland-19-my-love-hate-relationship-with-android-studio)
   - [Event Listing](https://web.archive.org/web/20190610115625/https://cfp.devoxx.pl/talk/JCI-4114/My_love-hate_relationship_with_Android_Studio)
   - [Video Link](https://www.youtube.com/watch?v=sl9qMGpEJp8)
 
 - **My love-hate relationship with Android Studio [Droidcon Vienna '19]** (19 September)
+
   - [Presentation Link](https://speakerdeck.com/nisrulz/droidcon-vienna-19-my-love-hate-relationship-with-android-studio)
   - [Event Listing](https://web.archive.org/web/20190921195636/https://droidcon.at/schedule/#session-108)
 
 - **My love-hate relationship with Android Studio [Droidcon Greece '19]** (25 September)
+
   - [Presentation Link](https://speakerdeck.com/nisrulz/droidcon-greece-19-my-love-hate-relationship-with-android-studio)
   - [Event Listing](https://web.archive.org/web/20190921200216/https://droidcon.gr/agenda/)
 
@@ -180,10 +187,10 @@ He has been part of 3 startups in the past, ranging from being the Founding team
 
 ##### 2018
 
-- **The A, B and C of Lifecycle Components  [Droidcon Berlin '18]** (26 June)
+- **The A, B and C of Lifecycle Components [Droidcon Berlin '18]** (26 June)
   - [Presentation Link](https://speakerdeck.com/nisrulz/the-a-b-and-c-of-lifecycle-components)
   - [Event Listing](https://web.archive.org/web/20181117200100/https://berlin2018.droidcon.cod.newthinking.net/en/sessions/b-and-c-lifecycle-components)
-  - [Video Link](https://youtu.be/2lCrTkwnqu4 )
+  - [Video Link](https://youtu.be/2lCrTkwnqu4)
 - **Things I wish I knew when I started building Android libraries-Vol.2 [Devoxx Belgium '18]** (15 November)
   - [Presentation Link](https://speakerdeck.com/nisrulz/sdk-vol-dot-2)
   - [Event Listing](https://web.archive.org/web/20181117195829/https://dvbe18.confinabox.com/talk/OBY-2356/Things_I_wish_I_knew_when_I_started_building_Android_Libraries_-_Vol_2)
@@ -297,9 +304,10 @@ He has been part of 3 startups in the past, ranging from being the Founding team
 ### Books
 
 - Written
+
   - [Kotlin Coroutines by Tutorials](https://store.raywenderlich.com/products/kotlin-coroutines-by-tutorials)
 
-- Reviewed 
+- Reviewed
   - [Apps in Seven Weeks - Native Apps, Multiple Platform (Pragmatic Programmer) by Tom Hillerson](https://www.amazon.com/Seven-Mobile-Apps-Weeks-Platforms/dp/1680501488)
     - [Tweet](https://web.archive.org/web/20180315124513/https:/twitter.com/nisrulz/status/776657249825501184)
 
