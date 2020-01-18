@@ -224,24 +224,36 @@ body {
   display: inline-block;
   margin-right: 10px;
   text-indent: -9999px;
+  width: 20px;
+  height: 20px;
 }
 
 .twitter {
-  background-image: url(../img/twitter.png);
-  width: 20px;
-  height: 20px;
+  background-image: url(../img/social/twitter.svg);
 }
 
 .github {
-  background-image: url(../img/github.png);
-  width: 20px;
-  height: 20px;
+  background-image: url(../img/social/github.svg);
 }
 
 .linkedin {
-  background-image: url(../img/linkedin.png);
-  width: 20px;
-  height: 20px;
+  background-image: url(../img/social/linkedin.svg);
+}
+
+.facebook {
+  background-image: url(../img/social/facebook.svg);
+}
+
+.instagram {
+  background-image: url(../img/social/instagram.svg);
+}
+
+.dribbble {
+  background-image: url(../img/social/dribbble.svg);
+}
+
+.reddit {
+  background-image: url(../img/social/reddit.svg);
 }
 
 /*------------------------------------*\
@@ -420,8 +432,12 @@ a img:hover,
 .status {
   font-size: 1.3em;
 }
-.more-links > a {
+.more-links a {
   font-size: 1.2em;
+}
+
+.more-links > li {
+  padding-bottom: 0.8em;
 }
 
 .skip-link {
