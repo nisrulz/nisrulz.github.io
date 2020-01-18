@@ -415,14 +415,16 @@ Copyright (c) 2012 Dan Eden
 
 .skip-link {
   position: absolute;
-  top: -40px;
-  left: 0;
-  background: #000000;
-  color: white;
-  padding: 8px;
-  z-index: 100;
+  left: -999px;
+  width:1px;
+  height: 1px;
+  top: auto;
 }
 
 .skip-link:focus {
-  top: 0;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  position: static;
+  margin: auto;
 }
