@@ -195,8 +195,8 @@ body {
 }
 
 .avatar img {
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 17em;
+  max-height: 17em;
   border-radius: 125px;
 }
 
@@ -279,22 +279,6 @@ a:focus {
   -o-transition: color 0.2s ease;
   -ms-transition: color 0.2s ease;
   transition: color 0.2s ease;
-}
-
-/*------------------------------------*\
-    $MISC
-\*------------------------------------*/
-
-a img:hover,
-.social-icons a:hover {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-  filter: alpha(opacity=85);
-  opacity: 0.85;
-  -webkit-transition: opacity 0.2s ease;
-  -moz-transition: opacity 0.2s ease;
-  -o-transition: opacity 0.2s ease;
-  -ms-transition: opacity 0.2s ease;
-  transition: opacity 0.2s ease;
 }
 
 /*
@@ -400,17 +384,44 @@ Copyright (c) 2012 Dan Eden
   .avatar,
   .content {
     float: none;
+    width: 100%;
   }
   .avatar img {
-    max-width: 125px;
-    max-height: 125px;
-  }
-  .content {
-    width: 100%;
+    max-width: 9em;
+    max-height: 9em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   .nishant-sri-main-logo {
     height: 6em;
   }
+}
+
+/*------------------------------------*\
+    $MISC
+\*------------------------------------*/
+
+a img:hover,
+.social-icons a:hover {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+  filter: alpha(opacity=85);
+  opacity: 0.85;
+  -webkit-transition: opacity 0.2s ease;
+  -moz-transition: opacity 0.2s ease;
+  -o-transition: opacity 0.2s ease;
+  -ms-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+.sub-text {
+  font-size: 1.5em;
+}
+.status {
+  font-size: 1.3em;
+}
+.more-links > a {
+  font-size: 1.2em;
 }
 
 .skip-link {
