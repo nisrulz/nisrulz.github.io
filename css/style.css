@@ -256,6 +256,14 @@ body {
   background-image: url(../img/social/reddit.svg);
 }
 
+.stackoverflow {
+  background-image: url(../img/social/stackoverflow.svg);
+}
+
+.gitaward {
+  background-image: url(../img/social/gitaward.svg);
+}
+
 /*------------------------------------*\
     $TYPOGRAPHY
 \*------------------------------------*/
@@ -435,9 +443,12 @@ a img:hover,
 .more-links a {
   font-size: 1.2em;
 }
-
 .more-links > li {
   padding-bottom: 0.8em;
+}
+
+.email {
+  font-size: 1.5em;
 }
 
 .skip-link {

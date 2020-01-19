@@ -1,6 +1,6 @@
 # Nishant Srivastava
 
-<img height="220" src="img/avatar.png" alt="Nishant Srivastava" align="right"/>
+<img height="220" src="img/avatar/avatar.png" alt="Nishant Srivastava" align="right"/>
 
 [![GitHub followers](https://img.shields.io/github/followers/nisrulz.svg?style=social&label=Follow)](https://github.com/nisrulz/) [![Twitter Follow](https://img.shields.io/twitter/follow/nisrulz.svg?style=social)](https://twitter.com/nisrulz)
 
