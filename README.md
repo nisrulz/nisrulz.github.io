@@ -38,8 +38,7 @@ He has been part of 3 startups in the past, ranging from being the Founding team
 
     </details>
 
-
-- Events organized/judged/headed/spoke at
+* Events organized/judged/headed/spoke at
 
     <details>
 
@@ -148,6 +147,10 @@ He has been part of 3 startups in the past, ranging from being the Founding team
 
 ##### 2020
 
+- **Cooking with Coroutine Recipes [Codemotion Amsterdam 2020]** (27 May)
+  - Presentation Link: _To be uploaded_
+  - [Event Listing](https://web.archive.org/web/20200215231124/https://events.codemotion.com/conferences/amsterdam/2020/speaker/5507/)
+
 - **Kotlin MP: Into the Multi-Verse [FOSDEM 2020: Kotlin devroom]** (2 February)
   - [Presentation Link](https://speakerdeck.com/nisrulz/kotlin-mp-into-the-multi-verse)
   - [Event Listing](https://web.archive.org/web/20200203083017/https://fosdem.org/2020/schedule/event/kotlin_mp_into_the_multi_verse/)
@@ -182,9 +185,15 @@ He has been part of 3 startups in the past, ranging from being the Founding team
   - [Event Listing](https://web.archive.org/web/20190921200216/https://droidcon.gr/agenda/)
 
 - **Cooking with Coroutines Recipes [Mobilization IX]** (26 October)
+
   - [Presentation Link](https://docs.google.com/presentation/d/1O82DjFLV-hdziQMXFNOzFb3jI7V5p2GLBAh_9Ar0Dtw)
   - [Event Listing](https://web.archive.org/web/20190928092623/https://2019.mobilization.pl/index.html)
   - [Video Link](https://www.youtube.com/watch?v=D-oRq5oS8NM)
+
+- **My love-hate relationship with Android Studio [Devfest Berlin '19]** (9 November)
+
+  - [Presentation Link](https://docs.google.com/presentation/d/e/2PACX-1vSJlEsFOiX39iKcpM19oWWUZ4A1jLlffkw5b4ngpKlFAoy54OW5kWkYD59vimRnzsqoH8u6pETWW1DR/pub?start=false&loop=false&delayms=3000)
+  - [Event Listing](https://2019.devfest-berlin.de/schedule/2019-11-09?sessionId=1016)
 
 ##### 2018
 
