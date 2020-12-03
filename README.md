@@ -146,6 +146,10 @@ He has been part of 3 startups in the past, ranging from being the Founding team
 [List of all talks can be found here](https://crushingcode.nisrulz.com/talks/)
 
 [Video playlist of recorded talks/sessions](https://www.youtube.com/playlist?list=PLk0xKpla8YMQQUAk8Qa1BxPRqH1zJTScZ)
+
+### Podcast
+ - [Co-host for Season 11 of Raywenderlich Podcast](https://podcasts.apple.com/in/podcast/raywenderlich-com-podcast-for-app-developers-gamers/id773910890)
+ 
 ### Blogging
 
 - [Personal Blog](http://crushingcode.nisrulz.com/)
