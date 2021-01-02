@@ -157,14 +157,6 @@ He has been part of 3 startups in the past, ranging from being the Founding team
 
 ### [Books](https://crushingcode.nisrulz.com/showcase/books/)
 
-- Written
-
-  - [Kotlin Coroutines by Tutorials](https://store.raywenderlich.com/products/kotlin-coroutines-by-tutorials)
-
-- Reviewed
-  - [Apps in Seven Weeks - Native Apps, Multiple Platform (Pragmatic Programmer) by Tom Hillerson](https://www.amazon.com/Seven-Mobile-Apps-Weeks-Platforms/dp/1680501488)
-    - [Tweet](https://web.archive.org/web/20180315124513/https:/twitter.com/nisrulz/status/776657249825501184)
-
 ### Online Profiles
 
 - Development
