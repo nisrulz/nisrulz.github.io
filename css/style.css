@@ -222,7 +222,7 @@ body {
 
 .social-icons a {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 20px;
   text-indent: -9999px;
   width: 20px;
   height: 20px;
@@ -244,8 +244,8 @@ body {
   background-image: url(../img/social/facebook.svg);
 }
 
-.instagram {
-  background-image: url(../img/social/instagram.svg);
+.mastodon {
+  background-image: url(../img/social/mastodon.svg);
 }
 
 .dribbble {
@@ -258,10 +258,6 @@ body {
 
 .stackoverflow {
   background-image: url(../img/social/stackoverflow.svg);
-}
-
-.gitaward {
-  background-image: url(../img/social/gitaward.svg);
 }
 
 /*------------------------------------*\
@@ -436,6 +432,7 @@ a img:hover,
 
 .sub-text {
   font-size: 1.5em;
+  margin-top: 1em;
 }
 .status {
   font-size: 1.3em;
