@@ -226,6 +226,7 @@ body {
   text-indent: -9999px;
   width: 20px;
   height: 20px;
+  background-repeat: no-repeat;
 }
 
 .twitter {
@@ -242,6 +243,10 @@ body {
 
 .facebook {
   background-image: url(../img/social/facebook.svg);
+}
+
+.bsky {
+  background-image: url(../img/social/bsky.svg);
 }
 
 .mastodon {
